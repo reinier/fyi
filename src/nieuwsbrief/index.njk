@@ -24,13 +24,11 @@ eleventyExcludeFromCollections: true
         <input type="submit" id="bd-submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" value="Abonneer gratis"/>
     </div>
 </form>
-<h2>Voorbeelden van nieuwsbrieven</h2>
-<ul>
-    {%- for post in collections.blog | reverse -%}
-        <li>
+<h2>Archief</h2>
+{%- for post in collections.nieuwsbrief | reverse -%}
+    <article>
+        <h2>
             <a href="{{ post.url }}">{{ post.data.title }}</a>
-            &bull;
-            <em>{{ post.data.date | readablePostDate }}</em>
-        </li>
-    {%- endfor -%}
-</ul>
+        </h2>
+    </article>
+{%- endfor -%}

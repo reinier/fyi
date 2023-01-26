@@ -4,6 +4,9 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const { DateTime } = require("luxon");
 
+// module import collections
+const {getAllNewsletters} = require('./config/collections/index.js');
+
 module.exports = function (eleventyConfig) {
 
 	if (process.env.ELEVENTY_PRODUCTION) {
@@ -36,6 +39,8 @@ module.exports = function (eleventyConfig) {
 
 	// RSS feeds
 	eleventyConfig.addPlugin(pluginRss);
+
+	eleventyConfig.addCollection('newsletters', getAllNewsletters);
 
 	var pathPrefix = "";
 	if (process.env.GITHUB_REPOSITORY) {
