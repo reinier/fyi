@@ -1,0 +1,17 @@
+[
+	{
+		"id": "home",
+		"title": "Home",
+		"url": "/"
+	},
+	{
+		"id": "nieuwsbrief",
+		"title": "Nieuwsbrief",
+		"url": "/nieuwsbrief/"
+	},
+	{
+		"id": "over",
+		"title": "Over",
+		"url": "/over/"
+	}
+]

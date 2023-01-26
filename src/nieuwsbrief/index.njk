@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: FYI Nieuwsbrief
+eleventyExcludeFromCollections: true
+---
+
+<h1 class="mb-8">FYI Nieuwsbrief</h1>
+<div class="site-intro">
+    <p>FYI
+        <em>(For Your Information)</em>
+        is een wekelijkse nieuwsbrief over van alles dat
+        <a href="https://reinierladan.nl">Reinier Ladan</a>
+        tegenkomt op het Grote Boze Internet. Van handige apptips, langs voedzame recepten tot nieuwe wetenschappelijke inzichten.</p>
+</div>
+<h2>Gratis abonneren</h2>
+<form action="https://buttondown.email/api/emails/embed-subscribe/82procent" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/82procent', 'popupwindow')">
+    <p>
+        <label for="bd-email">Je e-mailadres is voldoende om je gratis op de FYI nieuwsbrief te abonneren. Al meer dan 1.300 abonnees!</label>
+    </p>
+    <input type="email" placeholder="Je e-mailadres" name="email" id="bd-email" class="shadow appearance-none border rounded w-full mb-4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"/>
+    <input type="hidden" value="1" name="embed"/>
+    <br/>
+    <div>
+        <input type="submit" id="bd-submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" value="Abonneer gratis"/>
+    </div>
+</form>
+<h2>Voorbeelden van nieuwsbrieven</h2>
+<ul>
+    {%- for post in collections.blog | reverse -%}
+        <li>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            &bull;
+            <em>{{ post.data.date | readablePostDate }}</em>
+        </li>
+    {%- endfor -%}
+</ul>

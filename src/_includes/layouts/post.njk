@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    {% include '../head.njk' %}
+    {% include '../header.njk' %}
+    <body>
+        <main>
+            <h1>{{ title }}</h1>
+            {{ content | safe }}
+            <section class="tags">
+                <p>Meer over:
+                    {% for tag in tags -%}
+                        {% if tag !== 'bericht' %}
+                            <a class="tag" href="/archief/onderwerp/{{ tag }}">{{ tag }}</a>
+                        {% endif %}
+                    {%- endfor %}
+                </p>
+            </section>
+        </main>
+        <!-- Current page: {{ page.url | url }} -->
+        {% include '../footer.njk' %}
+    </body>
+</html>

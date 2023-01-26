@@ -1,0 +1,12 @@
+{
+	"files.associations": {
+		"*.njk": "njk",
+		"*.css": "tailwindcss"
+	},
+	"editor.renderWhitespace": "all",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"files.insertFinalNewline": true,
+	"html.format.wrapLineLength": 300,
+	"editor.tabSize": 4,
+}

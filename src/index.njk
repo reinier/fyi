@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: FYI Blog en Nieuwsbrief
+eleventyExcludeFromCollections: true
+---
+
+{%- for post in collections.bericht | reverse -%}
+    <article>
+        <h2>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h2>
+        <div>{{ post.templateContent | safe }}</div>
+    </article>
+{%- endfor -%}
