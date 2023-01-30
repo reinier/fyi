@@ -1,7 +1,7 @@
 ---
 title: 'Exploding Muisondersteuning Copyright'
 description: ""
-published: 2020-03-27
+date: 2020-03-27
 redirect_from: 
             - https://82procent.nl/2020/03/27/exploding-muisondersteuning-copyright/
 categories: "Nieuwsbrief"

@@ -1,7 +1,7 @@
 ---
 title: 'Hoofd Efteling Outsider'
 description: ""
-published: 2019-10-25
+date: 2019-10-25
 redirect_from: 
             - https://82procent.nl/2019/10/25/hoofd-efteling-outsider/
 categories: "Nieuwsbrief"

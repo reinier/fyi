@@ -1,7 +1,7 @@
 ---
 title: 'Mechanical Journal Operations'
 description: ""
-published: 2020-02-28
+date: 2020-02-28
 redirect_from: 
             - https://82procent.nl/2020/02/28/mechanical-journal-operations/
 categories: "Nieuwsbrief"

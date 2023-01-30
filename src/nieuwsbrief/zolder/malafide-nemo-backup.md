@@ -1,7 +1,7 @@
 ---
 title: 'Malafide Nemo Backup'
 description: ""
-published: 2019-04-05
+date: 2019-04-05
 redirect_from: 
             - https://82procent.nl/2019/04/05/malafide-nemo-backup/
 categories: "Nieuwsbrief"

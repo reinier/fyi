@@ -1,7 +1,7 @@
 ---
 title: 'Informatie Mars Doorploeteren'
 description: ""
-published: 2021-04-16
+date: 2021-04-16
 redirect_from: 
             - https://82procent.nl/2021/04/16/informatie-mars-doorploeteren/
 categories: "Nieuwsbrief"

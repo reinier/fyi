@@ -1,7 +1,7 @@
 ---
 title: 'Between EcoLine Lifestyle'
 description: ""
-published: 2021-01-22
+date: 2021-01-22
 redirect_from: 
             - https://82procent.nl/2021/01/22/between-ecoline-lifestyle/
 categories: "Nieuwsbrief"

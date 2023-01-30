@@ -1,7 +1,7 @@
 ---
 title: 'Red Page Paradox'
 description: ""
-published: 2020-01-17
+date: 2020-01-17
 redirect_from: 
             - https://82procent.nl/2020/01/17/red-page-paradox/
 categories: "Nieuwsbrief"

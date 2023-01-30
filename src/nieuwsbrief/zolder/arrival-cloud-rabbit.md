@@ -1,7 +1,7 @@
 ---
 title: 'Arrival Cloud Rabbit'
 description: ""
-published: 2020-05-08
+date: 2020-05-08
 redirect_from: 
             - https://82procent.nl/2020/05/08/arrival-cloud-rabbit/
 categories: "Nieuwsbrief"

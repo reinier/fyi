@@ -1,7 +1,7 @@
 ---
 title: 'Dots Ruimtetuig Moderation'
 description: ""
-published: 2019-11-15
+date: 2019-11-15
 redirect_from: 
             - https://82procent.nl/2019/11/15/dots-ruimtetuig-moderation/
 categories: "Nieuwsbrief"

@@ -1,7 +1,7 @@
 ---
 title: 'Solitary Disconnect Paradijsvogelplant'
 description: ""
-published: 2021-06-11
+date: 2021-06-11
 redirect_from: 
             - https://82procent.nl/2021/06/11/solitary-disconnect-paradijsvogelplant/
 categories: "Nieuwsbrief"

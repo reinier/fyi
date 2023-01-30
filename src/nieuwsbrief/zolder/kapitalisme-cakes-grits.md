@@ -1,7 +1,7 @@
 ---
 title: 'Kapitalisme Cakes Grits'
 description: ""
-published: 2020-03-06
+date: 2020-03-06
 redirect_from: 
             - https://82procent.nl/2020/03/06/kapitalisme-cakes-grits/
 categories: "Nieuwsbrief"

@@ -1,7 +1,7 @@
 ---
 title: 'Mediadieet #1'
 description: ""
-published: 2019-06-14
+date: 2019-06-14
 redirect_from: 
             - https://82procent.nl/2019/06/14/mediadieet-1/
 categories: "Nieuwsbrief"

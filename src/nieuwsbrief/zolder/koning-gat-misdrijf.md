@@ -1,7 +1,7 @@
 ---
 title: 'Koning Gat Misdrijf'
 description: ""
-published: 2021-03-25
+date: 2021-03-25
 redirect_from: 
             - https://82procent.nl/2021/03/25/koning-gat-misdrijf/
 categories: "Nieuwsbrief"

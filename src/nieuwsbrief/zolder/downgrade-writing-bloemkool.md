@@ -1,7 +1,7 @@
 ---
 title: 'Downgrade Writing Bloemkool'
 description: ""
-published: 2019-04-26
+date: 2019-04-26
 redirect_from: 
             - https://82procent.nl/2019/04/26/downgrade-writing-bloemkool/
 categories: "Nieuwsbrief"

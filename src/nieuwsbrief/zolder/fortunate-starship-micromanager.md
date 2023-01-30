@@ -1,7 +1,7 @@
 ---
 title: 'Fortunate Starship Micromanager'
 description: ""
-published: 2019-11-22
+date: 2019-11-22
 redirect_from: 
             - https://82procent.nl/2019/11/22/fortunate-starship-micromanager/
 categories: "Nieuwsbrief"

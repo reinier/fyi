@@ -1,7 +1,7 @@
 ---
 title: 'Broken Doors Maker'
 description: ""
-published: 2020-10-24
+date: 2020-10-24
 redirect_from: 
             - https://82procent.nl/2020/10/24/broken-doors-maker/
 categories: "Nieuwsbrief"

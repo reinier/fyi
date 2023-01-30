@@ -64,7 +64,7 @@
 
 	main,
 	footer {
-		@apply container mx-auto px-8 max-w-prose;
+		@apply container mx-auto px-8 max-w-2xl;
 	}
 
 	main p,
@@ -151,11 +151,11 @@
 		font-style: italic;
 	}
 
-	article {
+	article.in-list {
 		@apply my-16;
 	}
 
-	article h2 a {
+	article.in-list h2 a {
 		@apply no-underline;
 		color: transparent;
 		background: conic-gradient(
@@ -172,6 +172,10 @@
 		);
 		background-size: 50%;
 		background-clip: text;
+	}
+
+	article.single h1 {
+		@apply mb-12 pt-8;
 	}
 }
 

@@ -1,7 +1,7 @@
 ---
 title: 'George Hog Anchor'
 description: ""
-published: 2019-02-07
+date: 2019-02-07
 redirect_from: 
             - https://82procent.nl/2019/02/07/george-hog-anchor/
 categories: "Nieuwsbrief"

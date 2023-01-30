@@ -1,7 +1,7 @@
 ---
 title: 'Glitch Zwart Feedback'
 description: ""
-published: 2019-04-19
+date: 2019-04-19
 redirect_from: 
             - https://82procent.nl/2019/04/19/glitch-zwart-feedback/
 categories: "Nieuwsbrief"

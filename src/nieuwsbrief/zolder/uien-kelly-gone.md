@@ -1,7 +1,7 @@
 ---
 title: 'Uien Kelly Gone'
 description: ""
-published: 2020-05-01
+date: 2020-05-01
 redirect_from: 
             - https://82procent.nl/2020/05/01/uien-kelly-gone/
 categories: "Nieuwsbrief"

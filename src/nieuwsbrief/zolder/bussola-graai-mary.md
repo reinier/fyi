@@ -1,7 +1,7 @@
 ---
 title: 'Bussola Graai Mary'
 description: ""
-published: 2021-06-04
+date: 2021-06-04
 redirect_from: 
             - https://82procent.nl/2021/06/04/bussola-graai-mary/
 categories: "Nieuwsbrief"

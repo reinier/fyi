@@ -1,7 +1,7 @@
 ---
 title: 'Snuggere History Planet'
 description: ""
-published: 2019-11-01
+date: 2019-11-01
 redirect_from: 
             - https://82procent.nl/2019/11/01/snuggere-history-planet/
 categories: "Nieuwsbrief"

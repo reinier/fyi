@@ -1,7 +1,7 @@
 ---
 title: 'Tom Grey Veelen'
 description: ""
-published: 2021-04-08
+date: 2021-04-08
 redirect_from: 
             - https://82procent.nl/2021/04/08/tom-grey-veelen/
 categories: "Nieuwsbrief"

@@ -1,7 +1,7 @@
 ---
 title: 'Clean Hoffman Fotograaf'
 description: ""
-published: 2020-09-04
+date: 2020-09-04
 redirect_from: 
             - https://82procent.nl/2020/09/04/clean-hoffman-fotograaf/
 categories: "Nieuwsbrief"

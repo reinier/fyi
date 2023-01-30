@@ -1,7 +1,7 @@
 ---
 title: 'Rhythmic Civility Parlement'
 description: ""
-published: 2019-05-16
+date: 2019-05-16
 redirect_from: 
             - https://82procent.nl/2019/05/16/rhythmic-civility-parlement/
 categories: "Nieuwsbrief"

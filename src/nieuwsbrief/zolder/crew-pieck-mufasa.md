@@ -1,7 +1,7 @@
 ---
 title: 'Crew Pieck Mufasa'
 description: ""
-published: 2020-04-24
+date: 2020-04-24
 redirect_from: 
             - https://82procent.nl/2020/04/24/crew-pieck-mufasa/
 categories: "Nieuwsbrief"

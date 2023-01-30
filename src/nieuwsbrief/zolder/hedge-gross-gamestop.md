@@ -1,7 +1,7 @@
 ---
 title: 'Hedge Gross GameStop'
 description: ""
-published: 2021-01-29
+date: 2021-01-29
 redirect_from: 
             - https://82procent.nl/2021/01/29/hedge-gross-gamestop/
 categories: "Nieuwsbrief"

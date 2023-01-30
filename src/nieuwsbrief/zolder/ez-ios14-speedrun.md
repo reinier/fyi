@@ -1,7 +1,7 @@
 ---
 title: 'EZ iOS14 Speedrun'
 description: ""
-published: 2020-09-19
+date: 2020-09-19
 redirect_from: 
             - https://82procent.nl/2020/09/19/ez-ios14-speedrun/
 categories: "Nieuwsbrief"

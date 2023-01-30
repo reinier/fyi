@@ -1,7 +1,7 @@
 ---
 title: 'Clueyness Anxiety Tobolowsky'
 description: ""
-published: 2019-09-26
+date: 2019-09-26
 redirect_from: 
             - https://82procent.nl/2019/09/26/clueyness-anxiety-tobolowsky/
 categories: "Nieuwsbrief"

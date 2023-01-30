@@ -1,7 +1,7 @@
 ---
 title: 'Copyright Venga Koekenbakker'
 description: ""
-published: 2020-03-13
+date: 2020-03-13
 redirect_from: 
             - https://82procent.nl/2020/03/13/copyright-venga-koekenbakker/
 categories: "Nieuwsbrief"

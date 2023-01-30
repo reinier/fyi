@@ -1,7 +1,7 @@
 ---
 title: 'Liegen Betrapte Bijnaam'
 description: ""
-published: 2021-04-02
+date: 2021-04-02
 redirect_from: 
             - https://82procent.nl/2021/04/02/liegen-betrapte-bijnaam/
 categories: "Nieuwsbrief"

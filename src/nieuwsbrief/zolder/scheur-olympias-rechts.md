@@ -1,7 +1,7 @@
 ---
 title: 'Scheur Olympias Rechts'
 description: ""
-published: 2020-02-14
+date: 2020-02-14
 redirect_from: 
             - https://82procent.nl/2020/02/14/scheur-olympias-rechts/
 categories: "Nieuwsbrief"

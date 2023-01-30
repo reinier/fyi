@@ -1,7 +1,7 @@
 ---
 title: 'Bonsai BeanDad Tree'
 description: ""
-published: 2021-01-08
+date: 2021-01-08
 redirect_from: 
             - https://82procent.nl/2021/01/08/bonsai-beandad-tree/
 categories: "Nieuwsbrief"

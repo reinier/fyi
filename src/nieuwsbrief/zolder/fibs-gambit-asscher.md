@@ -1,7 +1,7 @@
 ---
 title: 'Fibs Gambit Asscher'
 description: ""
-published: 2021-01-15
+date: 2021-01-15
 redirect_from: 
             - https://82procent.nl/2021/01/15/fibs-gambit-asscher/
 categories: "Nieuwsbrief"

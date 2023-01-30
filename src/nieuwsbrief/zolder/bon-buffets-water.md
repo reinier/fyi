@@ -1,7 +1,7 @@
 ---
 title: 'Bon Buffets Water'
 description: ""
-published: 2020-01-31
+date: 2020-01-31
 redirect_from: 
             - https://82procent.nl/2020/01/31/bon-buffets-water/
 categories: "Nieuwsbrief"

@@ -1,7 +1,7 @@
 ---
 title: 'Retro Paraconsistente Miljardairs'
 description: ""
-published: 2019-11-08
+date: 2019-11-08
 redirect_from: 
             - https://82procent.nl/2019/11/08/retro-paraconsistente-miljardairs/
 categories: "Nieuwsbrief"

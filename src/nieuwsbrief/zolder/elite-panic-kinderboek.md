@@ -1,7 +1,7 @@
 ---
 title: 'Elite Panic Kinderboek'
 description: ""
-published: 2020-04-10
+date: 2020-04-10
 redirect_from: 
             - https://82procent.nl/2020/04/10/elite-panic-kinderboek/
 categories: "Nieuwsbrief"

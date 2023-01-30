@@ -1,7 +1,7 @@
 ---
 title: 'Ratio Wall-E Protocol'
 description: ""
-published: 2020-06-18
+date: 2020-06-18
 redirect_from: 
             - https://82procent.nl/2020/06/18/ratio-wall-e-protocol/
 categories: "Nieuwsbrief"

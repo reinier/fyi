@@ -1,7 +1,7 @@
 ---
 title: 'Mol Station Trollenleger'
 description: ""
-published: 2021-05-21
+date: 2021-05-21
 redirect_from: 
             - https://82procent.nl/2021/05/21/mol-station-trollenleger/
 categories: "Nieuwsbrief"

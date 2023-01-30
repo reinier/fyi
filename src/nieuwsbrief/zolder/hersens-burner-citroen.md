@@ -1,7 +1,7 @@
 ---
 title: 'Hersens Burner Citroen'
 description: ""
-published: 2020-08-21
+date: 2020-08-21
 redirect_from: 
             - https://82procent.nl/2020/08/21/hersens-burner-citroen/
 categories: "Nieuwsbrief"

@@ -1,7 +1,7 @@
 ---
 title: 'Piano Konings Outline'
 description: ""
-published: 2021-05-28
+date: 2021-05-28
 redirect_from: 
             - https://82procent.nl/2021/05/28/piano-konings-outline/
 categories: "Nieuwsbrief"

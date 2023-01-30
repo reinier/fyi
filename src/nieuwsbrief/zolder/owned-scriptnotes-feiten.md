@@ -1,7 +1,7 @@
 ---
 title: 'Owned Scriptnotes Feiten'
 description: ""
-published: 2019-06-07
+date: 2019-06-07
 redirect_from: 
             - https://82procent.nl/2019/06/07/owned-scriptnotes-feiten/
 categories: "Nieuwsbrief"

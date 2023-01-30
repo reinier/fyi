@@ -1,7 +1,7 @@
 ---
 title: 'Shaggy Koffiesnob Mijnkolonie'
 description: ""
-published: 2020-07-17
+date: 2020-07-17
 redirect_from: 
             - https://82procent.nl/2020/07/17/shaggy-koffiesnob-mijnkolonie/
 categories: "Nieuwsbrief"

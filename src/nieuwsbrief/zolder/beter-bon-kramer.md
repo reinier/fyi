@@ -1,7 +1,7 @@
 ---
 title: 'Beter Bon Kramer'
 description: ""
-published: 2020-04-03
+date: 2020-04-03
 redirect_from: 
             - https://82procent.nl/2020/04/03/beter-bon-kramer/
 categories: "Nieuwsbrief"

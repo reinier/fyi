@@ -1,7 +1,7 @@
 ---
 title: 'Spurious Million Adventures'
 description: ""
-published: 2019-12-13
+date: 2019-12-13
 redirect_from: 
             - https://82procent.nl/2019/12/13/spurious-million-adventures/
 categories: "Nieuwsbrief"

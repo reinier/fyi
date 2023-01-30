@@ -1,7 +1,7 @@
 ---
 title: 'Warmpjes Plant Back'
 description: ""
-published: 2020-07-03
+date: 2020-07-03
 redirect_from: 
             - https://82procent.nl/2020/07/03/warmpjes-plant-back/
 categories: "heldere instructies, mac, Nieuwsbrief, ransomware, the empire strikes back, zine"

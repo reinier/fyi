@@ -1,7 +1,7 @@
 ---
 title: 'Nerds Disease Focus'
 description: ""
-published: 2019-04-12
+date: 2019-04-12
 redirect_from: 
             - https://82procent.nl/2019/04/12/nerds-disease-focus/
 categories: "Nieuwsbrief"

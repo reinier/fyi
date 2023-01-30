@@ -1,7 +1,7 @@
 ---
 title: 'Duitser Starship Podium'
 description: ""
-published: 2020-07-10
+date: 2020-07-10
 redirect_from: 
             - https://82procent.nl/2020/07/10/duitser-starship-podium/
 categories: "Nieuwsbrief"

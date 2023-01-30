@@ -1,7 +1,7 @@
 ---
 title: 'Umbrella Relentless Munchies'
 description: ""
-published: 2020-08-28
+date: 2020-08-28
 redirect_from: 
             - https://82procent.nl/2020/08/28/umbrella-relentless-munchies/
 categories: "Nieuwsbrief"

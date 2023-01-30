@@ -1,7 +1,7 @@
 ---
 title: 'Rondje Fjord Creative'
 description: ""
-published: 2020-06-26
+date: 2020-06-26
 redirect_from: 
             - https://82procent.nl/2020/06/26/rondje-fjord-creative/
 categories: "Nieuwsbrief"

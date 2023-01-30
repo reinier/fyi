@@ -1,7 +1,7 @@
 ---
 title: 'Last Vitamines Wappie-show'
 description: ""
-published: 2023-01-24
+date: 2023-01-24
 redirect_from: 
             - https://82procent.nl/2023/01/24/last-vitamines-wappie-show/
 categories: "Nieuwsbrief"
@@ -65,25 +65,16 @@ Ik ben daar zelf ook schuldig aan geweest overigens, maar niet meer na het kijke
 
 <!-- wp:list -->
 
-- <!-- wp:list-item -->
 - [Rechtszaak over boerenprotest in Zwolle loopt uit op grote wappie-show](https://www.weblogzwolle.nl/nieuws/111442/rechtszaak-over-boerenprotest-in-zwolle-loopt-uit-op-grote-wappie-show.html)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - [The contagious visual blandness of Netflix](https://haleynahman.substack.com/p/132-the-contagious-visual-blandness)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - [20 Things I've Learned in my 20 Years as a Software Engineer](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - [Florence Pugh Cooks Garlic Crostini](https://www.youtube.com/watch?v=26ixBG5LCXk)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - [Horror stories of cryonics: The gruesome fates of frozen bodies](https://bigthink.com/the-future/cryonics-horror-stories/)
-- <!-- /wp:list-item -->
+
 
 <!-- /wp:list -->
 

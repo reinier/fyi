@@ -1,7 +1,7 @@
 ---
 title: 'January Hystoria Tweakers'
 description: ""
-published: 2020-12-11
+date: 2020-12-11
 redirect_from: 
             - https://82procent.nl/2020/12/11/january-hystoria-tweakers/
 categories: "Nieuwsbrief"

@@ -1,7 +1,7 @@
 ---
 title: 'Toekomst Time Discovery'
 description: ""
-published: 2019-05-10
+date: 2019-05-10
 redirect_from: 
             - https://82procent.nl/2019/05/10/toekomst-time-discovery/
 categories: "Nieuwsbrief"

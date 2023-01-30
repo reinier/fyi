@@ -4,15 +4,15 @@
             <img src="/images/fyi-logo-header.svg" width="100" alt="FYI nieuwsbrief logo"/>
         </a>
     </p>
-</h1>
-<nav>
-    <ul class="nav-Menu">
-        {%- for entry in nav %}
-            <li
-                class="rl-nav-item {{ 'rl-active' if entry.url == page.url }} ">
-                <!-- {{entry.url}} {{page.url}} -->
-                <a href="{{ entry.url }}" class="no-underline border-0" aria-label="{{ entry.title }}">{{ entry.title }}</a>
-            </li>
-        {%- endfor %}
-    </ul>
-</nav></header>
+    <nav>
+        <ul class="nav-Menu">
+            {%- for entry in nav %}
+                <li
+                    class="rl-nav-item {{ 'rl-active' if entry.url == page.url }} ">
+                    <!-- {{entry.url}} {{page.url}} -->
+                    <a href="{{ entry.url }}" class="no-underline border-0" aria-label="{{ entry.title }}">{{ entry.title }}</a>
+                </li>
+            {%- endfor %}
+        </ul>
+    </nav>
+</header>

@@ -1,7 +1,7 @@
 ---
 title: 'Scheurkalender Freedom Koeien'
 description: ""
-published: 2019-11-29
+date: 2019-11-29
 redirect_from: 
             - https://82procent.nl/2019/11/29/scheurkalender-freedom-koeien/
 categories: "Nieuwsbrief"

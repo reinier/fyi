@@ -1,7 +1,7 @@
 ---
 title: 'Diepste Tijdreis Story'
 description: ""
-published: 2019-09-20
+date: 2019-09-20
 redirect_from: 
             - https://82procent.nl/2019/09/20/diepste-tijdreis-story/
 categories: "Nieuwsbrief"

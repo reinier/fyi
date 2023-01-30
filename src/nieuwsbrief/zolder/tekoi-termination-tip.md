@@ -1,7 +1,7 @@
 ---
 title: 'Tekoi Termination Tip'
 description: ""
-published: 2020-05-14
+date: 2020-05-14
 redirect_from: 
             - https://82procent.nl/2020/05/14/tekoi-termination-tip/
 categories: "Cgpgrey, Nieuwsbrief, poing"

@@ -1,7 +1,7 @@
 ---
 title: 'Rules Doughnuts Switch'
 description: ""
-published: 2020-04-17
+date: 2020-04-17
 redirect_from: 
             - https://82procent.nl/2020/04/17/rules-doughnuts-switch/
 categories: "Nieuwsbrief"

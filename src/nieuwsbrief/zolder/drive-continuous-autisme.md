@@ -1,7 +1,7 @@
 ---
 title: 'Drive Continuous Autisme'
 description: ""
-published: 2021-02-05
+date: 2021-02-05
 redirect_from: 
             - https://82procent.nl/2021/02/05/drive-continuous-autisme/
 categories: "Nieuwsbrief"

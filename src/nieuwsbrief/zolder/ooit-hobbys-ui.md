@@ -1,7 +1,7 @@
 ---
 title: 'Ooit Hobby’s Ui'
 description: ""
-published: 2023-01-10
+date: 2023-01-10
 redirect_from: 
             - https://82procent.nl/2023/01/10/ooit-hobbys-ui/
 categories: "Nieuwsbrief"
@@ -39,23 +39,10 @@ Sinds de laatste keer dat je een 82% in je inbox hebt ontvangen heb ik er een pa
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - [A Beginner's Guide To Buying Great Coffee](https://www.youtube.com/watch?v=O9YnLFrM7Fs)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - [Has Your Keyboard Got Too Many Keys?](https://www.youtube.com/watch?v=5RN_4PQ0j1A)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - [how to make SPAGHETTI AGLIO E OLIO like an ITALIAN - YouTube](https://www.youtube.com/watch?v=a0EyzJsf1eo&list=FLD8W9NGBP9SxsvhyDG4FfMA&index=28)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - [5 Tips Every New Climber NEEDS to Know](https://www.youtube.com/watch?v=B9BiMMrrLxo)
-- <!-- /wp:list-item -->
 
 <!-- /wp:list -->
 
@@ -107,21 +94,9 @@ Rian geeft ons hier [een kijkje in zijn brein over hoe hij een van de eerste sce
 
 <!-- /wp:heading -->
 
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - 🥳 [Koffiepads en theezakjes mogen voortaan in gft-bak](https://nos.nl/artikel/2459311-koffiepads-en-theezakjes-mogen-voortaan-in-gft-bak)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - 🤓 [3D in CSS](https://garden.bradwoods.io/notes/css/3d)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - 🧐 [Extreme questions to trigger new, better ideas](https://longform.asmartbear.com/posts/extreme-questions/)
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
@@ -133,10 +108,5 @@ Rian geeft ons hier [een kijkje in zijn brein over hoe hij een van de eerste sce
 
 Dit was ‘m weer deze keer, tot de volgende!
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-[Reinier](https://reinierladan.nl).
 
 <!-- /wp:paragraph -->

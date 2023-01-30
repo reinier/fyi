@@ -1,7 +1,7 @@
 ---
 title: 'Begrijpbaar Fabula Point'
 description: ""
-published: 2019-12-05
+date: 2019-12-05
 redirect_from: 
             - https://82procent.nl/2019/12/05/begrijpbaar-fabula-point/
 categories: "Nieuwsbrief"
