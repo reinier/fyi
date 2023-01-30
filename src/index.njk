@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
     {%- if post.data.href -%}
         <article class="in-list type-link">
             <h2 class="link-title">
-                <span class="hostname">{{ post.data.href | urlHostname }}</span>
+                <span class="hostname">{{ post.data.href | urlHostname }} &bull; {{ post.date | readablePostDate }}</span>
                 <a href="{{ post.data.href }}" class="goto-link">{{ post.data.title }}</a>
                 <a href="{{ post.url }}" class="permalink">🔗</a>
             </h2>
@@ -19,6 +19,7 @@ eleventyExcludeFromCollections: true
             <h2>
                 <a href="{{ post.url }}">{{ post.data.title }}</a>
             </h2>
+            <p class="post-date">{{ post.date | readablePostDate }} &nbsp;&nbsp;&nbsp;&nbsp;✍️ Reinier Ladan</p>
             <div>{{ post.templateContent | safe }}</div>
         </article>
     {% endif -%}

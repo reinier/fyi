@@ -190,6 +190,10 @@
 		@apply mb-6;
 	}
 
+	.post-date {
+		@apply text-base italic;
+	}
+
 	article.type-article h2 a,
 	article.type-article h1 a {
 		@apply no-underline;
@@ -290,7 +294,7 @@
 	}
 
 	footer .abonneren {
-		@apply rounded-lg bg-fyi-light-green/20 border-2 border-fyi-dark-green lg:p-4 mb-8;
+		@apply rounded-lg bg-fyi-light-green/20 border-2 border-fyi-dark-green p-4 mb-8;
 	}
 }
 

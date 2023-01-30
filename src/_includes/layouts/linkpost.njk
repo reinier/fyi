@@ -6,7 +6,7 @@
         <main>
             <article class="single type-link">
                 <h1 class="link-title">
-                    <span class="hostname">{{ href | urlHostname }}</span>
+                    <span class="hostname">{{ href | urlHostname }} &bull; {{ page.date | readablePostDate }}</span>
                     <a href="{{ href }}" class="goto-link">{{ title }}</a>
                 </h1>
                 {{ content | safe }}

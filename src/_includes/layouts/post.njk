@@ -6,8 +6,8 @@
         <main>
             <article class="single type-article">
                 <h1>{{ title }}</h1>
-                <p>
-                    <em>{{ page.date | readablePostDate }}</em>
+                <p class="post-date">
+                    {{ page.date | readablePostDate }} &nbsp;&nbsp;&nbsp;&nbsp;✍️ Reinier Ladan
                 </p>
                 {{ content | safe }}
             </article>
