@@ -235,6 +235,18 @@
 			display: inline-block;
 		}
 	}
+
+	.abonneren {
+		@apply lg:bg-slate-200 lg:p-4;
+	}
+
+	.abonneren .abonneren-submit {
+		@apply bg-fyi-dark-green hover:bg-black hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
+	}
+
+	form.abonneren input.abonneren-email {
+		@apply shadow appearance-none border rounded w-full mb-4 py-2 px-3 text-gray-700 text-xl leading-tight focus:outline-none;
+	}
 }
 
 @layer utilities {
