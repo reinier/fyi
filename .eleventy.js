@@ -37,6 +37,11 @@ module.exports = function (eleventyConfig) {
  		}).setLocale('en').toISODate();
  	});
 
+	eleventyConfig.addFilter("urlHostname", (data) => {
+		var url = new URL(data);
+		return url.hostname;
+ 	});
+
 	// RSS feeds
 	eleventyConfig.addPlugin(pluginRss);
 
