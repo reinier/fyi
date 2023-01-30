@@ -4,11 +4,11 @@
     {% include '../header.njk' %}
     <body>
         <main>
-            <article class="single type-article">
-                <h1>{{ title }}</h1>
-                <p>
-                    <em>{{ page.date | readablePostDate }}</em>
-                </p>
+            <article class="single type-link">
+                <h1 class="link-title">
+                    <span class="hostname">{{ href | urlHostname }}</span>
+                    <a href="{{ href }}" class="goto-link">{{ title }}</a>
+                </h1>
                 {{ content | safe }}
             </article>
         </main>

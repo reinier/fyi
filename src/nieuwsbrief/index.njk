@@ -13,17 +13,7 @@ eleventyExcludeFromCollections: true
         tegenkomt op het Grote Boze Internet. Van handige apptips, langs voedzame recepten tot nieuwe wetenschappelijke inzichten.</p>
 </div>
 <h2>Gratis abonneren</h2>
-<form class="abonneren" action="https://buttondown.email/api/emails/embed-subscribe/82procent" method="post">
-    <p>
-        <label for="bd-email">Je e-mailadres is voldoende om je gratis op de FYI nieuwsbrief te abonneren. Al meer dan 1.300 abonnees!</label>
-    </p>
-    <input type="email" placeholder="Je e-mailadres" name="email" id="bd-email" class="abonneren-email"/>
-    <input type="hidden" value="1" name="embed"/>
-    <br/>
-    <div>
-        <input type="submit" id="bd-submit" class="abonneren-submit" value="Abonneer gratis"/>
-    </div>
-</form>
+{% include '../_includes/subscribe.njk' %}
 <h2>Archief</h2>
 <ul>
     {%- for post in collections.nieuwsbrief | reverse -%}

@@ -45,14 +45,12 @@
 
 	body {
 		@apply font-publicsans;
-
 		text-rendering: optimizeLegibility;
 		font-variant-ligatures: common-ligatures;
 		-webkit-font-variant-ligatures: common-ligatures;
 		-webkit-font-feature-settings: "kern";
 		font-feature-settings: "kern";
 		font-kerning: normal;
-
 		overflow-x: hidden;
 		width: 100%;
 	}
@@ -102,7 +100,7 @@
 	}
 
 	h1 {
-		@apply text-5xl mb-4 pt-4 font-black leading-tight text-center;
+		@apply text-4xl mb-4 pt-4 font-black leading-tight;
 		color: transparent;
 		background: conic-gradient(
 			#0d6239 12%,
@@ -151,6 +149,34 @@
 		border-left: 4px solid #999;
 		font-style: italic;
 	}
+}
+
+@layer components {
+	/* NAV COMPONENT */
+
+	header {
+		background-color: #0a3922;
+	}
+
+	.nav-Menu {
+		@apply flex flex-row gap-4 lg:gap-12 pb-4;
+		justify-content: center;
+
+		a {
+			color: #fff;
+			@apply underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
+		}
+
+		.rl-nav-item {
+			@apply list-none font-bold block;
+		}
+
+		.rl-active a {
+			color: #83eae0;
+		}
+	}
+
+	/* END NAV COMPONENT */
 
 	article.in-list {
 		@apply my-16;
@@ -217,36 +243,8 @@
 	}
 
 	article.single.type-link h1 {
-		@apply text-lg text-left;
+		@apply text-lg;
 	}
-}
-
-@layer components {
-	/* NAV COMPONENT */
-
-	header {
-		background-color: #0a3922;
-	}
-
-	.nav-Menu {
-		@apply flex flex-row gap-4 lg:gap-12 pb-4;
-		justify-content: center;
-
-		a {
-			color: #fff;
-			@apply underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
-		}
-
-		.rl-nav-item {
-			@apply list-none font-bold block;
-		}
-
-		.rl-active a {
-			color: #83eae0;
-		}
-	}
-
-	/* END NAV COMPONENT */
 
 	.img-content-rounded {
 		@apply flex flex-wrap justify-center pb-8;
@@ -279,7 +277,8 @@
 	}
 
 	.abonneren {
-		@apply lg:bg-slate-200 lg:p-4;
+		@apply lg:bg-fyi-light-green/20 lg:border-fyi-dark-green lg:border-2 lg:p-4 rounded-lg;
+		max-width: 30em;
 	}
 
 	.abonneren .abonneren-submit {
@@ -288,6 +287,10 @@
 
 	form.abonneren input.abonneren-email {
 		@apply shadow appearance-none border rounded w-full mb-4 py-2 px-3 text-gray-700 text-xl leading-tight focus:outline-none;
+	}
+
+	footer .abonneren {
+		@apply rounded-lg bg-fyi-light-green/20 border-2 border-fyi-dark-green lg:p-4 mb-8;
 	}
 }
 

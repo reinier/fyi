@@ -1,0 +1,4 @@
+{
+	"layout": "layouts/linkpost.njk",
+	"tags": ["bericht","link"]
+}
