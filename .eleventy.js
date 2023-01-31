@@ -4,6 +4,10 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const { DateTime } = require("luxon");
 
+// module import collections
+const {getAllPosts} = require('./config/collections/index.js');
+const {getAllNewsletters} = require('./config/collections/index.js');
+
 module.exports = function (eleventyConfig) {
 
 	if (process.env.ELEVENTY_PRODUCTION) {
@@ -57,13 +61,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
 
 	// Collections
-	eleventyConfig.addCollection("blogposts", function(collectionApi) {
-		return collectionApi.getFilteredByGlob("./src/blog/**/*.md").reverse();
-	});
-
-	eleventyConfig.addCollection("newsletters", function(collectionApi) {
-		return collectionApi.getFilteredByGlob("./src/nieuwsbrief/**/*.md").reverse();
-	});
+	eleventyConfig.addCollection('blogposts', getAllPosts);
+	eleventyConfig.addCollection('newsletters', getAllNewsletters);
 
 	var pathPrefix = "";
 	if (process.env.GITHUB_REPOSITORY) {
