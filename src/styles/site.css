@@ -131,15 +131,15 @@
 
     .site-logo {
         @apply text-4xl mb-4 pt-4 text-center;
+    }
 
-        a {
-            color: #fff;
-            font-weight: 900;
-        }
+    .site-logo a {
+        color: #fff;
+        font-weight: 900;
+    }
 
-        img {
-            @apply mx-auto;
-        }
+    .site-logo img {
+        @apply mx-auto;
     }
 
     h2 {
@@ -165,10 +165,10 @@
 @layer components {
     .site-intro {
         @apply border border-fyi-dark-green bg-fyi-light-green/20 p-4;
+    }
 
-        p {
-            @apply m-0 text-base;
-        }
+    .site-intro p {
+        @apply m-0 text-base;
     }
 
     /* NAV COMPONENT */
@@ -180,19 +180,19 @@
     .nav-Menu {
         @apply flex flex-row gap-4 lg:gap-12 pb-4;
         justify-content: center;
+    }
 
-        a {
-            color: #fff;
-            @apply underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
-        }
+    .nav-Menu a {
+        color: #fff;
+        @apply underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
+    }
 
-        .rl-nav-item {
-            @apply list-none font-bold block;
-        }
+    .nav-Menu .rl-nav-item {
+        @apply list-none font-bold block;
+    }
 
-        .rl-active a {
-            color: #83eae0;
-        }
+    .nav-Menu .rl-active a {
+        color: #83eae0;
     }
 
     /* END NAV COMPONENT */
@@ -306,10 +306,10 @@
 
     .tags {
         @apply flex flex-row mt-8;
+    }
 
-        .tag {
-            @apply mx-2;
-        }
+    .tags .tag {
+        @apply mx-2;
     }
 
     .tag-list {
@@ -326,24 +326,24 @@
 
     .img-content {
         @apply flex flex-wrap justify-center m-4 mt-8;
+    }
 
-        img {
-            @apply object-cover w-2/3 shadow-lg object-center;
-        }
+    .img-content img {
+        @apply object-cover w-2/3 shadow-lg object-center;
+    }
 
-        p {
-            @apply text-sm mt-3;
-        }
+    .img-content p {
+        @apply text-sm mt-3;
     }
 
     .img-content-group {
         margin: 1em calc(50% - 50vw);
         text-align: center;
+    }
 
-        img {
-            @apply w-72 shadow-lg;
-            display: inline-block;
-        }
+    .img-content-group img {
+        @apply w-72 shadow-lg;
+        display: inline-block;
     }
 
     .abonneren {
@@ -367,11 +367,11 @@
 @layer utilities {
     .break-out {
         margin: 1em calc(50% - 50vw);
+    }
 
-        > img,
-        > a > img {
-            @apply mx-auto;
-        }
+    .break-out > img,
+    .break-out > a > img {
+        @apply mx-auto;
     }
 
     .gradient-text {
