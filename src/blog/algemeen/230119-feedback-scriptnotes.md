@@ -1,9 +1,8 @@
 ---
 title: Geef en krijg waardevolle feedback zoals scriptschrijvers dat doen
 description: Vaak leer ik iets over mijn eigen vak door goed te luisteren naar dezelfde soort problemen uit andere vakgebieden.
+date: 2023-01-20
 tags:
-  - bericht
-  - scriptnotes
   - feedback
 ---
 
