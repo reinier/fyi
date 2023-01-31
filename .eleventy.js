@@ -49,6 +49,10 @@ module.exports = function (eleventyConfig) {
 		return hostname;
  	});
 
+	eleventyConfig.addFilter("limit", function(array, limit) {
+		return array.slice(0, limit);
+	});
+
 	// RSS feeds
 	eleventyConfig.addPlugin(pluginRss);
 

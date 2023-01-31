@@ -17,3 +17,8 @@ Deze site, reinier.fyi, is het antwoord daarop. Eén site om over van alles te p
 Met deze wijziging ben ik ook eindelijk af van iets dat me al een tijdje dwarszat: cijfers in het domein voor mijn nieuwsbrief. De naam 82% voor de nieuwsbrief vind ik nog steeds leuk, maar ik heb echt een hekel aan cijfers in een domeinnaam. Vandaar de naamsverandering naar FYI.
 
 Wil je meer weten over mij, Reinier Ladan, ga dan naar [reinierladan.nl](https://reinierladan.nl).
+
+Wil je up-to-date blijven met wat er op dit blog verschijnt?
+
+- [Schrijf je in op de nieuwsbrief](/nieuwsbrief/)
+- [Abonneer je op de RSS feed](/feed.xml)

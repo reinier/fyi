@@ -2,6 +2,7 @@
 permalink: /feed.xml
 eleventyExcludeFromCollections : true
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ feeddata.url }}">
     <title>{{ feeddata.title }}</title>
@@ -14,7 +15,7 @@ eleventyExcludeFromCollections : true
         <name>{{ feeddata.author.name }}</name>
         <email>{{ feeddata.author.email }}</email>
     </author>
-    {%- for post in collections.bericht | reverse %}
+    {%- for post in collections.blogposts | limit(10) %}
         {%- set absolutePostUrl = post.url | absoluteUrl(feeddata.url) %}
         <entry>
             <title>{{ post.data.title }}</title>

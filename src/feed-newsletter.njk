@@ -1,0 +1,29 @@
+---
+permalink: /feed-newsletter.xml
+eleventyExcludeFromCollections : true
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ feeddatanewsletter.url }}">
+    <title>{{ feeddatanewsletter.title }}</title>
+    <subtitle>{{ feeddatanewsletter.subtitle }}</subtitle>
+    <link href="{{ permalink | absoluteUrl(feeddatanewsletter.url) }}" rel="self"/>
+    <link href="{{ feeddatanewsletter.url }}"/>
+    <updated>{{ collections.bericht | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ feeddatanewsletter.url }}</id>
+    <author>
+        <name>{{ feeddatanewsletter.author.name }}</name>
+        <email>{{ feeddatanewsletter.author.email }}</email>
+    </author>
+    {%- for post in collections.newsletters | limit(10) %}
+        {%- set absolutePostUrl = post.url | absoluteUrl(feeddatanewsletter.url) %}
+        <entry>
+            <title>{{ post.data.title }}</title>
+            <link href="{{ absolutePostUrl }}"/>
+            <updated>{{ post.date | dateToRfc3339 }}</updated>
+            <id>{{ absolutePostUrl }}</id>
+            <content xml:lang="{{ feeddatanewsletter.language }}" type="html">{{ post.templateContent |
+			htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+        </entry>
+    {%- endfor %}
+</feed>
