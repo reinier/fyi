@@ -6,6 +6,8 @@ eleventyExcludeFromCollections: true
 
 # Over reinier.fyi
 
+Op reinier.fyi blog ik ([Reinier Ladan](https://reinierladan.nl)) over handige apptips, voedzame recepten, nieuwe wetenschappelijke inzichten, films en tvseries, opmerkelijke video's en nog veel meer.
+
 Er was een tijd dat ik voor elke persoonlijke interesse een nieuwe site aanmaakte. Zo had ik een site voor apptips (apptips.nl) een site voor productiviteitstips (mindermaarbeter.nl) en een site voor mijn wekelijkse nieuwsbrief (82procent.nl).
 
 Toen ik er een nieuwe hobby bij kreeg (koken) wilde ik daar graag meer over vertellen aan de wereld om me heen. Dus kwam er een site bij: reinskeuken.nl. En op dat moment begon het allemaal op werk te lijken. Dat was niet de bedoeling!

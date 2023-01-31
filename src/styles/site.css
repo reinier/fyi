@@ -86,7 +86,7 @@
 	}
 
 	footer {
-		@apply border-t-4 mt-8 pt-8;
+		@apply border-t-4 mt-12 pt-8;
 	}
 
 	a {
@@ -132,7 +132,7 @@
 	}
 
 	h2 {
-		@apply text-3xl mt-8 mb-3 font-black;
+		@apply text-3xl mt-4 mb-3 font-black;
 	}
 
 	h3 {

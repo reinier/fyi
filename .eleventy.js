@@ -35,7 +35,12 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("urlHostname", (data) => {
 		var url = new URL(data);
-		return url.hostname;
+		if(url.hostname.substring(0,4) == 'www.'){
+			var hostname = url.hostname.substring(4);
+		} else {
+			var hostname = url.hostname;
+		}
+		return hostname;
  	});
 
 	// RSS feeds
