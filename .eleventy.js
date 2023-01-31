@@ -27,6 +27,12 @@ module.exports = function (eleventyConfig) {
  		}).setLocale('nl-NL').toFormat('dd MMMM, yyyy');
  	});
 
+ 	eleventyConfig.addFilter("readablePostDateTime", (dateObj) => {
+ 		return DateTime.fromJSDate(dateObj, {
+ 			zone: "Europe/Amsterdam"
+ 		}).setLocale('nl-NL').toFormat('dd MMMM, yyyy HH:mm');
+ 	});
+
  	eleventyConfig.addFilter("postDate", (dateObj) => {
  		return DateTime.fromJSDate(dateObj, {
  			zone: "Europe/Amsterdam"

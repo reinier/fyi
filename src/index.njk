@@ -2,9 +2,21 @@
 layout: layouts/base.njk
 title: FYI Blog en Nieuwsbrief
 eleventyExcludeFromCollections: true
+pagination:
+  data: collections.blogposts
+  size: 20
+  alias: postslist
 ---
 
-{% set postslist = collections.blogposts -%}
+{% if page.url == pagination.href.first %}
+    <div class="site-intro">
+        <p>Hi,
+            <a href="https://reinierladan.nl">Reinier</a>
+            hier. FYI is mijn blog over
+            <a href="/over/">van alles en nog wat</a>. Wil je wekelijks de berichten in je email ontvangen? Schrijf je dan gratis in op de
+            <a href="/nieuwsbrief/">FYI Nieuwsbrief</a>.</p>
+    </div>
+{% endif -%}
 {% for post in postslist -%}
     {%- if post.data.href -%}
         <article class="in-list type-link">
@@ -20,8 +32,17 @@ eleventyExcludeFromCollections: true
             <h2>
                 <a href="{{ post.url }}">{{ post.data.title }}</a>
             </h2>
-            <p class="post-date">{{ post.date | readablePostDate }} &nbsp;&nbsp;&nbsp;&nbsp;✍️ Reinier Ladan</p>
+            <p class="post-date">{{ post.date | readablePostDate }} &nbsp;&nbsp;&nbsp;&nbsp;✍️
+                <a href="https://reinierladan.nl">Reinier Ladan</a>
+            </p>
             <div>{{ post.templateContent | safe }}</div>
         </article>
     {% endif -%}
 {%- endfor -%}
+<ol class="pagination">
+    {%- for pageEntry in pagination.pages %}
+        <li>
+            <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>{{ loop.index }}</a>
+        </li>
+    {%- endfor %}
+</ol>

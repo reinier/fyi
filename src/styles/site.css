@@ -152,6 +152,14 @@
 }
 
 @layer components {
+	.site-intro {
+		@apply border border-fyi-dark-green bg-fyi-light-green/20 p-4;
+
+		p {
+			@apply m-0 text-base;
+		}
+	}
+
 	/* NAV COMPONENT */
 
 	header {
@@ -233,7 +241,18 @@
 
 	.hostname {
 		text-decoration: none;
-		background-color: #0d6239;
+		background: conic-gradient(
+			#0d6239 12%,
+			#0d6239 12%,
+			#0a3922 33%,
+			#0d6239 33%,
+			#0a3922 55%,
+			#0d6239 55%,
+			#0d6239 70%,
+			#0a3922 70%,
+			#00b789 87%,
+			#0d6239 87%
+		);
 		color: white;
 		border-radius: 10px;
 		@apply py-1 px-4 font-normal text-xs;
@@ -257,7 +276,7 @@
 	}
 
 	.pagination li {
-		@apply mr-2;
+		@apply mr-2 list-none;
 	}
 
 	.pagination li a {
@@ -269,6 +288,18 @@
 	}
 
 	/* END PAGINATION */
+
+	.tags {
+		@apply flex flex-row mt-8;
+
+		.tag {
+			@apply mx-2;
+		}
+	}
+
+	.tag-list {
+		@apply text-xl list-disc pl-8;
+	}
 
 	.img-content-rounded {
 		@apply flex flex-wrap justify-center pb-8;

@@ -9,16 +9,19 @@ pagination:
 ---
 
 <h1 class="mb-8">FYI Nieuwsbrief</h1>
-<div class="site-intro">
+{% if page.url == pagination.href.first %}
     <p>FYI
         <em>(For Your Information)</em>
         is een wekelijkse nieuwsbrief over van alles dat
         <a href="https://reinierladan.nl">Reinier Ladan</a>
         tegenkomt op het Grote Boze Internet. Van handige apptips, langs voedzame recepten tot nieuwe wetenschappelijke inzichten.</p>
-</div>
-<h2>Gratis abonneren</h2>
-{% include '../_includes/subscribe.njk' %}
-<h2>Archief</h2>
+    <h2>Gratis abonneren</h2>
+    {% include '../_includes/subscribe.njk' %}
+    <h2 class="mt-12">Archief</h2>
+{% else %}
+    <h2>Archief pagina {{ pagination.pageNumber + 1 }}
+    </h2>
+{% endif %}
 <ul>
     {%- for post in newsletters -%}
         <li>

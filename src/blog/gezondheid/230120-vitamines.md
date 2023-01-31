@@ -2,7 +2,6 @@
 title: De vitaminebusiness is een boevenbranch
 description: Vitamineverkopers en influencers maken slim verpakte claims over vitaminepillen, -gummies, en -poeders, maar spreken ze de waarheid?
 tags:
-  - bericht
   - vitamines
 ---
 
