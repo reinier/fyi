@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
 {% include '../_includes/subscribe.njk' %}
 <h2>Archief</h2>
 <ul>
-    {%- for post in collections.nieuwsbrief | reverse -%}
+    {%- for post in collections.newsletters -%}
         <li>
             <a href="{{ post.url }}">{{ post.data.title }}</a>
             <em>{{ post.data.date | readablePostDate }}</em>

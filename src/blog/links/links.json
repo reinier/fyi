@@ -1,4 +1,3 @@
 {
-	"layout": "layouts/linkpost.njk",
-	"tags": ["bericht","link"]
+	"layout": "layouts/linkpost.njk"
 }

@@ -4,7 +4,8 @@ title: FYI Blog en Nieuwsbrief
 eleventyExcludeFromCollections: true
 ---
 
-{%- for post in collections.bericht | reverse -%}
+{% set postslist = collections.blogposts -%}
+{% for post in postslist -%}
     {%- if post.data.href -%}
         <article class="in-list type-link">
             <h2 class="link-title">
@@ -23,4 +24,4 @@ eleventyExcludeFromCollections: true
             <div>{{ post.templateContent | safe }}</div>
         </article>
     {% endif -%}
-</article>{%- endfor -%}
+{%- endfor -%}

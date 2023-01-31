@@ -4,9 +4,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const { DateTime } = require("luxon");
 
-// module import collections
-// const {getAllNewsletters} = require('./config/collections/index.js');
-
 module.exports = function (eleventyConfig) {
 
 	if (process.env.ELEVENTY_PRODUCTION) {
@@ -16,8 +13,7 @@ module.exports = function (eleventyConfig) {
 	}
 
 	// Passthrough
-	eleventyConfig.addPassthroughCopy({ "src/static": "." });
-	eleventyConfig.addPassthroughCopy('src/_redirects');
+	eleventyConfig.addPassthroughCopy({ "./src/static": "." });
 
 	// Watch targets
 	eleventyConfig.addWatchTarget("./src/styles/");
@@ -45,7 +41,14 @@ module.exports = function (eleventyConfig) {
 	// RSS feeds
 	eleventyConfig.addPlugin(pluginRss);
 
-	// eleventyConfig.addCollection('newsletters', getAllNewsletters);
+	// Collections
+	eleventyConfig.addCollection("blogposts", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("./src/blog/**/*.md").reverse();
+	});
+
+	eleventyConfig.addCollection("newsletters", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("./src/nieuwsbrief/**/*.md").reverse();
+	});
 
 	var pathPrefix = "";
 	if (process.env.GITHUB_REPOSITORY) {
