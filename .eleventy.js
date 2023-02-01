@@ -28,13 +28,13 @@ module.exports = function (eleventyConfig) {
  	eleventyConfig.addFilter("readablePostDate", (dateObj) => {
  		return DateTime.fromJSDate(dateObj, {
  			zone: "Europe/Amsterdam"
- 		}).setLocale('nl-NL').toFormat('dd MMMM, yyyy');
+ 		}).setLocale('nl-NL').toFormat('d MMMM, yyyy');
  	});
 
  	eleventyConfig.addFilter("readablePostDateTime", (dateObj) => {
  		return DateTime.fromJSDate(dateObj, {
  			zone: "Europe/Amsterdam"
- 		}).setLocale('nl-NL').toFormat('dd MMMM, yyyy HH:mm');
+ 		}).setLocale('nl-NL').toFormat('d MMMM, yyyy HH:mm');
  	});
 
  	eleventyConfig.addFilter("postDate", (dateObj) => {
