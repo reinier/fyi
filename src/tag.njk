@@ -9,7 +9,7 @@ pagination:
 permalink: /onderwerp/{{ tag }}/
 ---
 
-<h1>Tagged “{{ tag }}”</h1>
+<h1>Onderwerp: {{ tag }}</h1>
 <ol class="tag-list">
     {% set taglist = collections[ tag ] %}
     {% for post in taglist | reverse %}
