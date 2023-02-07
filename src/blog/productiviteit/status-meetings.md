@@ -1,6 +1,6 @@
 ---
 title: Is een status meeting eigenlijk wel werk?
-date: 2023-02-08 T09:00
+date: 2023-02-08T09:00
 ---
 
 > Status update meetings are ones where no decisions are made and no forward planning takes place. As such, they can be considered superfluous to well-run organisations and effective collaborations. There are better ways to manage people and projects.
