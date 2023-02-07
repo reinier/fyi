@@ -1,6 +1,6 @@
 ---
 title: The Last of Mariokart
-date: 2023-02-07T9:05
+date: 2023-02-07T09:05
 tags:
   - the last of us
   - Super Mario
