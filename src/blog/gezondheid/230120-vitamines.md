@@ -11,3 +11,5 @@ Vitamines ([geen vitaminen](https://www.dbnl.org/tekst/_taa014198001_01/_taa0141
 Toch maken vitamineverkopers en influencers slim verpakte claims over vitaminepillen, -gummies, en -poeders. Walgelijke business want iedereen die vitaminepillen koopt, denkt er goed aan te doen terwijl ze enkel de zakken vullen van mensen die het niet verdienen.
 
 Ik ben daar zelf ook schuldig aan geweest overigens, maar niet meer na het kijken van deze video: [Pointer dook in de vitaminebusiness en maakte dit verhelderende filmpje over deze boevenbranche](https://youtu.be/zmGtbJ9k2Go).
+
+**Update 8 feb 2023:** Het voedingscentrum geeft aan dat het slikken van vitamine D weldegelijk nog wat toevoegd als er een tekort dreigt. En dat tekort komt regelmatig voor binnen een vrij brede doelgroep. Voor jonge kinderen, ouderen, mensen met een getinte huidskleur, mensen die weinig buiten komen en zwangere vrouwen geldt [het advies om extra vitamine D te nemen](https://www.voedingscentrum.nl/encyclopedie/vitamine-d.aspx).
