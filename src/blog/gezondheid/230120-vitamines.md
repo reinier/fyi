@@ -12,4 +12,4 @@ Toch maken vitamineverkopers en influencers slim verpakte claims over vitaminepi
 
 Ik ben daar zelf ook schuldig aan geweest overigens, maar niet meer na het kijken van deze video: [Pointer dook in de vitaminebusiness en maakte dit verhelderende filmpje over deze boevenbranche](https://youtu.be/zmGtbJ9k2Go).
 
-**Update 8 feb 2023:** Het voedingscentrum geeft aan dat het slikken van vitamine D weldegelijk nog wat toevoegd als er een tekort dreigt. En dat tekort komt regelmatig voor binnen een vrij brede doelgroep. Voor jonge kinderen, ouderen, mensen met een getinte huidskleur, mensen die weinig buiten komen en zwangere vrouwen geldt [het advies om extra vitamine D te nemen](https://www.voedingscentrum.nl/encyclopedie/vitamine-d.aspx).
+**Update 8 feb 2023:** Het Voedingscentrum geeft aan dat het slikken van vitamine D weldegelijk nog wat toevoegd als er een tekort dreigt. En dat tekort komt regelmatig voor binnen een vrij brede doelgroep. Voor jonge kinderen, ouderen, mensen met een getinte huidskleur, mensen die weinig buiten komen en zwangere vrouwen geldt [het advies om extra vitamine D te nemen](https://www.voedingscentrum.nl/encyclopedie/vitamine-d.aspx).
