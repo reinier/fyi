@@ -38,7 +38,7 @@ De 'stand up' in een scrum proces vervalt vaak in een status update en dat is ja
 - [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
 - [Poline — esoteric color palette generator](https://meodai.github.io/poline/)
 - [Zou Jack toch bij Rose op de deur hebben kunnen zitten in Titanic?](https://www.youtube.com/watch?v=YEJph0aIP-U)
-- [Uitgefloten: een Twitter-dood door duizend sneden / Villamedia](https://www.villamedia.nl/artikel/uitgefloten-een-twitter-dood-door-duizend-sneden)
+- [Uitgefloten: een Twitter-dood door duizend sneden](https://www.villamedia.nl/artikel/uitgefloten-een-twitter-dood-door-duizend-sneden)
 - [Big Data is Dead](https://motherduck.com/blog/big-data-is-dead/)
 
 ### 🔮 Glazen BOL
