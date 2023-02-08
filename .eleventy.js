@@ -25,23 +25,23 @@ module.exports = function (eleventyConfig) {
 	// <3 https://bnijenhuis.nl/notes/dates-in-eleventy/
 
  	// Filters
- 	eleventyConfig.addFilter("readablePostDate", (dateObj) => {
- 		return DateTime.fromJSDate(dateObj, {
- 			zone: "Europe/Amsterdam"
- 		}).setLocale('nl-NL').toFormat('d MMMM, yyyy');
- 	});
+    eleventyConfig.addFilter("readablePostDate", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {
+            zone: "Europe/Amsterdam"
+        }).setLocale('nl-NL').toFormat('d MMMM, yyyy');
+    });
 
- 	eleventyConfig.addFilter("readablePostDateTime", (dateObj) => {
- 		return DateTime.fromJSDate(dateObj, {
- 			zone: "Europe/Amsterdam"
- 		}).setLocale('nl-NL').toFormat('d MMMM, yyyy HH:mm');
- 	});
+    eleventyConfig.addFilter("readablePostDateTime", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {
+            zone: "Europe/Amsterdam"
+        }).setLocale('nl-NL').toFormat('d MMMM, yyyy HH:mm');
+    });
 
- 	eleventyConfig.addFilter("postDate", (dateObj) => {
- 		return DateTime.fromJSDate(dateObj, {
- 			zone: "Europe/Amsterdam"
- 		}).setLocale('en').toISODate();
- 	});
+    eleventyConfig.addFilter("postDate", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {
+            zone: "Europe/Amsterdam"
+        }).setLocale('en').toISODate();
+    });
 
 	eleventyConfig.addFilter("urlHostname", (data) => {
 		var url = new URL(data);
@@ -51,7 +51,7 @@ module.exports = function (eleventyConfig) {
 			var hostname = url.hostname;
 		}
 		return hostname;
- 	});
+    });
 
 	eleventyConfig.addFilter("limit", function(array, limit) {
 		return array.slice(0, limit);
