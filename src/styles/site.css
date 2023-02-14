@@ -362,6 +362,12 @@
     footer .abonneren {
         @apply rounded-lg bg-fyi-light-green/20 border-2 border-fyi-dark-green p-4 mb-8;
     }
+
+    /* MTG page */
+
+    .mtg-img-thumb {
+        @apply float-left w-48 mr-8 mb-4;
+    }
 }
 
 @layer utilities {
