@@ -1,6 +1,7 @@
 ---
 title: Polarisatie en het backfire effect
-date: 
+date: 2023-02-16T08:30
+tags: denkfouten
 ---
 
 Er is op het moment [een Sire-campagne](https://youtu.be/4SeBmfbA0kU) gaande om polarisatie in de samenleving te voorkomen. Ik weet niet zo goed of dit effect heeft en het gaat wat mij betreft niet in op de vraag hoe we zelf wat meer kunnen nadenken over de manier waarop we nadenken.
