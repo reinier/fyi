@@ -4,7 +4,7 @@ date: 2023-02-15T10:00
 tags: verkiezingen
 ---
 
-The Guardian komt met een verontrustend onderzoek:
+The Guardian bericht over een verontrustend onderzoek:
 
 [Revealed: the hacking and disinformation team meddling in elections](https://www.theguardian.com/world/2023/feb/15/revealed-disinformation-team-jorge-claim-meddling-elections-tal-hanan)
 
