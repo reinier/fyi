@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const Image = require("@11ty/eleventy-img");
@@ -154,8 +155,24 @@ function htmlminTransform(content, outputPath) {
 
 async function generateImages() {
 
-    // TODO: write images to _site/mtg
-	let options = {
+    let files = await glob('./src/images/**/*.{jpg,jpeg,png,gif}');
+	for(const f of files) {
+		console.log('process img: ',f);
+        const subDir = path.dirname(f).replace(/^\.\/src\/images/, "");
+        
+		let processImage = await Image(f, {
+            widths: [FULL],
+            formats: ['auto'],
+            urlPath: "/images/"+subDir,
+            outputDir: "./_site/images/"+subDir,
+            filenameFormat:function(id, src, width, format, options) {
+                return path.basename(src);
+            }
+        });
+	};
+
+    // Options for images of MTG cards
+    let optionsCards = {
 		widths: [THUMB,FULL],
 		formats: ['jpeg'],
         urlPath: "/mtg/",
@@ -172,10 +189,10 @@ async function generateImages() {
 		}
 	};
 
-	let files = await glob('./mtg/*.{jpg,jpeg,png,gif}');
-	for(const f of files) {
+	let filesCards = await glob('./mtg/*.{jpg,jpeg,png,gif}');
+	for(const f of filesCards) {
 		console.log('doing f',f);
-		let md = await Image(f, options);
+		let md = await Image(f, optionsCards);
 	};
 
 };
