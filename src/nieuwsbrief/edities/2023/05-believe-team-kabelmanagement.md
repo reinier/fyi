@@ -9,13 +9,15 @@ Er is op het moment [een Sire-campagne](https://youtu.be/4SeBmfbA0kU) gaande om 
 
 Waar geloven we in als het gaat om de polariserende overtuigingen waar Sire het over heeft en *waarom* geloven we daarin? Waar halen we deze informatie vandaan en waarom blijven we er aan vasthouden.
 
-The Oatmeal doet een poging om daar juist wel iets tegen te doen en wat mij betreft is het daarin geslaagd, al is het helaas vooral gericht op de inwoners van de VS: [You're not going to believe what I'm about to tell you](https://theoatmeal.com/comics/believe).
+The Oatmeal doet een poging om daar juist wel iets tegen te doen en wat mij betreft is het daarin geslaagd, al is het helaas vooral gericht op de inwoners van de VS:
+
+[You're not going to believe what I'm about to tell you](https://theoatmeal.com/comics/believe).
 
 ![Screenshot van een stuk van het Oatmeal artikel](/images/blog/oatmeal-pinky-toe.jpg)
 
 Vanaf nu laat ik mijn kleine teen uitrazen voordat ik een nieuw feit gelijk afdoe als onzin.
 
-😔
+## Israëlische verkiezingsverknoeiers
 
 The Guardian bericht over een verontrustend onderzoek:
 
@@ -29,7 +31,7 @@ De eenheid wordt gerund door Tal Hanan, een 50-jarige voormalige Israëlische sp
 
 Zo'n beetje de hele wereld heeft er dus mee te maken. Geen geruststellende gedachte dat dit waarschijnlijk aan de lopende band gebeurt en het topje van de ijsberg is.
 
-### Glazen Bol
+## Glazen Bol
 
 _In de glazen BOL kun je zien wat je misschien nog van [BOL.com](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2F&name=BOL%20homepage) nodig hebt. Door via deze links wat te kopen zorg je ervoor dat de FYI schoorsteen blijft roken. Zelfs als je wat anders koopt na het doorklikken op een van deze linkjes_
 
@@ -39,7 +41,7 @@ _In de glazen BOL kun je zien wat je misschien nog van [BOL.com](https://partner
 
 - Als je een koffieliefhebber bent dan weet je dit misschien al: [de Hario V60 is *de* koffie-dripper onder de koffie-drippers](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fhario-v60-drip-decanter-02%2F9200000040262918%2F&name=Hario%20V60%20Drip%20Decanter%2002). En de handige decanter die je erbij krijgt staat niet verkeerd in je servieskast.
 
-### WVTTK
+## WVTTK
 
 - [De Monocle is een open source AR apparaatje](https://www.brilliantmonocle.com) die je kunt zien als een doorzichtig computertje welke je voor je bril hangt.
 - [Design thinking was supposed to fix the world. Where did it go wrong?](https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/)
