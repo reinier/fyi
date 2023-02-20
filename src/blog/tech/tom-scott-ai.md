@@ -1,6 +1,6 @@
 ---
 title: Een nuchtere kijk op de AI trend
-date:
+date: 2023-02-20T11:40
 tags: ai
 ---
 
