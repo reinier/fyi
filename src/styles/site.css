@@ -233,7 +233,7 @@
     .hostname {
         text-decoration: none;
         border-radius: 10px;
-        @apply py-1 px-4 font-normal text-xs bg-fyi-bright-tint text-white;
+        @apply py-1 px-4 font-normal text-xs bg-fyi-dark-tint text-white;
         display: block;
         max-width: fit-content;
         margin-bottom: 0.3em;
