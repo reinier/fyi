@@ -102,7 +102,11 @@
 
     a {
         text-decoration: underline;
-        color: #0a3922;
+        @apply text-fyi-darkest-tint;
+    }
+
+    a:hover {
+        @apply text-fyi-alt-tint;
     }
 
     h1,
@@ -112,16 +116,11 @@
 
     h1 {
         @apply text-4xl mb-4 pt-4 font-black leading-tight;
-        color: #0a3922;
+        @apply text-fyi-dark-tint;
     }
 
     .site-logo {
-        @apply text-4xl mb-4 pt-4 text-center;
-    }
-
-    .site-logo a {
-        color: #fff;
-        font-weight: 900;
+        @apply pt-4 text-center;
     }
 
     .site-logo img {
@@ -129,11 +128,11 @@
     }
 
     h2 {
-        @apply text-3xl mt-4 mb-3 font-black;
+        @apply text-3xl mt-4 mb-3 font-black text-fyi-darkest-tint;
     }
 
     h3 {
-        @apply text-2xl mb-6 font-bold;
+        @apply text-2xl mb-6 font-bold text-fyi-darkest-tint;
     }
 
     strong {
@@ -150,7 +149,7 @@
 
 @layer components {
     .site-intro {
-        @apply border border-fyi-dark-green bg-fyi-light-green/20 p-4;
+        @apply border border-fyi-dark-tint bg-fyi-light-tint/20 p-4;
     }
 
     .site-intro p {
@@ -160,7 +159,7 @@
     /* NAV COMPONENT */
 
     header {
-        background-color: #0a3922;
+        @apply bg-fyi-darkest-tint;
     }
 
     .nav-Menu {
@@ -169,8 +168,13 @@
     }
 
     .nav-Menu a {
-        color: #fff;
-        @apply underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
+        /* color: #fff; */
+        @apply text-white/85 underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
+    }
+
+    .nav-Menu a:hover {
+        /* color: #fff; */
+        @apply text-white underline;
     }
 
     .nav-Menu .rl-nav-item {
@@ -178,7 +182,7 @@
     }
 
     .nav-Menu .rl-active a {
-        color: #83eae0;
+        @apply text-fyi-brightest-tint;
     }
 
     /* END NAV COMPONENT */
@@ -201,14 +205,21 @@
 
     article.type-article h2 a,
     article.type-article h1 a {
-        @apply no-underline;
-        color: #0a3922;
+        @apply no-underline text-fyi-darkest-tint;
+    }
+
+    article.type-article h2 a:hover,
+    article.type-article h1 a:hover {
+        @apply text-fyi-alt-tint;
     }
 
     article.type-link .link-title a {
         text-decoration: underline;
-        color: #0d6239;
-        @apply text-xl font-black leading-none;
+        @apply text-xl font-black leading-none text-fyi-bright-tint;
+    }
+
+    article.type-link .link-title a:hover {
+        @apply text-fyi-dark-tint;
     }
 
     article.type-link .link-title a.permalink {
@@ -216,18 +227,15 @@
         right: 0;
         top: 0;
         text-decoration: none;
-        background-color: #e9e9e9;
         color: #333;
         border-radius: 10px;
-        @apply py-1 px-4 font-normal text-base;
+        @apply bg-gray-200 py-1 px-4 font-normal text-base;
     }
 
     .hostname {
         text-decoration: none;
-        background: #0a3922;
-        color: white;
         border-radius: 10px;
-        @apply py-1 px-4 font-normal text-xs;
+        @apply py-1 px-4 font-normal text-xs bg-fyi-bright-tint text-white;
         display: block;
         max-width: fit-content;
         margin-bottom: 0.3em;
@@ -256,11 +264,11 @@
     }
 
     .pagination li a {
-        @apply rounded mb-4 py-2 px-3 text-white bg-fyi-dark-green text-xl leading-tight;
+        @apply rounded mb-4 py-2 px-3 text-white bg-fyi-dark-tint text-xl leading-tight;
     }
 
     .pagination li a[aria-current="page"] {
-        @apply bg-white border-fyi-dark-green border text-fyi-dark-green no-underline;
+        @apply bg-white border-fyi-dark-tint border text-fyi-dark-tint no-underline;
     }
 
     /* END PAGINATION */
@@ -308,12 +316,12 @@
     }
 
     .abonneren {
-        @apply lg:bg-fyi-light-green/20 lg:border-fyi-dark-green lg:border-2 lg:p-4 rounded-lg;
+        @apply lg:bg-fyi-light-tint/20 lg:border-fyi-dark-tint lg:border-2 lg:p-4 rounded-lg;
         max-width: 30em;
     }
 
     .abonneren .abonneren-submit {
-        @apply bg-fyi-dark-green hover:bg-black hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
+        @apply bg-fyi-dark-tint hover:bg-black hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
     }
 
     form.abonneren input.abonneren-email {
@@ -321,7 +329,7 @@
     }
 
     footer .abonneren {
-        @apply rounded-lg bg-fyi-light-green/20 border-2 border-fyi-dark-green p-4 mb-8;
+        @apply rounded-lg bg-fyi-light-tint/20 border-2 border-fyi-dark-tint p-4 mb-8;
     }
 
     /* MTG page */
