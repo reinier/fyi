@@ -112,21 +112,7 @@
 
     h1 {
         @apply text-4xl mb-4 pt-4 font-black leading-tight;
-        color: transparent;
-        background: conic-gradient(
-            #0d6239 12%,
-            #0d6239 12%,
-            #0a3922 33%,
-            #0d6239 33%,
-            #0a3922 55%,
-            #0d6239 55%,
-            #0d6239 70%,
-            #0a3922 70%,
-            #00b789 87%,
-            #0d6239 87%
-        );
-        background-size: 50%;
-        background-clip: text;
+        color: #0a3922;
     }
 
     .site-logo {
@@ -216,21 +202,7 @@
     article.type-article h2 a,
     article.type-article h1 a {
         @apply no-underline;
-        color: transparent;
-        background: conic-gradient(
-            #0d6239 12%,
-            #0d6239 12%,
-            #0a3922 33%,
-            #0d6239 33%,
-            #0a3922 55%,
-            #0d6239 55%,
-            #0d6239 70%,
-            #0a3922 70%,
-            #00b789 87%,
-            #0d6239 87%
-        );
-        background-size: 50%;
-        background-clip: text;
+        color: #0a3922;
     }
 
     article.type-link .link-title a {
@@ -252,18 +224,7 @@
 
     .hostname {
         text-decoration: none;
-        background: conic-gradient(
-            #0d6239 12%,
-            #0d6239 12%,
-            #0a3922 33%,
-            #0d6239 33%,
-            #0a3922 55%,
-            #0d6239 55%,
-            #0d6239 70%,
-            #0a3922 70%,
-            #00b789 87%,
-            #0d6239 87%
-        );
+        background: #0a3922;
         color: white;
         border-radius: 10px;
         @apply py-1 px-4 font-normal text-xs;
@@ -378,23 +339,5 @@
     .break-out > img,
     .break-out > a > img {
         @apply mx-auto;
-    }
-
-    .gradient-text {
-        color: transparent;
-        background: conic-gradient(
-            #0d6239 12%,
-            #0d6239 12%,
-            #0a3922 33%,
-            #0d6239 33%,
-            #0a3922 55%,
-            #0d6239 55%,
-            #0d6239 70%,
-            #0a3922 70%,
-            #00b789 87%,
-            #0d6239 87%
-        );
-        background-size: 50%;
-        background-clip: text;
     }
 }
