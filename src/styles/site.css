@@ -168,12 +168,10 @@
     }
 
     .nav-Menu a {
-        /* color: #fff; */
-        @apply text-white/85 underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
+        @apply text-white/80 underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
     }
 
     .nav-Menu a:hover {
-        /* color: #fff; */
         @apply text-white underline;
     }
 
