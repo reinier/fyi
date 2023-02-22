@@ -4,6 +4,7 @@ const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const glob = require("glob-promise");
 const Image = require("@11ty/eleventy-img");
+const { JSDOM } = require('jsdom');
 
 // module import collections
 const { getAllPosts } = require('./config/collections.js');
@@ -43,35 +44,91 @@ module.exports = function (eleventyConfig) {
     
     // Filters
     eleventyConfig.addPlugin(require('./config/filters.js'));
-
+    
     // Collections
     eleventyConfig.addCollection('blogposts', getAllPosts);
     eleventyConfig.addCollection('newsletters', getAllNewsletters);
+    
+    // Nunjucks
+    eleventyConfig.addNunjucksShortcode("recipeTime", function() {
+        let recipeTimeTotal = [];
+        
+        // Don't know if using the 11ty `ctx` object is the right way, but it works
+        if (this.ctx.prepTime) {
+            recipeTimeTotal.push('"prepTime": "PT'+this.ctx.prepTime+'M",');
+        }
+        
+        if (this.ctx.cookTime) {
+            recipeTimeTotal.push('"cookTime": "PT'+this.ctx.cookTime+'M",');
+        }
+        
+        if (this.ctx.totalTime) {
+            recipeTimeTotal.push('"totalTime": "PT'+this.ctx.totalTime+'M",');
+        }
+        
+        return recipeTimeTotal.join("\n\t");
+    });
+    
+    eleventyConfig.addNunjucksShortcode("recipeIngredients", function(recipeContent) {
+        let ingredients = [];
+        const dom = new JSDOM(recipeContent);
+        var headers = dom.window.document.getElementsByTagName('h3'); 
+        
+        for (var i = 0; i < headers.length; i++) {
+            let header = headers[i];
+            if(header.textContent == 'Ingrediënten' || header.textContent == 'Ingredienten'){
+                let ulElement = header.nextElementSibling;
+                let rawIngredients = ulElement.getElementsByTagName('li');
+                
+                for (let index = 0; index < rawIngredients.length; index++) {
+                    const ingredient = rawIngredients[index];
+                    ingredients.push(ingredient.textContent);
+                }
+            }
+        }
+        
+        return '"recipeIngredient": '+JSON.stringify(ingredients);
+    });
+    
+    eleventyConfig.addNunjucksShortcode("recipeInstructions", function(recipeContent) {
+        let instructions = [];
+        const dom = new JSDOM(recipeContent);
+        var headers = dom.window.document.getElementsByTagName('h3');
+        
+        for (var i = 0; i < headers.length; i++) {
+            let header = headers[i];
+            if(header.textContent == 'Aan de slag' || header.textContent == 'Instructies'){
+                let olElement = header.nextElementSibling;
+                let rawInstructions = olElement.getElementsByTagName('li');
+                
+                for (let index = 0; index < rawInstructions.length; index++) {
+                    const rawInstruction = rawInstructions[index];
+
+                    let instruction = '{"@type": "HowToStep", "text": "'+rawInstruction.textContent+'"}';                    
+                    instructions.push(instruction);
+                }
+            }
+        }
+
+        return '"recipeInstructions": ['+instructions.join(',\n')+']';
+        // "recipeInstructions": [
+        //         {
+        //             "@type": "HowToStep",
+        //             "text": "Preheat the oven to 350 degrees F. Grease and flour a 9x9 inch pan."
+        //         }, {
+        //             "@type": "HowToStep",
+        //             "text": "In a large bowl, combine flour, sugar, baking powder, and salt."
+        //         }, {
+        //             "@type": "HowToStep",
+        //             "text": "Mix in the butter, eggs, and milk."
+        //         }
+        //     ]
+    });
     
     var pathPrefix = "";
     if (process.env.GITHUB_REPOSITORY) {
         pathPrefix = process.env.GITHUB_REPOSITORY.split('/')[1];
     }
-    
-    eleventyConfig.addCollection('mtgimages', async collectionApi => {
-        
-        let files = await glob('./_site/mtg/*.jpeg');
-        //Now filter to non thumb-
-        let images = files.filter(f => {
-            return f.indexOf('./_site/mtg/thumb-') !== 0;
-        });
-        
-        let collection = images.map(i => {
-            return {
-                path: i.replace('./_site/mtg/', '/mtg/'),
-                thumbpath: i.replace('./_site/mtg/', '/mtg/thumb-'),
-                title: i.replace('./_site/mtg/', '')
-            }
-        });
-        
-        return collection;
-        
-    });
     
     return {
         dir: {
@@ -110,29 +167,4 @@ async function generateImages() {
             }
         });
     };
-    
-    // Options for images of MTG cards
-    let optionsCards = {
-        widths: [THUMB,FULL],
-        formats: ['jpeg'],
-        urlPath: "/mtg/",
-        outputDir: "./_site/mtg/",
-        filenameFormat:function(id, src, width, format, options) {
-            let origFilename = src.split('/').pop();
-            //strip off the file type, this could probably be one line of fancier JS
-            let parts = origFilename.split('.');
-            parts.pop();
-            origFilename = parts.join('.');
-            
-            if(width === THUMB) return `thumb-${origFilename}.${format}`;
-            else return `${origFilename}.${format}`;
-        }
-    };
-    
-    let filesCards = await glob('./mtg/*.{jpg,jpeg,png,gif}');
-    for(const f of filesCards) {
-        console.log('doing f',f);
-        let md = await Image(f, optionsCards);
-    };
-    
 };

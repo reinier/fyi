@@ -1,0 +1,16 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "{{ title }}",
+    "image": ["{{ image | fullImageURL }}"],
+    "author": {
+        "@type": "Person",
+        "name": "{{ metadata.author.name }}"
+    },
+    "datePublished": "{{ page.date | postDate }}",
+    "description": "{{ description }}",
+    {% recipeTime %}
+    "keywords": "{{ tags }}",
+    {% recipeIngredients content %},
+    {% recipeInstructions content %}
+}

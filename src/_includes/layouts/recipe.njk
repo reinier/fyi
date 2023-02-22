@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="nl">
+    {% include '../head.njk' %}
+    <!-- test -->
+    <body>
+        {% include '../header.njk' %}
+        <main>
+            <article class="single type-article">
+                <h1>{{ title }}</h1>
+                <p class="post-date">
+                    {{ page.date | readablePostDate }} &nbsp;&nbsp;&nbsp;&nbsp;✍️
+                    <a href="https://reinierladan.nl">Reinier Ladan</a>
+                </p>
+                {{ content | safe }}
+                {% if tags %}
+                    <section class="tags">
+                        <p>Meer over:
+                            {% for tag in tags -%}
+                                <a class="tag" href="/onderwerp/{{ tag }}">{{ tag }}</a>
+                            {%- endfor %}
+                        </p>
+                    </section>
+                {% endif %}
+            </article>
+        </main>
+        <!-- Current page: {{ page.url | url }} -->
+        {% include '../footer.njk' %}
+    </body>
+</html>
