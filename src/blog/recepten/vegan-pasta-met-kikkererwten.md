@@ -1,5 +1,6 @@
 ---
 title: Vegan pasta met kikkererwten, citroen en spinazie
+date: 2023-02-22
 tags:
   - pasta
   - kikkererwten
@@ -7,7 +8,9 @@ tags:
   - spinazie
 image: /images/blog/oatmeal-pinky-toe.jpg
 description: Deze pasta is heerlijk kruidig, hartig en vol van smaak.
-totalTime: PT20M
+prepTime: 10
+cookTime: 30
+totalTime: 40
 ---
 
 Deze pasta is heerlijk kruidig, hartig en vol van smaak. De saus is prima een paar uur van te voren te maken zodat je alles nog beter kunt plannen. Dit recept is uiteraard ook lekker met andere pasta soorten. Zorg er dan wel voor dat je een pasta kiest die een mooie hoeveelheid saus kan vasthouden. Het recept is geschreven voor vier personen.

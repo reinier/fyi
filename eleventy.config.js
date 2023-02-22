@@ -4,6 +4,8 @@ const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const glob = require("glob-promise");
 const Image = require("@11ty/eleventy-img");
+const jsdom = require('jsdom');
+const { JSDOM } = jsdom;
 
 // module import collections
 const { getAllPosts } = require('./config/collections.js');
@@ -51,18 +53,18 @@ module.exports = function (eleventyConfig) {
     // Nunjucks
     eleventyConfig.addNunjucksShortcode("recipeTime", function() {
         let recipeTimeTotal = [];
-
+        
         // Don't know if using the 11ty `ctx` object is the right way, but it works
         if (this.ctx.prepTime) {
-            recipeTimeTotal.push('"prepTime": "'+this.ctx.prepTime+'",');
+            recipeTimeTotal.push('"prepTime": "PT'+this.ctx.prepTime+'M",');
         }
         
         if (this.ctx.cookTime) {
-            recipeTimeTotal.push('"cookTime": "'+this.ctx.cookTime+'",');
+            recipeTimeTotal.push('"cookTime": "PT'+this.ctx.cookTime+'M",');
         }
         
         if (this.ctx.totalTime) {
-            recipeTimeTotal.push('"totalTime": "'+this.ctx.totalTime+'",');
+            recipeTimeTotal.push('"totalTime": "PT'+this.ctx.totalTime+'M",');
         }
         // var recipeTimeTotal = '"prepTime": "PT10M",\n\t"cookTime": "PT10M",\n\t"totalTime": "PT10M",';
         // Available in 0.11.0 and above
@@ -72,44 +74,65 @@ module.exports = function (eleventyConfig) {
         // console.log( this.page.url );
         // console.log( this.page.inputPath );
         // console.log( this.page.fileSlug );
-
+        
         return recipeTimeTotal.join("\n\t");
     });
-
-    eleventyConfig.addNunjucksShortcode("recipeIngredients", function() {
-
-// continue with trying this: https://www.npmjs.com/package/dom-parser
-
-var parser = new DOMParser();
-var element = parser.parseFromString(this.ctx.content, "text/html");
-
-        // var element = document.createElement('div');
-        // element.insertAdjacentHTML('beforeend', this.ctx.content);
-
-        // console.log(this.ctx.content);
-
-        // Get the variable containing the HTML element with the h3 and ul
-// const elementWithH3AndUL = document.getElementById("yourElementId");
-
-// // Find the h3 element within the variable
-const h3Element = element.querySelector("h3");
-console.log(h3Element);
-
-// // Find the following ul element using the nextElementSibling property
-// const ulElement = h3Element.nextElementSibling;
-
-        // let ingredients = [];
-        // return ingredients.join("");
-    });
-
-    eleventyConfig.addNunjucksShortcode("recipeSteps", function() {
-        // let steps = [];
-
-        // return steps.join("");
+    
+    eleventyConfig.addNunjucksShortcode("recipeIngredients", function(recipeContent) {
+        let ingredients = [];
+        const dom = new JSDOM(recipeContent);
+        var headers = dom.window.document.getElementsByTagName('h3'); 
+        
+        for (var i = 0; i < headers.length; i++) {
+            let header = headers[i];
+            if(header.textContent == 'Ingrediënten' || header.textContent == 'Ingredienten'){
+                let ulElement = header.nextElementSibling;
+                let rawIngredients = ulElement.getElementsByTagName('li');
+                
+                for (let index = 0; index < rawIngredients.length; index++) {
+                    const ingredient = rawIngredients[index];
+                    ingredients.push(ingredient.textContent);
+                }
+            }
+        }
+        
+        return '"recipeIngredient": '+JSON.stringify(ingredients);
     });
     
-    
-    
+    eleventyConfig.addNunjucksShortcode("recipeInstructions", function(recipeContent) {
+        let instructions = [];
+        const dom = new JSDOM(recipeContent);
+        var headers = dom.window.document.getElementsByTagName('h3');
+        
+        for (var i = 0; i < headers.length; i++) {
+            let header = headers[i];
+            if(header.textContent == 'Aan de slag' || header.textContent == 'Instructies'){
+                let olElement = header.nextElementSibling;
+                let rawInstructions = olElement.getElementsByTagName('li');
+                
+                for (let index = 0; index < rawInstructions.length; index++) {
+                    const rawInstruction = rawInstructions[index];
+
+                    let instruction = '{"@type": "HowToStep", "text": "'+rawInstruction.textContent+'"}';                    
+                    instructions.push(instruction);
+                }
+            }
+        }
+
+        return '"recipeInstructions": ['+instructions.join(',\n')+']';
+        // "recipeInstructions": [
+        //         {
+        //             "@type": "HowToStep",
+        //             "text": "Preheat the oven to 350 degrees F. Grease and flour a 9x9 inch pan."
+        //         }, {
+        //             "@type": "HowToStep",
+        //             "text": "In a large bowl, combine flour, sugar, baking powder, and salt."
+        //         }, {
+        //             "@type": "HowToStep",
+        //             "text": "Mix in the butter, eggs, and milk."
+        //         }
+        //     ]
+    });
     
     var pathPrefix = "";
     if (process.env.GITHUB_REPOSITORY) {
