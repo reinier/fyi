@@ -32,4 +32,12 @@
         })();
     </script>
     <!-- End Matomo Code -->
+    <!-- Structured data -->
+    {% if recipe %}
+        <!-- Recipe data -->
+        <script type="application/ld+json">
+            {% include './recipe-sd.njk' %}
+        </script>
+    {% endif %}
+    <!-- End structured data -->
 </head>

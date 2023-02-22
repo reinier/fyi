@@ -43,10 +43,73 @@ module.exports = function (eleventyConfig) {
     
     // Filters
     eleventyConfig.addPlugin(require('./config/filters.js'));
-
+    
     // Collections
     eleventyConfig.addCollection('blogposts', getAllPosts);
     eleventyConfig.addCollection('newsletters', getAllNewsletters);
+    
+    // Nunjucks
+    eleventyConfig.addNunjucksShortcode("recipeTime", function() {
+        let recipeTimeTotal = [];
+
+        // Don't know if using the 11ty `ctx` object is the right way, but it works
+        if (this.ctx.prepTime) {
+            recipeTimeTotal.push('"prepTime": "'+this.ctx.prepTime+'",');
+        }
+        
+        if (this.ctx.cookTime) {
+            recipeTimeTotal.push('"cookTime": "'+this.ctx.cookTime+'",');
+        }
+        
+        if (this.ctx.totalTime) {
+            recipeTimeTotal.push('"totalTime": "'+this.ctx.totalTime+'",');
+        }
+        // var recipeTimeTotal = '"prepTime": "PT10M",\n\t"cookTime": "PT10M",\n\t"totalTime": "PT10M",';
+        // Available in 0.11.0 and above
+        // console.log( this.page );
+        
+        // For example:
+        // console.log( this.page.url );
+        // console.log( this.page.inputPath );
+        // console.log( this.page.fileSlug );
+
+        return recipeTimeTotal.join("\n\t");
+    });
+
+    eleventyConfig.addNunjucksShortcode("recipeIngredients", function() {
+
+// continue with trying this: https://www.npmjs.com/package/dom-parser
+
+var parser = new DOMParser();
+var element = parser.parseFromString(this.ctx.content, "text/html");
+
+        // var element = document.createElement('div');
+        // element.insertAdjacentHTML('beforeend', this.ctx.content);
+
+        // console.log(this.ctx.content);
+
+        // Get the variable containing the HTML element with the h3 and ul
+// const elementWithH3AndUL = document.getElementById("yourElementId");
+
+// // Find the h3 element within the variable
+const h3Element = element.querySelector("h3");
+console.log(h3Element);
+
+// // Find the following ul element using the nextElementSibling property
+// const ulElement = h3Element.nextElementSibling;
+
+        // let ingredients = [];
+        // return ingredients.join("");
+    });
+
+    eleventyConfig.addNunjucksShortcode("recipeSteps", function() {
+        // let steps = [];
+
+        // return steps.join("");
+    });
+    
+    
+    
     
     var pathPrefix = "";
     if (process.env.GITHUB_REPOSITORY) {
