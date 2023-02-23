@@ -16,6 +16,8 @@
     {% endif %}
     {% if socialImage %}
         <meta property="og:image" content="{{ metadata.url }}{{ socialImage }}"/>
+    {% elseif socialPreview %}
+        <meta property="og:image" content="/images/social-preview-images/{{ page.date | postDate }}-{{ title | slug }}-preview.jpeg"/>
     {% elseif image %}
         <meta property="og:image" content="{{ metadata.url }}{{ image }}"/>
     {% else %}

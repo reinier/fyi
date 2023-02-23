@@ -7,6 +7,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 // module import collections
 const { getAllPosts } = require('./config/collections.js');
 const { getAllNewsletters } = require('./config/collections.js');
+const { getAllNewslettersWithSocialPreview } = require('./config/collections.js');
 
 module.exports = function (eleventyConfig) {
     
@@ -35,13 +36,14 @@ module.exports = function (eleventyConfig) {
     // Collections
     eleventyConfig.addCollection('blogposts', getAllPosts);
     eleventyConfig.addCollection('newsletters', getAllNewsletters);
+    eleventyConfig.addCollection('newslettersWithSocialPreview', getAllNewslettersWithSocialPreview);
     
     // Nunjucks Shortcodes
     eleventyConfig.addPlugin(require('./config/nunjucks.js'));
 
     // Images
     eleventyConfig.addPlugin(require('./config/images.js'));
-    
+
     var pathPrefix = "";
     if (process.env.GITHUB_REPOSITORY) {
         pathPrefix = process.env.GITHUB_REPOSITORY.split('/')[1];

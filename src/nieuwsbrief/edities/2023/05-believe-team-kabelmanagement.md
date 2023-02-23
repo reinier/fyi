@@ -1,6 +1,7 @@
 ---
 title: Believe Team Kabelmanagement
 date: 2023-02-16
+socialPreview: "Wat moeten we nou met de nieuwe AI trend? De benzine-auto door verse ogen. Recept voor een kruidige vegan pasta met kikkererwten, citroen en spinazie."
 ---
 
 Hi, Reinier hier,

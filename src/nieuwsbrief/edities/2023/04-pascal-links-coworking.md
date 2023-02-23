@@ -1,6 +1,7 @@
 ---
 title: Pascal Links Co-working
 date: 2023-02-08
+socialPreview: The Last of Us heeft me echt verrast, evenals de Mariokart trailer en er zijn ook nog dierenartsen die van zich laten horen.
 ---
 
 Hi, Reinier hier,

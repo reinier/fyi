@@ -9,7 +9,26 @@ const getAllNewsletters = collection => {
     return posts.reverse();
 };
 
+const getAllNewslettersWithSocialPreview = collection => {
+    const posts = collection.getFilteredByGlob("./src/nieuwsbrief/**/*.md");
+    return onlySocialPreview(posts);
+};
+
 module.exports = {
     getAllPosts,
-    getAllNewsletters
+    getAllNewsletters,
+    getAllNewslettersWithSocialPreview
 };
+
+function onlySocialPreview(posts) {
+    // set the result as an object
+    let result = [];
+    // loop through each item in the provided collection
+    posts.forEach((item) => {
+        if(item.data.socialPreview) {
+            result.push(item);
+        }
+    });
+
+    return result;
+}
