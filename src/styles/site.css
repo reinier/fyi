@@ -189,6 +189,14 @@
         @apply my-16;
     }
 
+    .home article.type-link {
+        @apply border border-fyi-darkest-tint bg-fyi-dark-tint/10 p-4;
+    }
+
+    .home article.type-link h2 {
+        @apply p-0 m-0 mb-4;
+    }
+
     article.type-link .link-title {
         width: 100%;
         position: relative;
@@ -227,7 +235,7 @@
         text-decoration: none;
         color: #333;
         border-radius: 10px;
-        @apply bg-gray-200 py-1 px-4 font-normal text-base;
+        @apply bg-white py-1 px-4 font-normal text-base;
     }
 
     .hostname {
