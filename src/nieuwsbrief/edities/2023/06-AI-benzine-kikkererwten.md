@@ -1,6 +1,7 @@
 ---
 title: AI Benzine Kikkererwten
 date: 2023-02-23
+socialImage: /images/social/newsletter-202306.jpg
 ---
 
 Hi, Reinier hier,
