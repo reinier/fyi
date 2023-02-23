@@ -35,6 +35,9 @@ pagination:
             <p class="post-date">{{ post.date | readablePostDate }} &nbsp;&nbsp;&nbsp;&nbsp;✍️
                 <a href="https://reinierladan.nl">Reinier Ladan</a>
             </p>
+            {% if post.data.image %}
+                <p><img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"/></p>
+            {% endif %}
             <div>{{ post.templateContent | safe }}</div>
         </article>
     {% endif -%}
