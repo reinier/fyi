@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="{{ '/site.css' | url }}"/>
     <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="FYI Blog"/>
     <link rel="alternate" type="application/rss+xml" href="/feed-newsletter.xml" title="FYI Nieuwsbrief"/>
-    <link rel="icon" href="/images/favicon.png" sizes="32x32"/>
-    <link
-    href="https://carelesswhisper.nl/@reinier" rel="me"/>
+    <link rel="icon" href="{{ metadata.url }}/images/favicon.png" sizes="32x32"/>
+    <link href="https://carelesswhisper.nl/@reinier" rel="me"/>
+    <meta property="og:title" content="{{ title }}"/>
+    <meta property="og:url" content="{{ metadata.url }}{{ page.url }}"/>
+    {% if description %}
+        <meta property="og:description" content="{{ description }}"/>
+    {% endif %}
+    {% if socialImage %}
+        <meta property="og:image" content="{{ metadata.url }}{{ socialImage }}"/>
+    {% elseif image %}
+        <meta property="og:image" content="{{ metadata.url }}{{ image }}"/>
+    {% else %}
+        <meta property="og:image" content="{{ metadata.url }}/images/fyi-social.jpg"/>
+    {% endif %}
     <!-- Matomo -->
     <script>
         var _paq = window._paq = window._paq || [];
