@@ -1,7 +1,7 @@
 ---
 title: AI Benzine Kikkererwten
 date: 2023-02-23
-socialImage: /images/social/newsletter-202306.jpg
+socialPreview: Wat moeten we nou met de nieuwe AI trend? De benzine-auto door verse ogen. Recept voor een kruidige vegan pasta met kikkererwten, citroen en spinazie.
 ---
 
 Hi, Reinier hier,

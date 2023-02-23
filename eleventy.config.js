@@ -5,9 +5,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 
 // module import collections
-const { getAllPosts } = require('./config/collections.js');
-const { getAllNewsletters } = require('./config/collections.js');
-const { getAllNewslettersWithSocialPreview } = require('./config/collections.js');
+const { getAllPosts, getAllNewsletters, getAllNewslettersWithSocialPreview } = require('./config/collections.js');
 
 module.exports = function (eleventyConfig) {
     

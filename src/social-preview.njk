@@ -7,8 +7,6 @@ permalink: "/images/social-preview-images/{{ preview.date | postDate }}-{{ previ
 eleventyExcludeFromCollections: true
 ---
 
-{% set titleInLines = preview.data.socialPreview | splitlines %}
-{% set numberOfLines = titleInLines.length %}
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="1200" height="630" fill="#3A579A"/>
     <path
@@ -201,9 +199,10 @@ eleventyExcludeFromCollections: true
         <tspan x="630" y="190">de FYI nieuwsbrief:</tspan>
     </text>
     <text font-family="Helvetica, sans-serif" font-size="32" fill="#ffffff">
+        {% set titleInLines = preview.data.socialPreview | splitlines %}
+        {% set numberOfLines = titleInLines.length %}
         {% for line in titleInLines %}
             <tspan x="630" y="{{ 305 + loop.index0 * 40 }}">{{ line }}</tspan>
         {% endfor %}
-        {# <tspan x="630" y="305">{{ preview.data.socialPreview }}</tspan> #}
     </text>
 </svg>

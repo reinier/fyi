@@ -41,24 +41,18 @@ module.exports = eleventyConfig => {
             if (files.length > 0) {
                 files.forEach(function (filename) {
                     if (filename.endsWith(".svg")) {
-
                         let imageUrl = socialPreviewImagesDir + filename;
                         Image(imageUrl, {
                             formats: ["jpeg"],
                             outputDir: "./" + socialPreviewImagesDir,
                             filenameFormat: function (id, src, width, format, options) {
-
                                 let outputFilename = filename.substring(0, (filename.length-4));
-                            
                                 return `${outputFilename}.${format}`;
-
                             }
                         });
-
                     }
                 })
             }
         })
     });
-
 };
