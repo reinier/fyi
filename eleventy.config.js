@@ -50,20 +50,19 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection('newsletters', getAllNewsletters);
     
     // Nunjucks
-    eleventyConfig.addNunjucksShortcode("recipeTime", function() {
+    eleventyConfig.addNunjucksShortcode("recipeTime", function(prepTime, cookTime, totalTime) {
         let recipeTimeTotal = [];
-        
-        // Don't know if using the 11ty `ctx` object is the right way, but it works
-        if (this.ctx.prepTime) {
-            recipeTimeTotal.push('"prepTime": "PT'+this.ctx.prepTime+'M",');
+
+        if (prepTime) {
+            recipeTimeTotal.push('"prepTime": "PT'+prepTime+'M",');
         }
         
-        if (this.ctx.cookTime) {
-            recipeTimeTotal.push('"cookTime": "PT'+this.ctx.cookTime+'M",');
+        if (cookTime) {
+            recipeTimeTotal.push('"cookTime": "PT'+cookTime+'M",');
         }
         
-        if (this.ctx.totalTime) {
-            recipeTimeTotal.push('"totalTime": "PT'+this.ctx.totalTime+'M",');
+        if (totalTime) {
+            recipeTimeTotal.push('"totalTime": "PT'+totalTime+'M",');
         }
         
         return recipeTimeTotal.join("\n\t");
@@ -71,58 +70,23 @@ module.exports = function (eleventyConfig) {
     
     eleventyConfig.addNunjucksShortcode("recipeIngredients", function(recipeContent) {
         let ingredients = [];
-        const dom = new JSDOM(recipeContent);
-        var headers = dom.window.document.getElementsByTagName('h3'); 
-        
-        for (var i = 0; i < headers.length; i++) {
-            let header = headers[i];
-            if(header.textContent == 'Ingrediënten' || header.textContent == 'Ingredienten'){
-                let ulElement = header.nextElementSibling;
-                let rawIngredients = ulElement.getElementsByTagName('li');
-                
-                for (let index = 0; index < rawIngredients.length; index++) {
-                    const ingredient = rawIngredients[index];
-                    ingredients.push(ingredient.textContent);
-                }
-            }
-        }
-        
-        return '"recipeIngredient": '+JSON.stringify(ingredients);
+        let list = getRelevantList(recipeContent, 'Ingrediënten');
+        return '"recipeIngredient": '+JSON.stringify(list);
     });
     
     eleventyConfig.addNunjucksShortcode("recipeInstructions", function(recipeContent) {
-        let instructions = [];
-        const dom = new JSDOM(recipeContent);
-        var headers = dom.window.document.getElementsByTagName('h3');
         
-        for (var i = 0; i < headers.length; i++) {
-            let header = headers[i];
-            if(header.textContent == 'Aan de slag' || header.textContent == 'Instructies'){
-                let olElement = header.nextElementSibling;
-                let rawInstructions = olElement.getElementsByTagName('li');
-                
-                for (let index = 0; index < rawInstructions.length; index++) {
-                    const rawInstruction = rawInstructions[index];
-
-                    let instruction = '{"@type": "HowToStep", "text": "'+rawInstruction.textContent+'"}';                    
-                    instructions.push(instruction);
-                }
-            }
+        let instructions = [];
+        let list = getRelevantList(recipeContent, 'Aan de slag');
+        
+        for (let index = 0; index < list.length; index++) {
+            const instructionContent = list[index];
+            
+            let instruction = '{"@type": "HowToStep", "text": "'+instructionContent+'"}';
+            instructions.push(instruction);
         }
-
+        
         return '"recipeInstructions": ['+instructions.join(',\n')+']';
-        // "recipeInstructions": [
-        //         {
-        //             "@type": "HowToStep",
-        //             "text": "Preheat the oven to 350 degrees F. Grease and flour a 9x9 inch pan."
-        //         }, {
-        //             "@type": "HowToStep",
-        //             "text": "In a large bowl, combine flour, sugar, baking powder, and salt."
-        //         }, {
-        //             "@type": "HowToStep",
-        //             "text": "Mix in the butter, eggs, and milk."
-        //         }
-        //     ]
     });
     
     var pathPrefix = "";
@@ -148,6 +112,26 @@ function htmlminTransform(content, outputPath) {
         return minified;
     }
     return content;
+}
+
+function getRelevantList(content, headerTitle) {
+    const dom = new JSDOM(content);
+    let list = [];
+    let headers = dom.window.document.getElementsByTagName('h3'); 
+    
+    for (var i = 0; i < headers.length; i++) {
+        let header = headers[i];
+        if(header.textContent == headerTitle){
+            let theList = header.nextElementSibling;
+            let listElements = theList.getElementsByTagName('li');
+            
+            for (let index = 0; index < listElements.length; index++) {
+                const listElement = listElements[index];
+                list.push(listElement.textContent);
+            }
+        }
+    }
+    return list;
 }
 
 async function generateImages() {

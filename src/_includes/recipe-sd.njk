@@ -9,7 +9,7 @@
     },
     "datePublished": "{{ page.date | postDate }}",
     "description": "{{ description }}",
-    {% recipeTime %}
+    {% recipeTime prepTime, cookTime, totalTime %}
     "keywords": "{{ tags }}",
     {% recipeIngredients content %},
     {% recipeInstructions content %}

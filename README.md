@@ -16,6 +16,7 @@ Data to keep in mind:
 
 - description
 - image
+- imageAlt
 - prepTime: [in minutes]
 - cookTime: [in minutes]
 - totalTime: [in minutes]
