@@ -128,11 +128,11 @@
     }
 
     h2 {
-        @apply text-3xl mt-4 mb-3 font-black text-fyi-darkest-tint;
+        @apply text-3xl mt-12 mb-3 font-black text-fyi-darkest-tint;
     }
 
     h3 {
-        @apply text-2xl mb-6 font-bold text-fyi-darkest-tint;
+        @apply text-2xl mt-8 mb-6 font-bold text-fyi-darkest-tint;
     }
 
     strong {
