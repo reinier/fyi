@@ -2,7 +2,7 @@
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "{{ title }}",
-    "image": ["{{ image | fullImageURL }}"],
+    "image": ["{{ image | absoluteUrl(metadata.url) }}"],
     "author": {
         "@type": "Person",
         "name": "{{ metadata.author.name }}"

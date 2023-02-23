@@ -29,16 +29,6 @@ module.exports = eleventyConfig => {
         }
         return hostname;
     });
-
-    eleventyConfig.addFilter("fullImageURL", (data) => {
-        if(data.substring(0,8) == 'https://'){
-            var fullURL = data;
-        } else {
-            var fullURL = "https://reinier.fyi"+data;
-        }
-
-        return fullURL;
-    });
     
     eleventyConfig.addFilter("limit", function(array, limit) {
         return array.slice(0, limit);
