@@ -44,7 +44,6 @@ Recept is voor 4 personen indien je er nog wat bij eet zoals rijst, gebakken aar
 - 15 gram panko broodkruimels
 - 5 gram peterselie, fijngesneden
 - zout
-- Aan de slag
 
 ### Aan de slag
 
