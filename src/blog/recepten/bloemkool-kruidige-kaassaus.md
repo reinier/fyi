@@ -8,6 +8,7 @@ tags:
 image: /images/recepten/bloemkool-kaassaus.jpg
 imageAlt: "Foto van bloemkool met kaassaus"
 description: Deze fantastische manier van het bereiden van bloemkool komt bij ons zeker een keer in de maand op tafel. De texturen en smaken van deze schotel blijven ons elke keer positief verrassen.
+socialPreview: "Ik eet bloemkool liever niet anders dan zo"
 prepTime: 15
 cookTime: 35
 totalTime: 50

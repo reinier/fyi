@@ -1,9 +1,9 @@
 {
 	"scripts": {
-		"start": "run-p start:*",
+		"start": "run-p clean start:*",
 		"start:eleventy": "eleventy --serve",
 		"start:postcss": "postcss src/styles/*.css --dir _site --watch",
-        "quiet": "run-p quiet:*",
+        "quiet": "run-p clean quiet:*",
 		"quiet:eleventy": "eleventy --serve --quiet",
 		"quiet:postcss": "postcss src/styles/*.css --dir _site --watch",
 		"build": "run-s clean build:eleventy build:postcss",
