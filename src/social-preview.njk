@@ -8,6 +8,15 @@ eleventyExcludeFromCollections: true
 ---
 
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            @font-face {
+                font-family: "Cartridge";
+                src: url("/fonts/Cartridge-Regular.woff") format("woff") font-weight: normal;
+                font-style: normal;
+            }
+        </style>
+    </defs>
     <rect width="1200" height="630" fill="#3A579A"/>
     <path
         d="M243.235 115.796C199.34 149.44 228.855 208.883 182.69 241.013C151.937 262.41 118.912 249.888 99.7172 278.371C88.8467 294.539 89.5347 312.84 90.4979 323.435C100.13 426.773 191.772 558.87 319.328 527.222C446.883 495.574 388.816 411.637 477.362 381.021C513.757 368.431 552.905 358.18 566.321
@@ -194,11 +203,11 @@ eleventyExcludeFromCollections: true
             <stop offset="1" stop-color="#FAFF00"/>
         </radialGradient>
     </defs>
-    <text font-family="Helvetica, sans-serif" font-size="48" fill="#ffffff">
+    <text font-family="Cartridge, sans-serif" font-size="48" fill="#ffffff">
         <tspan x="630" y="130">Deze week in</tspan>
         <tspan x="630" y="190">de FYI nieuwsbrief:</tspan>
     </text>
-    <text font-family="Helvetica, sans-serif" font-size="32" fill="#ffffff">
+    <text font-family="Cartridge, sans-serif" font-size="32" fill="#ffffff">
         {% set titleInLines = preview.data.socialPreview | splitlines %}
         {% set numberOfLines = titleInLines.length %}
         {% for line in titleInLines %}

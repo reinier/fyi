@@ -8,6 +8,15 @@ eleventyExcludeFromCollections: true
 ---
 
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            @font-face {
+                font-family: "Cartridge";
+                src: url("/fonts/Cartridge-Regular.woff") format("woff") font-weight: normal;
+                font-style: normal;
+            }
+        </style>
+    </defs>
     <rect width="1200" height="630" fill="url(#paint0_linear_202_57)"/>
     <path
         d="M145.498 40.6006C114.418 64.4218 135.316 106.511 102.629 129.26C80.8541 144.41 57.4714 135.544 43.8802 155.712C36.1834 167.159 36.6706 180.117 37.3526 187.619C44.1725 260.788 109.06 354.318 199.375 331.91C289.691 309.502 248.576 250.071 311.271 228.393C337.041 219.478 364.759 212.22 374.258
@@ -154,7 +163,7 @@ eleventyExcludeFromCollections: true
             <stop offset="1" stop-color="#FFFF00" stop-opacity="0"/>
         </radialGradient>
     </defs>
-    <text font-family="Helvetica, sans-serif" font-size="60" fill="#ffffff">
+    <text font-family="Cartridge, sans-serif" font-size="60" fill="#ffffff">
         {% if preview.data.socialPreview %}
             {% set titleInLines = preview.data.socialPreview | splitlinespost %}
         {% else %}

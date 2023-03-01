@@ -36,13 +36,13 @@ module.exports = eleventyConfig => {
     
     // splitlines for social image
     eleventyConfig.addFilter('splitlines', function(input) {
-        let lineWidth = 30;        
+        let lineWidth = 32;        
         return wrapContentToWidth(input, lineWidth);
     });
 
     // splitlines for social image posts
     eleventyConfig.addFilter('splitlinespost', function(input) {
-        let lineWidth = 24;        
+        let lineWidth = 28;        
         return wrapContentToWidth(input, lineWidth);
     });
 };

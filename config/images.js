@@ -6,6 +6,7 @@ const Image = require("@11ty/eleventy-img");
 // For image processing
 const THUMB = 250;
 const FULL = 1200;
+const QUALITY = 95;
 
 async function generateImages() {
     
@@ -20,7 +21,7 @@ async function generateImages() {
             urlPath: "/images/"+subDir,
             outputDir: "./_site/images/"+subDir,
             sharpJpegOptions: {
-                quality: 90,
+                quality: QUALITY,
                 progressive: false
             },
             filenameFormat:function(id, src, width, format, options) {
@@ -50,7 +51,7 @@ module.exports = eleventyConfig => {
                             formats: ["jpeg"],
                             outputDir: "./" + socialPreviewImagesDir,
                             sharpJpegOptions: {
-                                quality: 90,
+                                quality: QUALITY,
                                 progressive: false
                             },
                             filenameFormat: function (id, src, width, format, options) {
