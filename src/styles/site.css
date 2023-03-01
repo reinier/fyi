@@ -170,7 +170,7 @@
     }
 
     .home article.type-link {
-        @apply border border-fyi-darkest-tint bg-fyi-dark-tint/10 p-4;
+        @apply border-y-4 pt-8 pb-2;
     }
 
     .home article.type-link h2 {
@@ -214,13 +214,11 @@
         top: 0;
         text-decoration: none;
         color: #333;
-        border-radius: 10px;
         @apply bg-white py-1 px-4 font-normal text-base;
     }
 
     .hostname {
         text-decoration: none;
-        border-radius: 10px;
         @apply py-1 px-4 font-normal text-xs bg-fyi-dark-tint text-white;
         display: block;
         max-width: fit-content;
