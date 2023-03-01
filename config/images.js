@@ -19,6 +19,10 @@ async function generateImages() {
             formats: ['auto'],
             urlPath: "/images/"+subDir,
             outputDir: "./_site/images/"+subDir,
+            sharpJpegOptions: {
+                quality: 90,
+                progressive: false
+            },
             filenameFormat:function(id, src, width, format, options) {
                 return path.basename(src);
             }
@@ -33,7 +37,7 @@ module.exports = eleventyConfig => {
         await generateImages();
         console.log('images done');
     });
-
+    
     // Social images
     eleventyConfig.on('afterBuild', () => {
         const socialPreviewImagesDir = "_site/images/social-preview-images/";
@@ -45,6 +49,10 @@ module.exports = eleventyConfig => {
                         Image(imageUrl, {
                             formats: ["jpeg"],
                             outputDir: "./" + socialPreviewImagesDir,
+                            sharpJpegOptions: {
+                                quality: 90,
+                                progressive: false
+                            },
                             filenameFormat: function (id, src, width, format, options) {
                                 let outputFilename = filename.substring(0, (filename.length-4));
                                 return `${outputFilename}.${format}`;
