@@ -3,7 +3,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'publicsans': ['Public Sans webfont', '-apple-system', 'Helvetica Neue', 'Helvetica', 'sans-serif']
+                'cartridge': ['Cartridge', '-apple-system', 'Helvetica Neue', 'Helvetica', 'sans-serif'],
+                'body-default': ['-apple-system', 'Helvetica Neue', 'Helvetica', 'sans-serif']
             },
             colors: {
                 'fyi-darkest-tint': '#36244f',

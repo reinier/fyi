@@ -4,47 +4,26 @@
 
 @layer base {
     @font-face {
-        font-family: "Public Sans webfont";
-        src: url("/fonts/PublicSans-Regular.woff2") format("woff2"),
-            url("/fonts/PublicSans-Regular.woff") format("woff"),
-            url("/fonts/PublicSans-Regular.ttf") format("truetype");
+        font-family: "Cartridge";
+        src: url("/fonts/Cartridge-Regular.woff2") format("woff2"),
+            url("/fonts/Cartridge-Regular.woff") format("woff"),
+            url("/fonts/Cartridge-Regular.otf") format("opentype");
         font-weight: 400;
         font-style: normal;
         font-display: swap;
     }
 
     @font-face {
-        font-family: "Public Sans webfont";
-        src: url("/fonts/PublicSans-Bold.woff2") format("woff2"),
-            url("/fonts/PublicSans-Bold.woff") format("woff"),
-            url("/fonts/PublicSans-Bold.ttf") format("truetype");
-        font-weight: 700;
+        font-family: "Cartridge";
+        src: url("/fonts/Cartridge-Bold.woff2") format("woff2"),
+            url("/fonts/Cartridge-Bold.woff") format("woff"),
+            url("/fonts/Cartridge-Bold.otf") format("opentype");
+        font-weight: 800;
         font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: "Public Sans webfont";
-        src: url("/fonts/PublicSans-ExtraBold.woff2") format("woff2"),
-            url("/fonts/PublicSans-ExtraBold.woff") format("woff"),
-            url("/fonts/PublicSans-ExtraBold.ttf") format("truetype");
-        font-weight: 900;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: "Public Sans webfont";
-        src: url("/fonts/PublicSans-Italic.woff2") format("woff2"),
-            url("/fonts/PublicSans-Italic.woff") format("woff"),
-            url("/fonts/PublicSans-Italic.ttf") format("truetype");
-        font-weight: 400;
-        font-style: italic;
         font-display: swap;
     }
 
     body {
-        @apply font-publicsans;
         text-rendering: optimizeLegibility;
         font-variant-ligatures: common-ligatures;
         -webkit-font-variant-ligatures: common-ligatures;
@@ -110,8 +89,9 @@
     }
 
     h1,
+    h2,
     h3 {
-        @apply font-bold;
+        @apply font-cartridge;
     }
 
     h1 {
@@ -128,7 +108,7 @@
     }
 
     h2 {
-        @apply text-3xl mt-12 mb-3 font-black text-fyi-darkest-tint;
+        @apply text-3xl mt-12 mb-3 font-extrabold text-fyi-darkest-tint;
     }
 
     h3 {
@@ -159,7 +139,7 @@
     /* NAV COMPONENT */
 
     header {
-        @apply bg-fyi-darkest-tint;
+        @apply bg-fyi-darkest-tint font-cartridge;
     }
 
     .nav-Menu {
@@ -206,7 +186,7 @@
     }
 
     .post-date {
-        @apply text-base italic;
+        @apply text-base font-cartridge;
     }
 
     article.type-article h2 a,
