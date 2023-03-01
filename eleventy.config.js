@@ -26,8 +26,6 @@ module.exports = function (eleventyConfig) {
     // Watch targets
     eleventyConfig.addWatchTarget("./src/styles/");
     
-    // <3 https://bnijenhuis.nl/notes/dates-in-eleventy/
-    
     // RSS feeds
     eleventyConfig.addPlugin(pluginRss);
     
