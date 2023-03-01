@@ -17,8 +17,11 @@ module.exports = function (eleventyConfig) {
         showAllHosts: true
     });
     
-    // Passthrough
+    // Passthrough static files
     eleventyConfig.addPassthroughCopy({ "./src/static": "." });
+
+    // Passthrough fonts (also needed at ./fonts for font.conf)
+    eleventyConfig.addPassthroughCopy({ "./fonts": "/fonts" });
     
     // Watch targets
     eleventyConfig.addWatchTarget("./src/styles/");
