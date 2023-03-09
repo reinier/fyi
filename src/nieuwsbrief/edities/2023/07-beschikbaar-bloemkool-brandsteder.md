@@ -20,6 +20,8 @@ We eten tegenwoordig vaak bloemkool, ik kan niet meer zonder. En regelmatig eten
 
 ![Bloemkool in een pan met gegratineerde kaas](https://reinier.fyi/images/recepten/bloemkool-kaassaus.jpg)
 
+Het recept is vrij eenvoudig en alle ingrediënten en instructies vind je hier:
+
 [Bloemkool met kruidige kaassaus van onder de grill](https://reinier.fyi/blog/recepten/bloemkool-kruidige-kaassaus/)
 
 ### Social Media is een net-negative voor onze samenleving
