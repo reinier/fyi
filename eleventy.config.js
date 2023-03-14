@@ -14,7 +14,8 @@ module.exports = function (eleventyConfig) {
     }
     
     eleventyConfig.setServerOptions({
-        showAllHosts: true
+        showAllHosts: true,
+        port: 8080
     });
     
     // Passthrough static files
