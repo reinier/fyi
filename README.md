@@ -6,6 +6,10 @@ This site is the blog and newsletter of [Reinier Ladan](https://reinierladan.nl)
 
 The repository supports Codespaces, so editting and testing this site is as easy as tapping the green 'Code' button, select the 'Codespaces' tab and hit the 'Create Codespace on main' button. An online code editor and server is being deployed for you to hack away.
 
+## Social image (og:image)
+
+If a 'socialPreview' property is provided  in the frontmatter of a post or a newsletter, that text is rendered in the social image.
+
 ## Recipe support
 
 When an article is placed in the `recepten` directory in the blog, structured data is added to the article to mark it as a recipe. With this structured data, an app like Mela is able to substract the recipe from the article.

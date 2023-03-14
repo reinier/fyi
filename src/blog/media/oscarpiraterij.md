@@ -1,6 +1,8 @@
 ---
 title: Oscarpiraterij 
-date: 2023-03-14T09:30
+date: 2023-03-14T10:40
+socialPreview: Het aantal gelekte screeners van Oscar genomineerde films staat inmiddels op 0. Wat is er gebeurt?
+description: Andy Baio onderzoekt elk jaar hoe het ervoor staat met filmpiraterij n.a.v. de Oscarnominaties.
 ---
 
 Afgelopen weekend werden de Oscars uitgereikt. Voor Andy Baio elk jaar weer een moment om [de thermometer in de filmpiraterij te stoppen](https://waxy.org/2023/03/pirating-the-oscars-2023-the-final-curtain-call/). Hij doet dat door te statistieken te verzamelen van het (illegaal) downloaden van Oscar genomineerde films. En wat blijkt? Dat wat 10 jaar geleden nog erg gewild was, een ‘screener’-kopie van een Oscar genomineerde film, is compleet verdwenen. En dat komt niet door de manier waarop de organisatie achter de Oscars met het materiaal omgaat, maar omdat de wereld om hen heen verandert is.
