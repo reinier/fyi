@@ -34,7 +34,7 @@ Door het stuk [Nederland Veganland](https://www.universiteitleiden.nl/nieuws/202
 
 De balans is weg. Nederland bestaat qua oppervlakte voor de helft uit de agrarische sector (bron: [CBS](https://longreads.cbs.nl/nederland-in-cijfers-2020/hoe-wordt-de-nederlandse-bodem-gebruikt/)) en die hoeveelheid land wordt dus voor een groot deel ingezet omdat we vlees willen eten en melk willen drinken (en een shitload daarvan willen exporteren). Bizar.
 
-### 🔮 Glazen BOL
+## 🔮 Glazen BOL
 
 _In de glazen BOL kun je zien wat je misschien nog van [BOL.com](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2F&name=BOL%20homepage) nodig hebt. Door via deze links wat te kopen zorg je ervoor dat de FYI schoorsteen blijft roken. Zelfs als je wat anders koopt na het doorklikken op een van deze linkjes_
 
