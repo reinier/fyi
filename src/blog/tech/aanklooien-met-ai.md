@@ -19,7 +19,7 @@ Maar net als de push naar de zelfrijdende auto waarbij nu de meeste nieuwe autoâ
 
 Overigens zullen ook schadelijke dingen naar boven komen. Er is nu al genoeg data om te zien dat ChatGPT een enorme energieslurper is. Of dat er een flinke bias in zit voor witte hetero mannen. En dat het een enorme angst voor technologie teweeg brengt en ons in een Amische toestanden brengt. Zo zou deze hele trend weleens een net-negative kunnen blijken voor ons als samenleving.
 
-Tijdens mijn research (wat in de basis gewoon veel aanklooien met de technologie is) kwam ik het artikel [ChatGPT Explained: A Normie's Guide To How It Works] van Jon Stokes tegen. Met dit artikel heeft hij me weer een stapje verder gebracht in mijn begrijpen van chat AI, machine learning, Large Language Models, etc. En niet alleen door wat hij zelf heeft geschreven, maar ook door de artikelen waar hij naar linkt.
+Tijdens mijn research (wat in de basis gewoon veel aanklooien met de technologie is) kwam ik het artikel [ChatGPT Explained: A Normie's Guide To How It Works](https://www.jonstokes.com/p/chatgpt-explained-a-guide-for-normies) van Jon Stokes tegen. Met dit artikel heeft hij me weer een stapje verder gebracht in mijn begrijpen van chat AI, machine learning, Large Language Models, etc. En niet alleen door wat hij zelf heeft geschreven, maar ook door de artikelen waar hij naar linkt.
 
 Een paar interessante highlights:
 
