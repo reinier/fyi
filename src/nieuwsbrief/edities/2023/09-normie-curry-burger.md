@@ -36,13 +36,13 @@ De hele AI trend blijf ik fascinerend vinden, maar ik ben er ook huiverig voor. 
 
 ### Ook nog
 
-Verder plaatste ik deze week een recept om mijn blog voor een heerlijke vegan curry met pompoen. Het seizoen is alweer voorbij, maar mocht je nog ergens een verdwaalde pompoen vinden dan zou ik 'm zeker in deze curry stoppen.
+Verder plaatste ik deze week een recept op mijn blog voor een heerlijke vegan curry met pompoen. Het seizoen is alweer voorbij, maar mocht je nog ergens een verdwaalde pompoen vinden dan zou ik 'm zeker in deze curry stoppen.
 
 ![Foto van curry met pompoen](/images/recepten/vegan-curry-pompoen.jpg)
 
 [Vegan curry met pompoen, linzen en naan](https://reinier.fyi/blog/recepten/vegan-curry-pompoen/)
 
-En daarnaast kon ik me nogal opwinden over de framing van de 'overwinnen van de Boer Burger Beweging' want ja, ze zijn de grootste in alle provincies, maar het versnipperde politieke landschap is enorm. [De grote middelvinger naar de Nederlandse natuur is kleiner dan hij lijkt](https://reinier.fyi/blog/samenleving/land-van-ons/).
+En daarnaast kon ik me nogal opwinden over de framing van de 'overwinning van de BoerBurgerBeweging' want ja, ze zijn de grootste in alle provincies, maar het versnipperde politieke landschap is enorm. [De grote middelvinger naar de Nederlandse natuur is kleiner dan hij lijkt](https://reinier.fyi/blog/samenleving/land-van-ons/).
 
 ## 🔮 Glazen BOL
 
