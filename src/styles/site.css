@@ -329,7 +329,9 @@
     }
 
     .break-out > img,
-    .break-out > a > img {
+    .break-out > a > img,
+    .break-out > p > img,
+    .break-out > p > a > img {
         @apply mx-auto;
     }
 }
