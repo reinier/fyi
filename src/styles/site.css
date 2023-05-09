@@ -141,6 +141,10 @@
     }
 
     .site-intro p {
+        @apply text-base;
+    }
+
+    .site-intro p:last-of-type {
         @apply m-0 text-base;
     }
 
