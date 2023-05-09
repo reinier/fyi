@@ -12,6 +12,8 @@ Een keymap is de vertaling die je fysieke toetsenbord maakt van de ingedrukte to
 
 Je drukt bijvoorbeeld de knop in van de `A` en je krijgt op je computer de letter `a` te zien. En je ziet al, op je toetsenbord staat de hoofdletter `A`, maar je computer maakt daar de kleine letter `a` van, omdat je de `shift` er niet bij indrukt. Vinden we heel logisch, maar de keymap is dus niet automatisch datgene wat er op je toetsen staat afgedrukt.
 
+![gif van kleine letter en hoofdletter A](/images/blog/keymap/typing-a.gif)
+
 Een keymap zorgt er ook voor dat toetsencombinaties goed worden afgehandeld zodat het indrukken van de `shift` in combinatie met de `A` juist wel de hoofdletter `A` op je scherm tovert.
 
 ## Waarom zou je je keymap willen aanpassen?
@@ -56,9 +58,9 @@ Er zijn mensen die zweren bij een compleet andere indeling van de letters op een
 
 ## Welke toetsenborden hebben een zelfgemaakte keymap nodig?
 
-Een zelfgemaakte keymap komt steeds vaker voor op kant en klare mechanische keyboards die je koopt. Zo is een van de bekendere merken voor mechanische keyboards Keychron begonnen om al hun toetsenborden ondersteuning te geven voor VIA en QMK. Dit zijn twee populaire manieren om een eigen keymap te maken.
+Het kunnen inregelen van een zelfgemaakte keymap komt steeds vaker voor op kant en klare mechanische keyboards die je koopt. Zo is een van de bekendere merken voor mechanische keyboards Keychron begonnen om al hun nieuwe toetsenborden ondersteuning te geven voor [VIA](https://www.caniusevia.com/) en [QMK](https://qmk.fm/). Dit zijn twee populaire manieren om een eigen keymap te maken.
 
-Als je zelf aan de slag gaat met het maken van een keyboard is het ook nodig. En dat is een hobby die nog steeds groeiende is. Er zijn heel wat communities die elkaar ermee helpen en waarbij ook keymaps worden gedeeld. Kijk bijvoorbeeld maar eens op de Reddits [ErgoMechBoards](https://www.reddit.com/r/ErgoMechKeyboards/) en [OLKB](https://www.reddit.com/r/olkb/) of de Discords van [SplitKB](https://splitkb.com/) en [KeebSupply](https://keeb.supply/).
+Als je zelf aan de slag gaat met het maken van een keyboard is het een noodzaak. Er zijn heel wat communities die elkaar ermee helpen en waarbij ook keymaps worden gedeeld. Kijk bijvoorbeeld eens op de Reddits [ErgoMechBoards](https://www.reddit.com/r/ErgoMechKeyboards/) en [OLKB](https://www.reddit.com/r/olkb/) of de Discords van [SplitKB](https://splitkb.com/) en [KeebSupply](https://keeb.supply/).
 
 ## Mijn keymap
 
