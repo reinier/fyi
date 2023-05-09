@@ -112,7 +112,7 @@
     }
 
     h3 {
-        @apply text-2xl mt-8 mb-6 font-bold text-fyi-darkest-tint;
+        @apply text-2xl mt-8 font-bold text-fyi-darkest-tint;
     }
 
     strong {
@@ -124,6 +124,14 @@
         color: #333332;
         border-left: 4px solid #999;
         font-style: italic;
+    }
+
+    code {
+        background-color: #ddd;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        padding-right: 0.3em;
+        padding-left: 0.3em;
     }
 }
 
