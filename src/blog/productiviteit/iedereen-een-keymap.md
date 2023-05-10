@@ -1,10 +1,13 @@
 ---
 title: Maak van je toetsenbord een vriend in plaats van een vijand
+description: De indeling van onze huidige toetsenbordenstandaard komt uit 1867. Het is geoptimaliseerd voor de beperkingen van een eeuwenoude typemachine en niet in het voordeel van ons mensen. Dat kan veranderen.
+socialPreview: Je toetsenbord komt uit 1867, niet normaal. Doe eens wat aan je keymap en toetsenbord.
 tags:
   - keymap
   - keyboard
   - qmk
   - ergonomie
+date: 2023-05-10T12:05
 ---
 
 ![Overview van mijn keymap](/images/blog/keymap/keymap-overview.jpg)
@@ -45,7 +48,7 @@ Er zijn heel wat communities die elkaar ermee helpen en waarbij ook keymaps word
 
 ## Zonder speciaal toetsenbord aan de slag
 
-Ook kun je veel bereiken door speciale software op je computer te installeren om als een soort tussenpersoon te dienen tussen je keyboard en je computer in. Op deze manier verander je niks aan je toetsenbord (je kunt dus je huidige toetsenbord blijven gebruiken), maar wel aan de manier waarop toetsen worden geinterpreteerd door je computer.
+Je kunt al veel bereiken door speciale software op je computer te installeren om als een soort tussenpersoon te dienen tussen je keyboard en je computer. Op deze manier verander je niks aan je toetsenbord (je kunt dus je huidige toetsenbord blijven gebruiken), maar wel aan de manier waarop toetsen worden geïnterpreteerd door je computer.
 
 Op de Mac is er bijvoorbeeld [de app Karabiner Elements](https://karabiner-elements.pqrs.org/) die je hiermee kan helpen. Het is niet zo krachtig als een keymap in de firmware van een toetsenbord, maar voor wat nuttige hacks kom je een heel eind. Ook hier is een community misschien handig om te raadplegen: [Karabiner Elements Reddit](https://www.reddit.com/r/Karabiner/)
 
