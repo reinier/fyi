@@ -7,7 +7,7 @@ tags:
   - keyboard
   - qmk
   - ergonomie
-date: 2023-05-10T12:05
+date: 2023-05-10T14:30
 ---
 
 ![Overview van mijn keymap](/images/blog/keymap/keymap-overview.jpg)
