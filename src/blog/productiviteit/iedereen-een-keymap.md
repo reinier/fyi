@@ -1,5 +1,5 @@
 ---
-title: Maak van je keyboard een vriend in plaats van een vijand
+title: Maak van je toetsenbord een vriend in plaats van een vijand
 tags:
   - keymap
   - keyboard
@@ -86,6 +86,10 @@ Er zijn mensen die zweren bij een compleet andere indeling van de letters op een
 - Ik heb een toets waarmee ik de huidige selectie ‘opzuig’ en met een tap weer uitspuug. Alsof het een stempel is. Hold is dus `cmd-c` en tap is `cmd-v`.
 - Ik heb _one shot modifiers_ ingesteld waardoor ik op `shift` kan tappen zonder ‘m vast te houden en dan zal de volgende toetsaanslag (bijvoorbeeld de `Z`) reageren alsof ook de `shift` toets erbij werd ingedrukt. Nog minder vingeryoga hierdoor.
 - Ik heb een toets die in een keer `cmd-shift-5` voor me indrukt. Dit is de shortcut om een professioneel screenshot te maken met [Cleanshot X](https://cleanshot.com/).
+
+## Maar Reinier, waarom ben je hier zo druk mee?
+
+Ten eerste omdat ik graag aan het nerden ben met productiviteit. Sinds ik de kracht van het aanpassen van de capslock naar een hypertoets heb ondervonden, wil ik meer. Daarnaast kreeg ik twee jaar geleden ineens wat last van mijn rechter pols. Niet zoveel dat werken ineens niet meer kon, maar wel zo'n zeurend gevoel dat ik het in de gaten moest houden. Ik verbeterde mijn werkhouding, kocht een nieuw toetsenbord en muis en de pijn werd minder en minder. Nu wil ik niet meer dat die pijn terugkomt of dat ik ooit last van RSI ga hebben, want ben ik teveel afhankelijk voor werk en levensplezier van mijn toetsenbord.
 
 ## Mijn keymap
 
