@@ -9,22 +9,22 @@ const FULL = 1200;
 const QUALITY = 95;
 
 async function generateImages() {
-    
-    let files = await glob('./src/images/**/*.{jpg,jpeg,png,gif}');
-    for(const f of files) {
-        console.log('process img: ',f);
+
+    let files = await glob('./src/images/**/*.{jpg,jpeg,png}');
+    for (const f of files) {
+        console.log('process img: ', f);
         const subDir = path.dirname(f).replace(/^\.\/src\/images/, "");
-        
+
         let processImage = await Image(f, {
             widths: [FULL],
             formats: ['auto'],
-            urlPath: "/images/"+subDir,
-            outputDir: "./_site/images/"+subDir,
+            urlPath: "/images/" + subDir,
+            outputDir: "./_site/images/" + subDir,
             sharpJpegOptions: {
                 quality: QUALITY,
                 progressive: false
             },
-            filenameFormat:function(id, src, width, format, options) {
+            filenameFormat: function (id, src, width, format, options) {
                 return path.basename(src);
             }
         });
@@ -38,7 +38,7 @@ module.exports = eleventyConfig => {
         await generateImages();
         console.log('images done');
     });
-    
+
     // Social images
     eleventyConfig.on('afterBuild', () => {
         const socialPreviewImagesDir = "_site/images/social-preview-images/";
@@ -55,7 +55,7 @@ module.exports = eleventyConfig => {
                                 progressive: false
                             },
                             filenameFormat: function (id, src, width, format, options) {
-                                let outputFilename = filename.substring(0, (filename.length-4));
+                                let outputFilename = filename.substring(0, (filename.length - 4));
                                 return `${outputFilename}.${format}`;
                             }
                         });
