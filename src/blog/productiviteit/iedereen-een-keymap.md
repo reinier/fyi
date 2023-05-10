@@ -62,15 +62,29 @@ Toetsen kunnen met een 'tap' iets anders doen dan met een 'hold', dus het ingedr
 
 En andere veelgebruikte toepassing hierbij is de `capslock` die iedereen altijd in de weg zit. Maak er een HYPER-toets van bij hold (`ctrl-alt-shift-cmd` tegelijk) en bij een tap de `esc` toets. Nu kun je zelf sneltoetsen op je computer inregelen die gebruik maken van deze HYPER-toets. Ik ga hier later weleens wat meer over vertellen, want de HYPER-toets is een eigen post waard.
 
-Het inregelen van de HYPER-toets met Karabiner was mijn gateway drug naar het nog meer optimaliseren van mijn toetsenbord. Johannes Holmberg zet in de post [Setting up a hyper key](https://holmberg.io/hyper-key/) in vier simpele stappen uiteen hoe je op je Mac een HYPER-toets kan inregelen.
+Wat ook handig voor jouw situatie zou kunnen zijn is het aanpassen van het ingedrukt houden van de `Q` naar `CMD-Q`. Zo hoef je enkel nog maar de Q ingedrukt te houden om een applicatie af te sluiten.
+
+Dit is het script om dit voor elkaar te krijgen in Karabiner Elements:
+
+![Script om de werking van een ingedrukte q toets te veranderen](/images/blog/keymap/q-to-quit.png)
+
+Misschien komen de creatieve sappen nu bij je naar boven om hold-acties op andere toetsen te bedenken. Zo zou je bijv. een veel gebruikte applicatie kunnen lanceren door de spatietoets ingedrukt te houden of het indrukken van de `.` te laten resulteren in het `…` karakter.
 
 ### Hoofdletters zonder vingeryoga
 
-Je kunt je toetsenbord zo inregelen dat een lange tap op een karakter, dus even langer ingedrukt houden dan je gewend bent, de `shift` variant van het karakter oplevert. Zo hoef je geen vingeryoga te beoefenen met de niet-ergonomisch geplaatste `shift` en bewegen je vingers minder over het toetsenbord. Dit zal je toekomstige 60-jarige zelf echt heel fijn vinden.
+Je kunt je toetsenbord zo inregelen dat een lange tap op een karakter, dus even langer ingedrukt houden dan je gewend bent, de `shift` variant van het karakter oplevert. Dit is een standaard feature van QMK en heet [Auto Shift](https://docs.qmk.fm/#/feature_auto_shift) en ook met Karabiner Elements is dit in te regelen.
+
+Zo hoef je geen vingeryoga te beoefenen met de niet-ergonomisch geplaatste `shift` en bewegen je vingers minder over het toetsenbord. Dit zal je toekomstige 60-jarige zelf echt heel fijn vinden.
 
 ### Combos
 
-Om nog minder te hoeven bewegen over je toetsenbord kan het fijn zijn om bepaalde toetsen die je veel gebruikt, maar waarbij je onergonomische acties met je vingers moet ondernemen, dichterbij te brengen zonder iets van je lettertoetsen te hoeven opgeven. Door twee toetsen tegelijk in te drukken kun je een actie uitvoeren. Zo heb ik de `,` en de `.` samen tot de `enter` gemaakt en de `x` en de `c` de `tab`. Want die gebruik ik regelmatig, maar de toetsen zitten veel te ver weg van je pinken om fijn te kunnen aantappen.
+Om nog minder te hoeven bewegen over je toetsenbord kan het fijn zijn om bepaalde toetsen die je veel gebruikt, maar waarbij je onergonomische acties met je vingers moet ondernemen, dichterbij te brengen zonder iets van je lettertoetsen te hoeven opgeven. Door twee toetsen tegelijk in te drukken kun je een actie uitvoeren.
+
+Zo heb ik de `,` en de `.` samen tot de `enter` gemaakt en de `x` en de `c` de `tab`. Want die gebruik ik regelmatig, maar de toetsen zitten veel te ver weg van je pinken om fijn te kunnen aantappen.
+
+Een [voorbeeld van de Karabiner website](https://karabiner-elements.pqrs.org/docs/json/typical-complex-modifications-examples/) is het simultaan indrukken van de `=` en de `backspace` om zo de `delete` knop te krijgen.
+
+![Script om van de = en de backspace een deleteknop te maken](/images/blog/keymap/equals-delete.png)
 
 ### Layers
 
@@ -92,7 +106,7 @@ Er zijn mensen die zweren bij een compleet andere indeling van de letters op een
 
 ## Maar Reinier, waarom ben je hier zo druk mee?
 
-Ten eerste omdat ik graag aan het nerden ben met productiviteit. Sinds ik de kracht van het aanpassen van de capslock naar een hypertoets heb ondervonden, wil ik meer. Daarnaast kreeg ik twee jaar geleden ineens wat last van mijn rechter pols. Niet zoveel dat werken ineens niet meer kon, maar wel zo'n zeurend gevoel dat ik het in de gaten moest houden. Ik verbeterde mijn werkhouding, kocht een nieuw toetsenbord en muis en de pijn werd minder en minder. Nu wil ik niet meer dat die pijn terugkomt of dat ik ooit last van RSI ga hebben, want ben ik teveel afhankelijk voor werk en levensplezier van mijn toetsenbord.
+Ten eerste omdat ik graag aan het nerden ben met productiviteit. Sinds ik de kracht van het aanpassen van de capslock naar een hypertoets heb ondervonden, wilde ik meer. Daarnaast kreeg ik twee jaar geleden ineens wat last van mijn rechter pols. Niet zoveel dat werken ineens niet meer kon, maar wel zo'n zeurend gevoel dat ik het in de gaten moest houden. Ik verbeterde mijn werkhouding, kocht een nieuw toetsenbord en muis en de pijn werd minder en minder. Nu wil ik niet meer dat die pijn terugkomt of dat ik ooit last van RSI ga hebben, want ben ik teveel afhankelijk voor werk en levensplezier van mijn toetsenbord.
 
 ## Mijn keymap
 
@@ -130,4 +144,4 @@ Het kan zijn dat op het moment dat je dit leest mijn keymap alweer een beetje is
 
 Wil je ook de stap maken naar een eigen keymap of een ergonomischer toetsenbord kopen? Kijk dan eens naar kant en klare oplossingen zoals de [ZSA Moonlander](https://www.zsa.io/moonlander/), de [ZSA Planck](https://www.zsa.io/planck) of een keyboard van [Keychron](https://www.keychron.com/products/keychron-q4-qmk-via-custom-mechanical-keyboard). En lurk ook eens een tijdje mee op [ErgoMechBoards](https://www.reddit.com/r/ErgoMechKeyboards/) en kijk eens wat filmpjes van [Ben Vallack die een flinke toetsenbordtocht heeft gemaakt](https://www.youtube.com/shorts/X0gTMRLRNp0) om uiteindelijk op maar 18 toetsen uit te komen (dat gaat me wat te ver, maar wel enorm interessant).
 
-Of regel nu dus al [een HYPER-toets](https://holmberg.io/hyper-key/) in op je bestaande toetsenbord met [Karabiner Elements](<https://karabiner-elements.pqrs.org/>).
+Het inregelen van de HYPER-toets met Karabiner was mijn gateway drug naar het nog meer optimaliseren van mijn toetsenbord. Johannes Holmberg zet in de post [Setting up a hyper key](https://holmberg.io/hyper-key/) in vier simpele stappen uiteen hoe je op je Mac een HYPER-toets kan inregelen op je bestaande keyboard.
