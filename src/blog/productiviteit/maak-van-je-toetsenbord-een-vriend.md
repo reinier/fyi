@@ -1,7 +1,7 @@
 ---
 title: Maak van je toetsenbord een vriend in plaats van een vijand
 description: De indeling van onze huidige toetsenbordenstandaard komt uit 1867. Het is geoptimaliseerd voor de beperkingen van een eeuwenoude typemachine en niet in het voordeel van ons mensen. Dat kan veranderen.
-socialPreview: Je toetsenbord komt uit 1867, niet normaal. Doe eens wat aan je keymap en toetsenbord.
+socialImage: /images/social/keymap.jpg
 tags:
   - keymap
   - keyboard
