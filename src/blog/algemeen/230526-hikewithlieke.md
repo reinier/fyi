@@ -1,6 +1,6 @@
 ---
 title: De reis van buurvrouw Lieke
-date: 2023-05-26T16:20
+date: 2023-05-26T15:20
 socialPreview: Mijn oud-buurvrouw Lieke is met haar vader aan een monsterwandeltocht dwars door de UK begonnen
 ---
 
