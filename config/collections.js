@@ -9,6 +9,11 @@ const getAllNewsletters = collection => {
     return posts.reverse();
 };
 
+const getAllRecipes = collection => {
+    const posts = collection.getFilteredByTag("recepten");
+    return posts.reverse();
+};
+
 const getAllNewslettersWithSocialPreview = collection => {
     const posts = collection.getFilteredByGlob("./src/nieuwsbrief/**/*.md");
     return onlySocialPreview(posts);
@@ -17,6 +22,7 @@ const getAllNewslettersWithSocialPreview = collection => {
 module.exports = {
     getAllPosts,
     getAllNewsletters,
+    getAllRecipes,
     getAllNewslettersWithSocialPreview
 };
 
@@ -25,7 +31,7 @@ function onlySocialPreview(posts) {
     let result = [];
     // loop through each item in the provided collection
     posts.forEach((item) => {
-        if(item.data.socialPreview) {
+        if (item.data.socialPreview) {
             result.push(item);
         }
     });

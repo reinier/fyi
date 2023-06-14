@@ -5,7 +5,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 
 // module import collections
-const { getAllPosts, getAllNewsletters, getAllNewslettersWithSocialPreview } = require('./config/collections.js');
+const { getAllPosts, getAllNewsletters, getAllRecipes, getAllNewslettersWithSocialPreview } = require('./config/collections.js');
 
 module.exports = function (eleventyConfig) {
 
@@ -37,6 +37,7 @@ module.exports = function (eleventyConfig) {
     // Collections
     eleventyConfig.addCollection('blogposts', getAllPosts);
     eleventyConfig.addCollection('newsletters', getAllNewsletters);
+    eleventyConfig.addCollection('recipes', getAllRecipes);
     eleventyConfig.addCollection('newslettersWithSocialPreview', getAllNewslettersWithSocialPreview);
 
     // Nunjucks Shortcodes

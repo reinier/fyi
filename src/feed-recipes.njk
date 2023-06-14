@@ -1,0 +1,29 @@
+---
+permalink: /feed-recipes.xml
+eleventyExcludeFromCollections : true
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ feeddatarecipes.url }}">
+    <title>{{ feeddatarecipes.title }}</title>
+    <subtitle>{{ feeddatarecipes.subtitle }}</subtitle>
+    <link href="{{ permalink | absoluteUrl(feeddatarecipes.url) }}" rel="self"/>
+    <link href="{{ feeddatarecipes.url }}"/>
+    <updated>{{ collections.recipes | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ feeddatarecipes.url }}</id>
+    <author>
+        <name>{{ feeddatarecipes.author.name }}</name>
+        <email>{{ feeddatarecipes.author.email }}</email>
+    </author>
+    {%- for post in collections.recipes | limit(10) %}
+        {%- set absolutePostUrl = post.url | absoluteUrl(feeddatarecipes.url) %}
+        <entry>
+            <title>{{ post.data.title }}</title>
+            <link href="{{ absolutePostUrl }}"/>
+            <updated>{{ post.date | dateToRfc3339 }}</updated>
+            <id>{{ absolutePostUrl }}</id>
+            <content xml:lang="{{ feeddatarecipes.language }}" type="html">{{ post.templateContent |
+			htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+        </entry>
+    {%- endfor %}
+</feed>

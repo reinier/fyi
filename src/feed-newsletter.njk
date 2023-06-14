@@ -2,13 +2,14 @@
 permalink: /feed-newsletter.xml
 eleventyExcludeFromCollections : true
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ feeddatanewsletter.url }}">
     <title>{{ feeddatanewsletter.title }}</title>
     <subtitle>{{ feeddatanewsletter.subtitle }}</subtitle>
     <link href="{{ permalink | absoluteUrl(feeddatanewsletter.url) }}" rel="self"/>
     <link href="{{ feeddatanewsletter.url }}"/>
-    <updated>{{ collections.bericht | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <updated>{{ collections.newsletters | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
     <id>{{ feeddatanewsletter.url }}</id>
     <author>
         <name>{{ feeddatanewsletter.author.name }}</name>
