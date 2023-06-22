@@ -10,7 +10,7 @@
         "build:eleventy": "cross-env ELEVENTY_PRODUCTION=true FONTCONFIG_PATH=. eleventy",
         "build:postcss": "cross-env NODE_ENV=production postcss src/styles/*.css --dir _site",
         "clean": "rimraf _site",
-        "clean-node": "node nuke.js node_modules package-lock.json _site",
+        "clean-node": "node nuke.js node_modules package-lock.json yarn.lock _site",
         "nuke": "npm run clean-node"
     },
     "devDependencies": {
