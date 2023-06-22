@@ -20,9 +20,9 @@
         "**/Thumbs.db": true,
         "_site": true,
         "node_modules": true,
-        ".vscode": true,
+        ".vscode": false,
         "package-lock.json": true,
-        ".gitpod.yml": true
+        ".gitpod.yml": false
     },
     "explorerExclude.backup": {}
 }
