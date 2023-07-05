@@ -1,6 +1,6 @@
 ---
 title: Boeken 2023Q2
-date: 2023-07-05
+date: 2023-07-06
 socialPreview: De boeken die ik las het afgelopen kwartaal. O.a. Sea of Tranquility, The Mountain in the Sea en De Verwarde Cavia
 ---
 
