@@ -4,9 +4,9 @@ date: 2023-07-06T08:50
 socialPreview: De boeken die ik las het afgelopen kwartaal. O.a. Sea of Tranquility, The Mountain in the Sea en De Verwarde Cavia
 ---
 
-Weer een hele rits boeken gelezen de afgelopen tijd. Ik maak flink wat meters door naast een boek te lezen ook naar een boek te luisteren. Zo ben ik in twee boeken te gelijk bezig zonder dat ze elkaar in de weg zitten omdat de beleving zo anders is. Van de 7 boeken heb ik er 5 geluisterd, dus blijkbaar ligt me dat wel. 
+Ik maak flink wat meters met lezen de laatste tijd door naast een boek te _lezen_ ook naar een boek te _luisteren_. Omdat de beleving van deze verschillende manieren van lezen zo anders zijn ben ik in twee boeken te gelijk bezig zonder dat ze elkaar in de weg zitten. Van de 7 boeken heb ik er 5 geluisterd, dus blijkbaar ligt me dat wel. 
 
-Ik luister vooral als ik alleen in de auto of op de fiets zit. Tijdens het koken wil ik ook nog weleens een audioboek aanzetten tegenwoordig.
+Ik luister vooral naar boeken als ik alleen in de auto of op de fiets zit. Tijdens het koken wil ik ook nog weleens een audioboek aanzetten.
 
 De boeken die me het meest zijn bijgebleven zijn Sea of Tranquility en The Mountain in the Sea, wat een fijne verhalen!
 
@@ -46,7 +46,7 @@ Het boek laat in het midden of het om een echte cavia gaat, maar de cavia in kwe
 
 _Auteur: Travis Baldree_
 
-Een orc hangt haar enorme zwaard aan de wilgen om een koffietent te starten in een stad waar men nog nooit van koffie heeft gehoord. Een verhaal over vriendschap, ondernemen en een nieuw leven beginnen zonder dat je vorige leven je met rust laat. Veel minder gimmicky dan ik verwachtte (en hoe de cover het boek doet overkomen). Blij verrast, had ‘m in een week uit. Ik wil meer van dit lezen!
+Een orc hangt haar enorme zwaard aan de wilgen om een koffietent te starten in een stad waar men nog nooit van koffie heeft gehoord. Een verhaal over vriendschap, ondernemen en een nieuw leven beginnen zonder dat je vorige leven je met rust laat. Veel minder gimmicky dan ik verwachtte (en hoe de cover het boek doet overkomen). Blij verrast, had ‘m in een week uit. Ik wil meer van dit lezen! Gelukkig komt er binnenkort een prequel uit.
 
 ✨ **4 uit 5 sterren.**
 
