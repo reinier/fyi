@@ -30,5 +30,5 @@ Heb je een van de ingrediënten niet in je voorraadkast, dan vast een van je bur
 ### Aan de slag
 
 1. Meng de ingrediënten zonder de bieslook met twee eetlepels water tot een gladde saus. Voeg beetje bij beetje water toe om de voor jou fijne consistentie te bereiken.
-2. Ga je de saus nog opwarmen? Voeg er dan twee eetlepels extra water aan toe. Tijdens het warm maken bepalen of je er nog meer water bij doet, soms wordt de saus alsnog te dik.
-3. Serveer met de bieslook erop bij gebakken gebakken aardappels, rijst, noodles, broccoli, bimi, wat jij wilt!
+2. Ga je de saus nog opwarmen? Voeg er dan twee eetlepels extra water aan toe. Tijdens het warm maken kun je zelf bepalen of je er nog meer water bij moet, soms wordt de saus alsnog te dik. Rustig opwarmen en het kan niet mis gaan.
+3. Serveer met de bieslook erop bij gebakken aardappels, rijst, noodles, broccoli, bimi, wat jij wilt!
