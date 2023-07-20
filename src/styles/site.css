@@ -112,7 +112,7 @@
     }
 
     h3 {
-        @apply text-2xl mt-8 font-bold text-fyi-darkest-tint;
+        @apply text-2xl mt-8 mb-2 font-bold text-fyi-darkest-tint;
     }
 
     strong {
