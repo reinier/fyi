@@ -12,8 +12,12 @@
         "vscode": {
             "settings": {},
             "extensions": [
-                "streetsidesoftware.code-spell-checker"
-            ]
+				"streetsidesoftware.code-spell-checker",
+				"bradlc.vscode-tailwindcss",
+				"wayou.vscode-icons-mac",
+				"Compulim.compulim-vscode-closetag",
+				"ronnidc.nunjucks"
+			]
         }
     },
     // Use 'forwardPorts' to make a list of ports inside the container available locally.

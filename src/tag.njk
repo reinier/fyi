@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: layouts/tag.njk
 title: FYI Onderwerpen
 eleventyExcludeFromCollections: true
 pagination:
@@ -9,9 +9,28 @@ pagination:
 permalink: /onderwerp/{{ tag }}/
 ---
 
-<h1>Onderwerp: {{ tag }}</h1>
+{% set taglist = collections[ tag ] %}
+
+<h1>{{ tag | capitalizeFirstLetter }}</h1>
+
+{% if tag == "recepten" %}
+
+<div class="site-intro">
+        <p>
+            Ik probeer zoveel mogelijk van mijn favoriete recepten hier te delen. Ze zijn vegan of vega, en vaak met een tip om 'm van vega naar vegan te veranderen. Voeg <a href="/feed-recipes.xml">de FYI Recepten feed</a> to aan je favoriete recepten-app!</p>
+    </div>
+<ol class="recepten-list">
+    
+    {% for post in taglist | reverse %}
+        <li class="recept-cta">
+            <a href="{{ post.url }}"><img src="{{ post.data.image | getthumb }}" />{{ post.data.title }}</a>
+        </li>
+    {% endfor %}
+</ol>
+
+{% else %}
+
 <ol class="tag-list">
-    {% set taglist = collections[ tag ] %}
     {% for post in taglist | reverse %}
         <li>
             <a href="{{ post.url }}">{{ post.data.title }}</a>
@@ -20,3 +39,8 @@ permalink: /onderwerp/{{ tag }}/
         </li>
     {% endfor %}
 </ol>
+
+
+{% endif %}
+
+

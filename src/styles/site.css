@@ -281,6 +281,14 @@
         @apply text-xl list-disc pl-8;
     }
 
+    .recepten-list {
+        @apply text-xl list-none pl-0 ml-0 pt-8;
+    }
+
+    .recept-cta {
+        @apply inline-block w-44 align-top mr-4 mb-8;
+    }
+
     .img-content-rounded {
         @apply flex flex-wrap justify-center pb-8;
     }
