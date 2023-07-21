@@ -289,6 +289,10 @@
         @apply inline-block w-44 align-top mr-4 mb-8;
     }
 
+    .comment-cta {
+        @apply py-4;
+    }
+
     .img-content-rounded {
         @apply flex flex-wrap justify-center pb-8;
     }

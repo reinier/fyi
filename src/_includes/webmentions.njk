@@ -1,5 +1,5 @@
 <section class="webmentions">
-    <h2>Likes, reposts and/or replies</h2>
+    <h2>Mentions en likes</h2>
     <script>
         const postUrl = "{{ metadata.url }}{{ page.url }}";
         let targetItems = "target=" + postUrl;
@@ -92,7 +92,7 @@
                         webmentionReplies += "\"" + entry.content.text + "\"</p>";
                     } else if (entry["wm-property"] == "mention-of") {
                         if (entry.content) {
-                            webmentionReplies += "<p>" + entry.author.name + " <a href=\"" + entry.url + "\" title=\"Mention of " + entry.author.name + "\">mentioned</a> this note: ";
+                            webmentionReplies += "<p>" + entry.author.name + " <a href=\"" + entry.url + "\" title=\"Mention of " + entry.author.name + "\">mentioned</a> this post: ";
                             webmentionReplies += "\"" + entry.content.text + "\"</p>";
                         }
                     }
@@ -100,19 +100,19 @@
             });
             if (webmentionLikesArray.length > 0) {
                 if (webmentionLikesArray.length > 1) {
-                    const webmentionLikes = "<p>" + webmentionLikesArray.slice(0, -1).join(", ") + " and " + webmentionLikesArray.slice(-1) + " liked this note.</p>";
+                    const webmentionLikes = "<p>" + webmentionLikesArray.slice(0, -1).join(", ") + " and " + webmentionLikesArray.slice(-1) + " liked this post.</p>";
                     document.querySelector(".webmentions").insertAdjacentHTML("beforeend", webmentionLikes);
                 } else {
-                    const webmentionLikes = "<p>" + webmentionLikesArray.slice(-1) + " liked this note.</p>";
+                    const webmentionLikes = "<p>" + webmentionLikesArray.slice(-1) + " liked this post.</p>";
                     document.querySelector(".webmentions").insertAdjacentHTML("beforeend", webmentionLikes);
                 }
             }
             if (webmentionRepostsArray.length > 0) {
                 if (webmentionRepostsArray.length > 1) {
-                    const webmentionReposts = "<p>" + webmentionRepostsArray.slice(0, -1).join(", ") + " and " + webmentionRepostsArray.slice(-1) + " reposted this note.</p>";
+                    const webmentionReposts = "<p>" + webmentionRepostsArray.slice(0, -1).join(", ") + " and " + webmentionRepostsArray.slice(-1) + " reposted this post.</p>";
                     document.querySelector(".webmentions").insertAdjacentHTML("beforeend", webmentionReposts);
                 } else {
-                    const webmentionReposts = "<p>" + webmentionRepostsArray.slice(-1) + " reposted this note.</p>";
+                    const webmentionReposts = "<p>" + webmentionRepostsArray.slice(-1) + " reposted this post.</p>";
                     document.querySelector(".webmentions").insertAdjacentHTML("beforeend", webmentionReposts);
                 }
             }
@@ -121,4 +121,7 @@
             }
         }
     </script>
+    {% if webmentions %}
+    <p class="comment-cta">📬 <a href="{{webmentions}}">Laat een mention of like achter.</a></p>
+    {% endif %}
 </section>

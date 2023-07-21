@@ -10,6 +10,7 @@ description: Pindasaus met spullen uit je voorraadkast voor koud en warm gebruik
 prepTime: 5
 cookTime: 5
 totalTime: 10
+webmentions: https://carelesswhisper.nl/@reinier/110747031750799737
 ---
 
 Voor deze pindasaus heb je alleen maar spul nodig uit je voorraadkast. Zo heeft bijna iedereen (hoop ik) wel pindakaas, sojasaus en knoflook in huis. Met een beetje geluk heb je ook limoensap, gember en ahornsiroop of bruine suiker en je kunt de meest heerlijke pindasaus maken. Je eet de pindasaus ook prima koud, dus warm maken hoeft niet eens.
