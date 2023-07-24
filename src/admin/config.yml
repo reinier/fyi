@@ -16,12 +16,19 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Image", name: "image", widget: "image" }
       - { label: "Image Description", name: "imageAlt", widget: "string" }
       - { label: "Time to prepare (in minutes)", name: "prepTime", widget: "string" }
       - { label: "Time to cook (in minutes)", name: "cookTime", widget: "string" }
       - { label: "Total time (in minutes)", name: "totalTime", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        choose_url: true
+        default: "/images/fyi-social.jpg"
+        media_library:
+          config:
+            multiple: true
       - widget: select
         label: "tags"
         name: "tags"
