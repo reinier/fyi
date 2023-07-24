@@ -190,3 +190,20 @@ collections:
         widget: "list"
         summary: '{{fields.name}}'
         field: {label: Name, name: name, widget: string}
+  - name: newsletters
+    label: Newsletters
+    label_singular: 'Newsletter'
+    folder: "src/nieuwsbrief"
+    create: true
+    # adding a nested object will show the collection folder structure
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+    # adding a meta object with a path property allows editing the path of entries
+    # moving an existing entry will move the entire sub tree of the entry to the new location
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
