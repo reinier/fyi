@@ -1,19 +1,18 @@
 ---
 title: Vegan pasta met kikkererwten, citroen en spinazie
+description: Deze pasta is heerlijk kruidig, hartig en vol van smaak.
 date: 2023-02-22
+image: /images/recepten/pasta-kikkererwten.jpg
+imageAlt: Foto van pasta met kikkererwten, citroen en spinazie
+prepTime: 10
+cookTime: 30
+totalTime: 40
 tags:
   - pasta
   - kikkererwten
   - citroen
   - spinazie
-image: /images/recepten/pasta-kikkererwten.jpg
-imageAlt: "Foto van pasta met kikkererwten, citroen en spinazie"
-description: Deze pasta is heerlijk kruidig, hartig en vol van smaak.
-prepTime: 10
-cookTime: 30
-totalTime: 40
 ---
-
 Deze pasta is heerlijk kruidig, hartig en vol van smaak. De saus is prima een paar uur van te voren te maken zodat je alles nog beter kunt plannen. Dit recept is uiteraard ook lekker met andere pastasoorten. Zorg er dan wel voor dat je een pasta kiest die een mooie hoeveelheid saus kan vasthouden.
 
 Voor vier personen.
