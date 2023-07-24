@@ -192,8 +192,10 @@ collections:
         field: {label: Name, name: name, widget: string}
   - label: "Newsletters"
     name: "nieuwsbrief"
+    label_singular: "Newsletter"
     folder: "src/nieuwsbrief/edities"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: "{{year}}/{{slug}}"
+    slug: "{{month}}-{{day}}-{{slug}}"
     create: true
     editor:
       preview: false
