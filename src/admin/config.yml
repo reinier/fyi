@@ -41,6 +41,10 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - label: "Social Image"
+        name: "socialImage"
+        widget: "image"
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
