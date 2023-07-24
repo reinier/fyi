@@ -16,11 +16,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Image Description", name: "imageAlt", widget: "string" }
-      - { label: "Time to prepare (in minutes)", name: "prepTime", widget: "string" }
-      - { label: "Time to cook (in minutes)", name: "cookTime", widget: "string" }
-      - { label: "Total time (in minutes)", name: "totalTime", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - label: "Featured Image"
         name: "image"
         widget: "image"
@@ -29,9 +24,14 @@ collections:
         media_library:
           config:
             multiple: true
-      - widget: select
-        label: "tags"
+      - { label: "Image Description", name: "imageAlt", widget: "string" }
+      - { label: "Time to prepare (in minutes)", name: "prepTime", widget: "string" }
+      - { label: "Time to cook (in minutes)", name: "cookTime", widget: "string" }
+      - { label: "Total time (in minutes)", name: "totalTime", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Tags"
         name: "tags"
-        multiple: true
-        create: true
-        options: ["bloemkool", "kaas", "grill"]
+        widget: "list"
+        summary: '{{fields.name}}'
+        field: {label: Name, name: name, widget: string}
