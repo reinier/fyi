@@ -22,9 +22,9 @@ collections:
         choose_url: true
         default: "/images/fyi-social.jpg"
       - { label: "Image Description", name: "imageAlt", widget: "string" }
-      - { label: "Time to prepare (in minutes)", name: "prepTime", widget: "string" }
-      - { label: "Time to cook (in minutes)", name: "cookTime", widget: "string" }
-      - { label: "Total time (in minutes)", name: "totalTime", widget: "string" }
+      - { label: "Time to prepare (in minutes)", name: "prepTime", widget: "string", required: false }
+      - { label: "Time to cook (in minutes)", name: "cookTime", widget: "string", required: false }
+      - { label: "Total time (in minutes)", name: "totalTime", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
         name: "tags"
