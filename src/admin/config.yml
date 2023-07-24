@@ -52,3 +52,141 @@ collections:
         widget: "list"
         summary: '{{fields.name}}'
         field: {label: Name, name: name, widget: string}
+  - label: "App tips"
+    name: "apptips"
+    folder: "src/blog/apptips"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - label: "Social Image"
+        name: "socialImage"
+        widget: "image"
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        summary: '{{fields.name}}'
+        field: {label: Name, name: name, widget: string}
+  - label: "Gezondheid"
+    name: "gezondheid"
+    folder: "src/blog/gezondheid"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - label: "Social Image"
+        name: "socialImage"
+        widget: "image"
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        summary: '{{fields.name}}'
+        field: {label: Name, name: name, widget: string}
+  - label: "Links"
+    name: "links"
+    folder: "src/blog/links"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Link to", name: "href", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Media"
+    name: "media"
+    folder: "src/blog/media"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - label: "Social Image"
+        name: "socialImage"
+        widget: "image"
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        summary: '{{fields.name}}'
+        field: {label: Name, name: name, widget: string}
+  - label: "Productiviteit"
+    name: "productiviteit"
+    folder: "src/blog/productiviteit"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - label: "Social Image"
+        name: "socialImage"
+        widget: "image"
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        summary: '{{fields.name}}'
+        field: {label: Name, name: name, widget: string}
+  - label: "Samenleving"
+    name: "samenleving"
+    folder: "src/blog/samenleving"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - label: "Social Image"
+        name: "socialImage"
+        widget: "image"
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        summary: '{{fields.name}}'
+        field: {label: Name, name: name, widget: string}
+  - label: "Technologie"
+    name: "tech"
+    folder: "src/blog/tech"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - label: "Social Image"
+        name: "socialImage"
+        widget: "image"
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        summary: '{{fields.name}}'
+        field: {label: Name, name: name, widget: string}
