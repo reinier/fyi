@@ -5,33 +5,22 @@ media_folder: "src/images"
 public_folder: "/images"
 local_backend: true
 collections:
-  - label: "Recepten"
-    name: "recepten"
-    folder: "src/blog/recepten"
-    slug: "{{slug}}"
+  - label: "Blog"
+    name: "blog"
+    folder: "src/blog/algemeen"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     editor:
       preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Image Description", name: "imageAlt", widget: "string" }
-      - { label: "Time to prepare (in minutes)", name: "prepTime", widget: "string" }
-      - { label: "Time to cook (in minutes)", name: "cookTime", widget: "string" }
-      - { label: "Total time (in minutes)", name: "totalTime", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Featured Image"
-        name: "image"
-        widget: "image"
-        choose_url: true
-        default: "/images/fyi-social.jpg"
-        media_library:
-          config:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Author", name: "author", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - widget: select
+            label: "tags"
+            name: "tags"
             multiple: true
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["bloemkool", "kaas", "grill"]
+            create: true
+            options: ["captains", "way-of-working", "showcase"]
