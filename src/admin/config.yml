@@ -22,7 +22,7 @@ collections:
       - { label: "Total time (in minutes)", name: "totalTime", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Featured Image"
-        name: "thumbnail"
+        name: "image"
         widget: "image"
         choose_url: true
         default: "/images/fyi-social.jpg"
