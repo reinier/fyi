@@ -26,7 +26,23 @@ collections:
       - { label: "Time to cook (in minutes)", name: "cookTime", widget: "string" }
       - { label: "Total time (in minutes)", name: "totalTime", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        summary: '{{fields.name}}'
+        field: {label: Name, name: name, widget: string}
+  - label: "Algemeen"
+    name: "algemeen"
+    folder: "src/blog/algemeen"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
         name: "tags"
         widget: "list"
