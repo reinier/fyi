@@ -14,7 +14,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - label: "Featured Image"
         name: "image"
@@ -40,11 +40,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Social image text", name: "socialPreview", widget: "string" }
-      - label: "Social Image"
-        name: "socialImage"
-        widget: "image"
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
+      - { label: "Social image", name: "socialImage", widget: "image", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
@@ -61,11 +59,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Social image text", name: "socialPreview", widget: "string" }
-      - label: "Social Image"
-        name: "socialImage"
-        widget: "image"
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
+      - { label: "Social image", name: "socialImage", widget: "image", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
@@ -82,11 +78,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Social image text", name: "socialPreview", widget: "string" }
-      - label: "Social Image"
-        name: "socialImage"
-        widget: "image"
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
+      - { label: "Social image", name: "socialImage", widget: "image", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
@@ -115,11 +109,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Social image text", name: "socialPreview", widget: "string" }
-      - label: "Social Image"
-        name: "socialImage"
-        widget: "image"
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
+      - { label: "Social image", name: "socialImage", widget: "image", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
@@ -136,11 +128,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Social image text", name: "socialPreview", widget: "string" }
-      - label: "Social Image"
-        name: "socialImage"
-        widget: "image"
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
+      - { label: "Social image", name: "socialImage", widget: "image", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
@@ -157,11 +147,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Social image text", name: "socialPreview", widget: "string" }
-      - label: "Social Image"
-        name: "socialImage"
-        widget: "image"
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
+      - { label: "Social image", name: "socialImage", widget: "image", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
@@ -178,11 +166,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Social image text", name: "socialPreview", widget: "string" }
-      - label: "Social Image"
-        name: "socialImage"
-        widget: "image"
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
+      - { label: "Social image", name: "socialImage", widget: "image", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
@@ -201,6 +187,6 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Social image text", name: "socialPreview", widget: "string" }
+      - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
