@@ -1,7 +1,9 @@
 ---
 title: De McDonalds theorie
-description: Zet een groep mensen bij elkaar en laat ze creatief aan de gang gaan. Dat levert niet altijd bruikbare resultaten op. Geef ze echter de juiste input en je krijgt veel betere resultaten.
-date: 2014-04-18
+description: Zet een groep mensen bij elkaar en laat ze creatief aan de gang
+  gaan. Dat levert niet altijd bruikbare resultaten op. Geef ze echter de juiste
+  input en je krijgt veel betere resultaten.
+date: 2014-07-31T09:51:00.000Z
 tags:
   - samenwerken
 ---
