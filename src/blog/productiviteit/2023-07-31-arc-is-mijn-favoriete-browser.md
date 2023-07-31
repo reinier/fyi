@@ -1,5 +1,6 @@
 ---
 title: Arc is mijn favoriete browser
+webmentions: https://carelesswhisper.nl/@reinier/110808084954156449
 description: De browser onderscheid zich van Safari, Firefox en Chrome door de
   open websites niet als tabs te tonen boven in je scherm, maar aan de zijkant
   in een lijst. Dit zorgt ervoor dat je veel makkelijker je open sites kan
