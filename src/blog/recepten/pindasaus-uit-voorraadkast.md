@@ -21,7 +21,7 @@ Heb je een van de ingrediënten niet in je voorraadkast, dan vast een van je bur
 
 - 100 gram pindakaas
 - 1 eetlepel sojasaus
-- 1 theelepel lichtbruine suiker of ahornsiroop
+- 1 theelepel lichtbruine basterdsuiker of ahornsiroop
 - 2 eetlepels limoensap
 - 1 theelepel chillivlokken
 - 2 teentjes knoflook, fijngehakt

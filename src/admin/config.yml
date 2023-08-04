@@ -14,7 +14,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - label: "Featured Image"
@@ -41,7 +41,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Social image", name: "socialImage", widget: "image", required: false }
@@ -61,7 +61,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Social image", name: "socialImage", widget: "image", required: false }
@@ -81,7 +81,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Social image", name: "socialImage", widget: "image", required: false }
@@ -101,7 +101,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false }
       - { label: "Link to", name: "href", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -114,7 +114,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Social image", name: "socialImage", widget: "image", required: false }
@@ -134,7 +134,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Social image", name: "socialImage", widget: "image", required: false }
@@ -154,7 +154,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Social image", name: "socialImage", widget: "image", required: false }
@@ -174,7 +174,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false  }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Social image", name: "socialImage", widget: "image", required: false }
@@ -196,7 +196,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Webmentions url", name: "webmentions", widget: "string" }
+      - { label: "Webmentions url", name: "webmentions", widget: "string", required: false  }
       - { label: "Social image text", name: "socialPreview", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
