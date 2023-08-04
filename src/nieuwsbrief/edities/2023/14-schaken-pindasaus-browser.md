@@ -1,7 +1,9 @@
 ---
 title: Schaken Pindasaus Browser
+webmentions: https://carelesswhisper.nl/@reinier/110831569219632804
+socialPreview: Schaken is een ding op Youtube, hoe maak je pindasaus uit je
+  voorraadkast en Arc is mijn lievelingsbrowser
 date: 2023-08-04
-socialPreview: Schaken is een ding op Youtube, hoe maak je pindasaus uit je voorraadkast en Arc is mijn lievelingsbrowser
 ---
 
 Hi, Reinier hier,
