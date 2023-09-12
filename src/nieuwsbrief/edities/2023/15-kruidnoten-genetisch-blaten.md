@@ -1,6 +1,7 @@
 ---
 title: Kruidnoten Genetisch Blaten
 socialPreview: Omdat de dagen weer in rap tempo korter worden lekker wat lees- en kijkvoer om de donkere avonden door te komen met een bakje kruidnoten
+webmentions: https://carelesswhisper.nl/@reinier/111052347049554418
 date: 2023-09-12
 ---
 
