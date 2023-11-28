@@ -1,6 +1,7 @@
 ---
 title: Donkere Homerow Zeewier
 socialPreview: Het zijn donkere tijden, vandaar wat maatschappelijk verantwoorde afleiding in deze editie van de FYI Nieuwsbrief.
+webmentions: https://carelesswhisper.nl/@reinier/111489630453961081
 date: 2023-11-28
 ---
 
