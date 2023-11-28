@@ -1,7 +1,9 @@
 ---
 title: Boeken 2023Q3
+webmentions: https://carelesswhisper.nl/@reinier/111227504504359902
+socialPreview: De boeken die ik las het afgelopen kwartaal. O.a. Translation
+  State, Children of Time en The Far Reaches Serie
 date: 2023-10-12T19:50
-socialPreview: De boeken die ik las het afgelopen kwartaal. O.a. Translation State, Children of Time en The Far Reaches Serie
 ---
 
 Het derde kwartaal van dit jaar was iets rustiger qua leesactiviteiten dan de voorgaande twee, ondanks dat ik negen boeken las. Van de negen waren er namelijk zes korte verhalen. Geen slecht boek gelezen, het was weer een heerlijk leeskwartaal.
