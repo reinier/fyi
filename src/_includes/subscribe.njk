@@ -1,17 +1,4 @@
-<form class="abonneren" action="https://buttondown.email/api/emails/embed-subscribe/82procent" method="post">
-    <p>
-        <label for="bd-email">Je e-mailadres is voldoende om je gratis op
-            {% if page.url == '/nieuwsbrief/' %}
-                de FYI nieuwsbrief
-            {% else %}
-                <a href="/nieuwsbrief">de FYI nieuwsbrief</a>
-            {% endif %}
-            te abonneren. Al meer dan 1.300 abonnees!</label>
-    </p>
-    <input type="email" placeholder="Je e-mailadres" name="email" id="bd-email" class="abonneren-email"/>
-    <input type="hidden" value="1" name="embed"/>
-    <br/>
-    <div>
-        <input type="submit" id="bd-submit" class="abonneren-submit" value="Abonneer gratis"/>
-    </div>
-</form>
+<div class="abonneren">
+<p>Je e-mailadres is voldoende om je gratis op de FYI nieuwsbrief te abonneren. Al meer dan 1.200 abonnees!</p>
+<iframe src="https://reinier.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+</div>
