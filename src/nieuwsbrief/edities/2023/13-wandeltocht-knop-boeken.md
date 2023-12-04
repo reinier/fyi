@@ -2,6 +2,7 @@
 title: Wandeltocht Knop Boeken
 date: 2023-07-12
 socialPreview: De wandeltocht van mijn oud buurvrouw, een slimme knop en een hoop gelezen boeken.
+webmentions: https://reinier.fyi/nieuwsbrief/edities/2023/17-rijp-gaiman-fallout/
 ---
 
 Hi, Reinier hier,
