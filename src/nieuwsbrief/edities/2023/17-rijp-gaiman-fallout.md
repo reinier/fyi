@@ -1,7 +1,7 @@
 ---
 title: Rijp Gaiman Fallout
 socialPreview: Substack, er woedt een groots wereldwijd onopgemerkt conflict en John en Craig hebben Neil te gast
-date: 2023-11-28
+date: 2023-12-04
 ---
 
 Hi, Reinier hier,
