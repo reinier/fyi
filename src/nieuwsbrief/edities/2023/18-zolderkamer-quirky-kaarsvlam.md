@@ -2,6 +2,7 @@
 title: Zolderkamer Quirky Kaarsvlam
 socialPreview: Simon is zo knullig dat het geweldig is en Cory Doctorow zet zijn gedachten uiteen over piracy
 date: 2023-12-17
+webmentions: https://carelesswhisper.nl/@reinier/111596537417089355
 ---
 
 Hi, Reinier hier,
