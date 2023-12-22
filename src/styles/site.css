@@ -160,7 +160,7 @@
     }
 
     .nav-Menu a {
-        @apply text-white/80 underline no-underline transform-none uppercase text-base lg:text-2xl;
+        @apply text-white/80 no-underline transform-none uppercase text-base lg:text-2xl;
     }
 
     .nav-Menu a:hover {
