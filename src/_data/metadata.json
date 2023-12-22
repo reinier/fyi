@@ -1,12 +1,12 @@
 {
-	"title": "FYI Blog en Nieuwsbrief",
-	"sitetitle": "FYI",
-	"url": "https://reinier.fyi",
-	"language": "nl",
-	"description": "Blog en nieuwsbrief over van alles en nog wat. Als het maar interessant, intrigerend of ontroerend is.",
-	"author": {
-		"name": "Reinier Ladan",
-		"email": "reinier@digitalenergy.nl",
-		"url": "https://reinierladan.nl/"
-	}
+    "title": "FYI Nieuwsbrief",
+    "sitetitle": "FYI",
+    "url": "https://reinier.fyi",
+    "language": "nl",
+    "description": "Blog en nieuwsbrief over van alles en nog wat. Als het maar interessant, intrigerend of ontroerend is.",
+    "author": {
+        "name": "Reinier Ladan",
+        "email": "reinier@digitalenergy.nl",
+        "url": "https://reinierladan.nl/"
+    }
 }

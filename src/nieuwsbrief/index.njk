@@ -8,32 +8,13 @@ pagination:
   alias: newsletters
 ---
 
-{% if page.url == pagination.href.first %}
     <p>FYI
         <em>(For Your Information)</em>
         is een wekelijkse nieuwsbrief over van alles dat
         <a href="https://reinierladan.nl">Reinier Ladan</a>
         tegenkomt op het Grote Boze Internet. Van handige apptips, langs voedzame recepten tot nieuwe wetenschappelijke inzichten.</p>
     <p>De nieuwsbrief bevat de meest recente berichten van mijn blog en een handvol extra nieuwsbrief-only linkjes.</p>
-    <h2>Gratis abonneren</h2>
-    {% include '../_includes/subscribe.njk' %}
-    <h2 class="mt-12">Archief</h2>
-{% else %}
-    <h2>Archief pagina {{ pagination.pageNumber + 1 }}
-    </h2>
-{% endif %}
-<ul>
-    {%- for post in newsletters -%}
-        <li>
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
-            <em>{{ post.data.date | readablePostDate }}</em>
-        </li>
-    {%- endfor -%}
-</ul>
-<ol class="pagination">
-    {%- for pageEntry in pagination.pages %}
-        <li>
-            <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>{{ loop.index }}</a>
-        </li>
-    {%- endfor %}
-</ol>
+
+
+
+

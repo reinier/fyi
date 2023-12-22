@@ -1,17 +1,22 @@
 [
-	{
-		"id": "home",
-		"title": "Home",
-		"url": "/"
-	},
-	{
-		"id": "nieuwsbrief",
-		"title": "Nieuwsbrief",
-		"url": "/nieuwsbrief/"
-	},
-	{
-		"id": "over",
-		"title": "Over",
-		"url": "/over/"
-	}
+    {
+        "id": "home",
+        "title": "Home",
+        "url": "/"
+    },
+    {
+        "id": "nieuwsbrief",
+        "title": "Nieuwsbrief",
+        "url": "/nieuwsbrief/"
+    },
+    {
+        "id": "blog",
+        "title": "Weblog",
+        "url": "/blog/"
+    },
+    {
+        "id": "over",
+        "title": "Over",
+        "url": "/over/"
+    }
 ]

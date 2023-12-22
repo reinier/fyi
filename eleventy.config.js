@@ -5,7 +5,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 
 // module import collections
-const { getAllPosts, getAllNewsletters, getAllRecipes, getAllNewslettersWithSocialPreview } = require('./config/collections.js');
+const { getAllContent, getAllPosts, getAllNewsletters, getAllRecipes, getAllNewslettersWithSocialPreview } = require('./config/collections.js');
 
 module.exports = function (eleventyConfig) {
 
@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(require('./config/filters.js'));
 
     // Collections
+    eleventyConfig.addCollection('allcontent', getAllContent);
     eleventyConfig.addCollection('blogposts', getAllPosts);
     eleventyConfig.addCollection('newsletters', getAllNewsletters);
     eleventyConfig.addCollection('recipes', getAllRecipes);

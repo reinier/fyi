@@ -155,12 +155,12 @@
     }
 
     .nav-Menu {
-        @apply flex flex-row gap-4 lg:gap-12 pb-4;
+        @apply flex flex-row gap-4 lg:gap-8 pb-4;
         justify-content: center;
     }
 
     .nav-Menu a {
-        @apply text-white/80 underline lg:no-underline transform-none lg:uppercase text-lg lg:text-2xl;
+        @apply text-white/80 underline no-underline transform-none uppercase text-base lg:text-2xl;
     }
 
     .nav-Menu a:hover {

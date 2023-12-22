@@ -1,5 +1,5 @@
 ---
-permalink: /feed.xml
+permalink: /feed-blog.xml
 eleventyExcludeFromCollections : true
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -14,7 +14,7 @@ eleventyExcludeFromCollections : true
         <name>{{ feeddata.author.name }}</name>
         <email>{{ feeddata.author.email }}</email>
     </author>
-    {%- for post in collections.allcontent | limit(40) %}
+    {%- for post in collections.blogposts | limit(10) %}
         {%- set absolutePostUrl = post.url | absoluteUrl(feeddata.url) %}
         <entry>
             <title>{{ post.data.title }}</title>

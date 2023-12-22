@@ -1,3 +1,8 @@
+const getAllContent = collection => {
+    const posts = collection.getFilteredByGlob("./src/**/*.md");
+    return posts.reverse();
+};
+
 /** Returns all blog posts as a collection. */
 const getAllPosts = collection => {
     const posts = collection.getFilteredByGlob("./src/blog/**/*.md");
@@ -20,6 +25,7 @@ const getAllNewslettersWithSocialPreview = collection => {
 };
 
 module.exports = {
+    getAllContent,
     getAllPosts,
     getAllNewsletters,
     getAllRecipes,
