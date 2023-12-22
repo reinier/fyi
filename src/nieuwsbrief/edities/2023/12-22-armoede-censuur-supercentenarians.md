@@ -25,7 +25,7 @@ Hartverscheurend, boeiend en belangrijk. Ga [You Don’t Batch Cook When You’r
 
 En geen zorgen, het medium ‘email’ zit zo in elkaar dat ik je abonnement gewoon mee kan verhuizen, hoef jij niks voor te doen. E-mail is federated, een fijne eigenschap van het vrije en open internet.
 
-De zoektocht zal alleen wat voeten in de aarde hebben, want ik heb er al wat versleten (Mailchimp werd te duur, Tinyletter is niet meer wat het was, Buttondown heeft teveel technische problemen). Het zal dus niet van de ene op de andere dag gebeurt zijn.
+De zoektocht zal alleen wat voeten in de aarde hebben, want ik heb er al wat versleten (Mailchimp werd te duur, Tinyletter is niet meer wat het was, Buttondown heeft teveel technische problemen). Het zal dus niet van de ene op de andere dag gebeurd zijn.
 
 ## Verder nog interessant
 
