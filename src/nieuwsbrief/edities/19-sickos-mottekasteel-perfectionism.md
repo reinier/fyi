@@ -2,6 +2,8 @@
 title: Sickos Mottekasteel Perfectionism
 date: 2024-01-10
 socialPreview: Naast sjoelen en koken had ik de afgelopen tijd nog wat ruimte over om Het Internet door te bladeren. Deze nieuwsbrief is daar feitelijk een grote dump van.
+webm
+webmentions: https://carelesswhisper.nl/@reinier/111733006435238763
 ---
 
 Hi, Reinier hier,
