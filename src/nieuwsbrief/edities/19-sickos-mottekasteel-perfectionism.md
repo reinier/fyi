@@ -94,5 +94,4 @@ _Het zelf nazi-vrij hosten van een nieuwsbrief is niet gratis, dus je helpt me e
 - [Astonishing: A Wartime Zine Made in 1943-45 by a Jewish Man Hiding From the Nazis](https://kottke.org/23/12/astonishing-a-wartime-zine-made-in-1943-45-by-a-jewish-man-hiding-from-the-nazis)
 - [Bloomberg Businessweek 2023 Jealousy List](https://www.bloomberg.com/features/2023-jealousy-list/)
 
-Tot de volgende keer! 👋
-
+Tot de volgende keer! 👋 
