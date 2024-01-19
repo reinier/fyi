@@ -2,7 +2,7 @@
 title: Arie Koos Hooiland
 date: 2024-01-19
 socialPreview: 'Arie Boomsma probeer pillen aan de man te brengen, koos is een zorgcowboy en het grote plan om terug te gaan naar een mooiere vorm van landbouw'
-webmentions: ''
+webmentions: https://carelesswhisper.nl/@reinier/111783051064024575
 ---
 
 Hi, Reinier hier,
