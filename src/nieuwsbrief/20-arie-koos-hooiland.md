@@ -13,7 +13,7 @@ Sjamadriaan (die van [dat fantastische Instagram account](https://www.instagram.
 
 Uit: [Het dogmatische supplementenevangelie van Arie Boomsma](https://www.sjamadriaan.nl/p/arie-blijkt-een-orthodoxe-supplementendominee)
 
-Dit is het grootste probleem met de ‘baat het niet dan schaadt het niet’ mentaliteit van veel mensen die (vaak terecht en woonhopig) zorg zoeken. Geld pompen in kwakzalverij schaadt wel degelijk. Het geld wordt gebruikt om meer desinformatie te verspreiden en charismatische figuren als Boomsma flink te vergoeden voor het aanprijzen van het fake-zorg product. Zo krijgen de kwakzalvers een nog betere positie in de (zorg)markt. Meer geld, is meer marketing, is meer geld. Het cirkeltje blijft rondgaan en aandacht voor serieus onderzoek naar bewezen oplossingen wordt weggedrukt.
+Dit is het grootste probleem met de ‘baat het niet dan schaadt het niet’ mentaliteit van veel mensen die (vaak terecht en wanhopig) zorg zoeken. Geld pompen in kwakzalverij schaadt wel degelijk. Het geld wordt gebruikt om meer desinformatie te verspreiden en charismatische figuren als Boomsma flink te vergoeden voor het aanprijzen van het fake-zorg product. Zo krijgen de kwakzalvers een nog betere positie in de (zorg)markt. Meer geld, is meer marketing, is meer geld. Het cirkeltje blijft rondgaan en aandacht voor serieus onderzoek naar bewezen oplossingen wordt weggedrukt.
 
 Over zorg gesproken …
 
