@@ -18,5 +18,5 @@ Wil je meer weten over mij, Reinier Ladan, ga dan naar [reinierladan.nl](https:/
 
 Wil je up-to-date blijven met wat er op dit blog verschijnt?
 
-- [Schrijf je in op de nieuwsbrief](/nieuwsbrief/)
+- [Schrijf je in op de nieuwsbrief](/)
 - [Abonneer je op de RSS feed](/feed.xml)

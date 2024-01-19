@@ -1,13 +1,8 @@
 [
     {
         "id": "home",
-        "title": "Home",
-        "url": "/"
-    },
-    {
-        "id": "nieuwsbrief",
         "title": "Nieuwsbrief",
-        "url": "/nieuwsbrief/"
+        "url": "/"
     },
     {
         "id": "blog",
