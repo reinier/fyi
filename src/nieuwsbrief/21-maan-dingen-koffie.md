@@ -2,6 +2,7 @@
 title: Maan Dingen Koffie
 date: 2024-04-26
 socialPreview: 'Op een alternatieve manier naar de maan, rail away maar dan met wiskunde en koffie nu meteen!'
+webmentions: https://carelesswhisper.nl/@reinier/112337556895746305
 ---
 
 Hi, Reinier hier,
