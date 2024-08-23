@@ -2,8 +2,10 @@
 title: Autisme Gate Pixels
 date: 2024-08-23
 socialPreview: 'Een stuk autisme, een stuk duologie en een stuk pixels die niet te vertrouwen zijn'
-webmentions: 
+webmentions: https://carelesswhisper.nl/@reinier/113011324291767686
 ---
+
+# [Autisme Gate Pixels](https://reinier.fyi/nieuwsbrief/22-autisme-gate-pixels/)
 
 Hi, Reinier hier,
 
@@ -36,7 +38,7 @@ En wat een duologie! Het is duidelijk een boek van deze tijd met onderwerpen als
 
 De Pandominion is een soort gemilitariseerde variant van de Verenigde Naties, maar dan tussen varianten van de aarde in parallelle universa. Wetenschapper Hadiz ontdekt per toeval de Pandominion en het reizen tussen parallelle werelden terwijl haar eigen planeet wordt kapotgeschoten door een allesvernietigende interne oorlog. Ondertussen ontdekt De Pandominion een mechanische samenleving waar ze niet weten wat ze ermee aan moeten.
 
-De twee boeken horen echt back-to-back gelezen te worden. Eén groot fantastisch verhaal. Heerlijke msci-fi.
+De twee boeken horen echt back-to-back gelezen te worden. Eén groot fantastisch verhaal. Heerlijke sci-fi.
 
 ## Pixels
 
