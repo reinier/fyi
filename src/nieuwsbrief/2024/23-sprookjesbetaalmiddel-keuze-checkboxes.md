@@ -1,5 +1,5 @@
 ---
-title: Sprookjesbetaalmiddel Keuze Checkboxes
+title: Luchtkasteel Keuze Checkboxes
 date: 2024-08-30
 socialPreview: 'Nu is het klaar met het sprookjesbetaalmiddel, met reclame voor ongezond eten en emotieloze checkboxes'
 ---
