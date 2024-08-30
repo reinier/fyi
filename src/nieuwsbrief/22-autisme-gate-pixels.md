@@ -5,8 +5,6 @@ socialPreview: 'Een stuk autisme, een stuk duologie en een stuk pixels die niet 
 webmentions: https://carelesswhisper.nl/@reinier/113011324291767686
 ---
 
-# [Autisme Gate Pixels](https://reinier.fyi/nieuwsbrief/22-autisme-gate-pixels/)
-
 Hi, Reinier hier,
 
 Het is weer tijd voor een nieuwe editie van FYI!
