@@ -26,7 +26,7 @@ Donald Trump heeft muziek nodig om een podium te betreden. Zonder muziek zou er 
 
 > As time went on I did all I could to reduce the things I did for money so I could spend time doing the things I enjoyed that didn't make money. Both things were equally important. Is this privileged? Yes. Is this a privilege that we need to extend to every human being on earth? Also fucking yes, in a big way. (And if we have the money to fund a genocide, we have the money for UBI.)
 
-[How many hobbies is too many?](https://buttondown.com/monteiro/archive/how-many-hobbies-is-too-many/)
+Mike Monteiro: [How many hobbies is too many?](https://buttondown.com/monteiro/archive/how-many-hobbies-is-too-many/)
 
 ## Hoe het echt zit
 
