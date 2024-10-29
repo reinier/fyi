@@ -1,11 +1,8 @@
 {
     "scripts": {
-        "start": "run-p clean start:*",
-        "start:eleventy": "eleventy --serve",
-        "start:postcss": "postcss src/styles/*.css --dir _site --watch",
-        "quiet": "run-p clean quiet:*",
-        "quiet:eleventy": "eleventy --serve --quiet",
-        "quiet:postcss": "postcss src/styles/*.css --dir _site --watch",
+        "dev": "run-p clean dev:*",
+        "dev:eleventy": "eleventy --serve",
+        "dev:postcss": "postcss src/styles/*.css --dir _site --watch",
         "build": "run-s clean build:eleventy build:postcss",
         "build:eleventy": "cross-env ELEVENTY_PRODUCTION=true FONTCONFIG_PATH=. eleventy",
         "build:postcss": "cross-env NODE_ENV=production postcss src/styles/*.css --dir _site",
@@ -14,7 +11,7 @@
         "nuke": "npm run clean-node"
     },
     "devDependencies": {
-        "@11ty/eleventy": "^2.0.1",
+        "@11ty/eleventy": "^3.0.0",
         "@11ty/eleventy-img": "^3.1.0",
         "@11ty/eleventy-plugin-rss": "^1.2.0",
         "autoprefixer": "^10.4.14",
@@ -33,5 +30,8 @@
     "private": true,
     "keywords": [],
     "name": "reinierladan-nl",
-    "description": ""
+    "description": "",
+    "dependencies": {
+        "@11ty/eleventy-upgrade-help": "^3.0.1"
+    }
 }

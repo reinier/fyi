@@ -2,12 +2,14 @@ const fs = require("fs");
 const path = require("path");
 const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 // module import collections
 const { getAllContent, getAllPosts, getAllNewsletters, getAllRecipes, getAllNewslettersWithSocialPreview } = require('./config/collections.js');
 
 module.exports = function (eleventyConfig) {
+    // If you have other `addPlugin` calls, it’s important that UpgradeHelper is added last.
+    eleventyConfig.addPlugin(UpgradeHelper);
 
     if (process.env.ELEVENTY_PRODUCTION) {
         eleventyConfig.addTransform("htmlmin", htmlminTransform);
