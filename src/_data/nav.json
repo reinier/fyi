@@ -5,6 +5,11 @@
         "url": "/"
     },
     {
+        "id": "blog",
+        "title": "Blog",
+        "url": "/blog/"
+    },
+    {
         "id": "over",
         "title": "Over",
         "url": "/over/"
