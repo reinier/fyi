@@ -6,7 +6,7 @@ date: 2025-01-02T09:15
 
 Elk jaar komt er creatief werk “in het publieke domein”. Dat wil zeggen dat iedereen er ander creatief werk mee mag maken zonder dat je een copyright claim aan je broek krijgt. 
 
-Het vrijwilligerscollectief Standard eBooks zorgt ervoor dat de boeken die in het publieke domein terechtkomen beschikbaar worden gesteld in een fijn ebook formaat zodat je het op je e-reader kunt lezen.
+Het vrijwilligerscollectief Standard Ebooks zorgt ervoor dat de boeken die in het publieke domein terechtkomen beschikbaar worden gesteld in een fijn ebook formaat zodat je het op je e-reader kunt lezen.
 
 Dit jaar zijn o.a. de volgende boeken beschikbaar gekomen:
 
