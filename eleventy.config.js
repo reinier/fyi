@@ -1,13 +1,13 @@
-const fs = require("fs");
-const path = require("path");
-const htmlmin = require("html-minifier");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+import htmlmin from "html-minifier";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import UpgradeHelper from "@11ty/eleventy-upgrade-help";
+import filters from './config/filters.js';
+import nunjucksShortcodes from './config/nunjucks.js';
+import imagesPlugin from './config/images.js';
 
-
-// module import collections
-const { getAllContent, getAllPosts, getAllNewsletters, getAllRecipes, getAllNewslettersWithSocialPreview } = require('./config/collections.js');
-
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
+    // If you have other `addPlugin` calls, it’s important that UpgradeHelper is added last.
+    eleventyConfig.addPlugin(UpgradeHelper);
 
     if (process.env.ELEVENTY_PRODUCTION) {
         eleventyConfig.addTransform("htmlmin", htmlminTransform);
@@ -33,20 +33,49 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
 
     // Filters
-    eleventyConfig.addPlugin(require('./config/filters.js'));
+    eleventyConfig.addPlugin(filters);
 
     // Collections
-    eleventyConfig.addCollection('allcontent', getAllContent);
-    eleventyConfig.addCollection('blogposts', getAllPosts);
-    eleventyConfig.addCollection('newsletters', getAllNewsletters);
-    eleventyConfig.addCollection('recipes', getAllRecipes);
-    eleventyConfig.addCollection('newslettersWithSocialPreview', getAllNewslettersWithSocialPreview);
+    eleventyConfig.addCollection("allcontent", function (collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/**/*.md").reverse();
+    });
+
+    eleventyConfig.addCollection("blogposts", function (collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/blog/**/*.md").reverse();
+    });
+
+    eleventyConfig.addCollection("newsletters", function (collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/nieuwsbrief/**/*.md").reverse();
+    });
+
+    eleventyConfig.addCollection("recipes", function (collectionApi) {
+        return collectionApi.getFilteredByTag("recepten").reverse();
+    });
+
+    eleventyConfig.addCollection("newslettersWithSocialPreview", function (collectionApi) {
+        const posts = collectionApi.getFilteredByGlob("./src/nieuwsbrief/**/*.md");
+        return onlySocialPreview(posts);
+    });
+
+    function onlySocialPreview(posts) {
+        // set the result as an object
+        let result = [];
+        // loop through each item in the provided collection
+        posts.forEach((item) => {
+            if (item.data.socialPreview) {
+                result.push(item);
+            }
+        });
+
+        return result;
+    }
+
 
     // Nunjucks Shortcodes
-    eleventyConfig.addPlugin(require('./config/nunjucks.js'));
+    eleventyConfig.addPlugin(nunjucksShortcodes);
 
     // Images
-    eleventyConfig.addPlugin(require('./config/images.js'));
+    eleventyConfig.addPlugin(imagesPlugin);
 
     var pathPrefix = "";
     if (process.env.GITHUB_REPOSITORY) {

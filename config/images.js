@@ -1,7 +1,7 @@
-const fs = require("fs");
-const path = require("path");
-const glob = require("glob-promise");
-const Image = require("@11ty/eleventy-img");
+import fs from "fs";
+import path from "path";
+import glob from "glob-promise";
+import Image from "@11ty/eleventy-img";
 
 // For image processing
 const THUMB = 400;
@@ -90,7 +90,7 @@ async function generateSocialImages() {
     })
 };
 
-module.exports = eleventyConfig => {
+export default function (eleventyConfig) {
     // Render and copy images
     eleventyConfig.on('beforeBuild', async () => {
         console.log('beforeBuild');

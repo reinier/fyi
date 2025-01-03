@@ -1,6 +1,6 @@
-const { DateTime } = require("luxon");
+import { DateTime } from 'luxon';
 
-module.exports = eleventyConfig => {
+export default function (eleventyConfig) {
 
     eleventyConfig.addFilter("readablePostDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj, {
