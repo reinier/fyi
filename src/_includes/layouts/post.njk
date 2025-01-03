@@ -10,17 +10,15 @@
                 <p class="post-date">
                     {{ page.date | readablePostDate }} &nbsp;&nbsp;&nbsp;&nbsp;✍️
                     <a href="https://reinierladan.nl">Reinier Ladan</a>
+                    {% if tags %}
+                        <span class="tags">in 
+                                {% for tag in tags -%}
+                                    <a class="tag" href="/onderwerp/{{ tag }}">{{ tag }}</a>
+                                {%- endfor %}
+                        </span>
+                    {% endif %}
                 </p>
                 {{ content | safe }}
-                {% if tags %}
-                    <section class="tags">
-                        <p>Meer over:
-                            {% for tag in tags -%}
-                                <a class="tag" href="/onderwerp/{{ tag }}">{{ tag }}</a>
-                            {%- endfor %}
-                        </p>
-                    </section>
-                {% endif %}
             </article>
         </main>
         <!-- Current page: {{ page.url | url }} -->

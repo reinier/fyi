@@ -269,12 +269,22 @@
 
     /* END PAGINATION */
 
-    .tags {
+    section.tags {
         @apply flex flex-row mt-8;
     }
 
-    .tags .tag {
+    section.tags .tag {
         @apply mx-2;
+    }
+
+    span.tags {
+        display: inline-block;
+        margin-left: 0.5rem
+    }
+
+    span.tags .tag {
+        display: inline-block;
+        margin-left: 0.5rem
     }
 
     .tag-list {
