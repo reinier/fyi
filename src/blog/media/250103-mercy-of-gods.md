@@ -1,6 +1,6 @@
 ---
 title: Mercy of Gods
-socialPreview: Hoe een sci-fi boek je klaar kunt stomen voor een dreiging uit Rusland.
+socialPreview: Hoe een sci-fi boek je klaar kan stomen voor een dreiging uit Rusland.
 date: 2025-01-03T10:15
 ---
 
