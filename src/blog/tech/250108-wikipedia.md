@@ -4,7 +4,7 @@ socialPreview: Delen van de samenleving keren zich tegen Wikipedia. Tijd voor ac
 date: 2025-01-08T14:25
 ---
 
-Wikipedia ligt onder vuur. Elon Musk heeft zich weer [erg negatief uitgelaten over Wikipedia op kerstavond](https://www.newsweek.com/elon-musk-takes-aim-wikipedia-fund-raising-editing-political-woke-2005742) en nu is er de Heritage Foundation dat Wikipedia editors wilt doxxen.
+Elon Musk heeft zich weer [erg negatief uitgelaten over Wikipedia op kerstavond](https://www.newsweek.com/elon-musk-takes-aim-wikipedia-fund-raising-editing-political-woke-2005742) en nu is er de Heritage Foundation dat Wikipedia editors wilt doxxen.
 
 > Employees of Heritage, the conservative think tank that produced the Project 2025 policy blueprint for the second Trump administration, said they plan to use facial recognition software and a database of hacked usernames and passwords in order to identify contributors to the online encyclopedia, who mostly work under pseudonyms. It’s not clear exactly what kind of antisemitism the Wikipedia effort, which has not been previously reported, is intended to address. But in recent months some Jewish groups have complained about a series of changes on the website relating to Israel, the war in Gaza and its repercussions.
 
