@@ -8,9 +8,6 @@ pagination:
   alias: postslist
 ---
 
-<h1>Weblog</h1>
-
-
 {% for post in postslist -%}
     {%- if post.data.href -%}
         <article class="in-list type-link">
