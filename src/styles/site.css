@@ -6,23 +6,23 @@
     @font-face {
         font-family: "Cartridge";
         src: url("/fonts/Cartridge-Regular.woff2") format("woff2"),
-            url("/fonts/Cartridge-Regular.woff") format("woff"),
-            url("/fonts/Cartridge-Regular.otf") format("opentype");
+        url("/fonts/Cartridge-Regular.woff") format("woff"),
+        url("/fonts/Cartridge-Regular.otf") format("opentype");
         font-weight: 400;
         font-style: normal;
         font-display: swap;
     }
-
+    
     @font-face {
         font-family: "Cartridge";
         src: url("/fonts/Cartridge-Bold.woff2") format("woff2"),
-            url("/fonts/Cartridge-Bold.woff") format("woff"),
-            url("/fonts/Cartridge-Bold.otf") format("opentype");
+        url("/fonts/Cartridge-Bold.woff") format("woff"),
+        url("/fonts/Cartridge-Bold.otf") format("opentype");
         font-weight: 800;
         font-style: normal;
         font-display: swap;
     }
-
+    
     body {
         text-rendering: optimizeLegibility;
         font-variant-ligatures: common-ligatures;
@@ -33,99 +33,99 @@
         overflow-x: hidden;
         width: 100%;
     }
-
+    
     p {
         @apply mb-4;
     }
-
+    
     header {
         @apply mb-8;
     }
-
+    
     main,
     footer {
         @apply container mx-auto px-8 max-w-2xl;
     }
-
+    
     main p,
     main ul,
     main ol {
         @apply text-xl;
     }
-
+    
     main ul,
     main ol {
         @apply ml-8 pb-4;
     }
-
+    
     main ul {
         @apply list-disc;
     }
-
+    
     main ol {
         @apply list-decimal;
     }
-
+    
     main ul li,
     main ol li {
         @apply mb-2;
     }
-
+    
     main p > img {
         @apply my-8;
     }
-
+    
     footer {
         @apply border-t-4 mt-12 pt-8;
     }
-
+    
     a {
         text-decoration: underline;
         @apply text-fyi-darkest-tint;
     }
-
+    
     a:hover {
         @apply text-fyi-alt-tint;
     }
-
+    
     h1,
     h2,
     h3 {
         @apply font-cartridge;
     }
-
+    
     h1 {
         @apply text-4xl mb-4 pt-4 font-black leading-tight;
         @apply text-fyi-dark-tint;
     }
-
+    
     .site-logo {
         @apply pt-4 text-center;
     }
-
+    
     .site-logo img {
         @apply mx-auto;
     }
-
+    
     h2 {
         @apply text-3xl mt-12 mb-3 font-extrabold text-fyi-darkest-tint;
     }
-
+    
     h3 {
         @apply text-2xl mt-8 mb-2 font-bold text-fyi-darkest-tint;
     }
-
+    
     strong {
         @apply font-extrabold;
     }
-
+    
     blockquote {
         @apply pl-8;
         color: #333332;
         border-left: 4px solid #999;
         font-style: italic;
     }
-
+    
     code {
         background-color: #ddd;
         font-family: 'Courier New', Courier, monospace;
@@ -139,56 +139,56 @@
     .site-intro {
         @apply border border-fyi-dark-tint bg-fyi-light-tint/20 p-4;
     }
-
+    
     .site-intro p {
         @apply text-base;
     }
-
+    
     .site-intro p:last-of-type {
         @apply m-0 text-base;
     }
-
+    
     /* NAV COMPONENT */
-
+    
     header {
         @apply bg-fyi-darkest-tint font-cartridge;
     }
-
+    
     .nav-Menu {
         @apply flex flex-row gap-4 lg:gap-8 pb-4;
         justify-content: center;
     }
-
+    
     .nav-Menu a {
         @apply text-white/80 no-underline transform-none uppercase text-base lg:text-2xl;
     }
-
+    
     .nav-Menu a:hover {
         @apply text-white underline;
     }
-
+    
     .nav-Menu .rl-nav-item {
         @apply list-none font-bold block;
     }
-
+    
     .nav-Menu .rl-active a {
         @apply text-fyi-brightest-tint;
     }
-
+    
     /* END NAV COMPONENT */
-
+    
     article.in-list {
         @apply my-16;
     }
-
+    
     .home article.type-link {
         @apply border-y-4 pt-8 pb-2;
     }
-
+    
     .home article.type-link h2 {
         @apply p-0 m-0 mb-4;
     }
-
+    
     article.type-link .link-title {
         width: 100%;
         position: relative;
@@ -196,30 +196,30 @@
         line-height: 0.8em;
         @apply mb-6;
     }
-
+    
     .post-date {
         @apply text-base font-cartridge;
     }
-
+    
     article.type-article h2 a,
     article.type-article h1 a {
         @apply no-underline text-fyi-darkest-tint;
     }
-
+    
     article.type-article h2 a:hover,
     article.type-article h1 a:hover {
         @apply text-fyi-alt-tint;
     }
-
+    
     article.type-link .link-title a {
         text-decoration: underline;
         @apply text-xl font-black leading-none text-fyi-bright-tint;
     }
-
+    
     article.type-link .link-title a:hover {
         @apply text-fyi-dark-tint;
     }
-
+    
     article.type-link .link-title a.permalink {
         position: absolute;
         right: 0;
@@ -228,7 +228,7 @@
         color: #333;
         @apply bg-white py-1 px-4 font-normal text-base;
     }
-
+    
     .hostname {
         text-decoration: none;
         @apply py-1 px-4 font-normal text-xs bg-fyi-dark-tint text-white;
@@ -236,131 +236,156 @@
         max-width: fit-content;
         margin-bottom: 0.3em;
     }
-
+    
     article.single h1 {
         @apply mb-2 pt-8;
     }
-
+    
     article.single .post-date {
         @apply mb-8;
     }
-
+    
     article.single.type-link h1 {
         @apply text-lg;
     }
-
+    
     /* PAGINATION */
-
+    
     .pagination {
         @apply flex flex-row justify-center mt-8;
     }
-
+    
     .pagination li {
         @apply mr-2 list-none;
     }
-
+    
     .pagination li a {
         @apply rounded mb-4 py-2 px-3 text-white bg-fyi-dark-tint text-xl leading-tight;
     }
-
+    
     .pagination li a[aria-current="page"] {
         @apply bg-white border-fyi-dark-tint border text-fyi-dark-tint no-underline;
     }
-
+    
     /* END PAGINATION */
-
+    
     section.tags {
         @apply flex flex-row mt-8;
     }
-
+    
     section.tags .tag {
         @apply mx-2;
     }
-
+    
     span.tags {
         display: inline-block;
         margin-left: 0.5rem
     }
-
+    
     span.tags .tag {
         display: inline-block;
         margin-left: 0.5rem
     }
-
+    
     .tag-list {
         @apply text-xl list-disc pl-8;
     }
-
+    
     .recepten-list {
         @apply text-xl list-none pl-0 ml-0 pt-8;
     }
-
+    
     .recept-cta {
         @apply inline-block w-44 align-top mr-4 mb-8;
     }
-
+    
     .comment-cta {
         @apply py-4;
     }
-
+    
     .img-content-rounded {
         @apply flex flex-wrap justify-center pb-8;
     }
-
+    
     .img-content-rounded img {
         @apply object-cover w-64 shadow-lg object-center rounded-full;
     }
-
+    
     .img-content {
         @apply flex flex-wrap justify-center m-4 mt-8;
     }
-
+    
     .img-content img {
         @apply object-cover w-2/3 shadow-lg object-center;
     }
-
+    
     .img-content p {
         @apply text-sm mt-3;
     }
-
+    
     .img-content-group {
         margin: 1em calc(50% - 50vw);
         text-align: center;
     }
-
+    
     .img-content-group img {
         @apply w-72 shadow-lg;
         display: inline-block;
     }
-
+    
     .abonneren {
         padding: 1em 0;
     }
-
+    
     .abonneren .abonneren-submit {
         @apply bg-fyi-dark-tint hover:bg-black hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
     }
-
+    
     form.abonneren input.abonneren-email {
         @apply shadow appearance-none border rounded w-full mb-4 py-2 px-3 text-gray-700 text-xl leading-tight focus:outline-none;
     }
-
+    
     hr {
         margin: 2em 0;
     }
+    
+    .blog-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1em;
+        
+        li {
+            padding-left: 1rem;
+            text-indent: -0.7rem;
+        }
+        
+        li::before {
+            content: "✍️ ";
+        }
+    }
 
-    /* MTG page */
-
-    .mtg-img-thumb {
-        @apply float-left w-48 mr-8 mb-4;
+    .newsletter-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1em;
+        
+        li {
+            padding-left: 1rem;
+            text-indent: -0.7rem;
+        }
+        
+        li::before {
+            content: "📝 ";
+        }
     }
 }
-
 @layer utilities {
     .break-out {
         margin: 1em calc(50% - 50vw);
     }
-
+    
     .break-out > img,
     .break-out > a > img,
     .break-out > p > img,
