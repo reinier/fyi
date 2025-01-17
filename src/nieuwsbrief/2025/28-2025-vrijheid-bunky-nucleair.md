@@ -1,6 +1,6 @@
 ---
 title: Vrijheid Bunky Nucleair
-date: 2025-01-11
+date: 2025-01-17
 socialPreview: 'Meer mensen is meer massa, de 80s vibe van Bunky Dunko en drek mag je altijd uiten'
 ---
 
