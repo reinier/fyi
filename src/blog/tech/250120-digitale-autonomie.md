@@ -5,7 +5,7 @@ description: Het is vandaag een uitstekende dag om even stil te staan bij onze d
 date: 2025-01-20T17:45
 ---
 
-Het lijkt me vandaag een belangrijke dag om het over de digitale autonomie van Nederland en Europa te hebben. En welke expert kan daar beter over vertellen dan Bert Hubert?
+Het lijkt me vandaag een belangrijke dag om het over de digitale autonomie van Nederland en Europa te hebben. En welke expert kan daar beter over vertellen dan [Bert Hubert](https://berthub.eu)?
 
 > Ik heb eigenlijk nooit last van die privacy schendingen. Ik betaal mijn gratis diensten met privacy muntjes. Maar de privacy muntjes gaan nooit op. Als die opgingen dan was je er wel zuiniger mee. Maar dat is niet zo.
 
