@@ -249,6 +249,11 @@
         @apply text-lg;
     }
     
+	.sub-link {
+		@apply my-16 text-fyi-alt-tint;
+		font-weight: bold;
+	}
+	
     /* PAGINATION */
     
     .pagination {
