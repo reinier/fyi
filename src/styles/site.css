@@ -250,7 +250,7 @@
     }
     
 	.sub-link {
-		@apply my-16 text-fyi-alt-tint;
+		@apply my-8 text-fyi-alt-tint;
 		font-weight: bold;
 	}
 	
