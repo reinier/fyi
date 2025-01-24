@@ -8,7 +8,7 @@ Hi, Reinier hier,
 
 Vorige week verstuurde ik jullie de nieuwsbrief via Substack, en dat is behoorlijk suboptimaal (want nazi’s en algoritmes en privacydingetjes).
 
-Na de verhuizing (want bij de vorige oplossing kwam de mail überhaupt niet altijd aan) ben ik ook gelijk op zoek gegaan naar een vervanging, maar de meeste goede vervangers kosten gewoon best wat geld. Geen probleem om dat op te hoesten, maar dat speelt dus mee in mijn beslisproces.
+Na de verhuizing (alsnog een goede beslissing want bij de vorige oplossing kwam de mail überhaupt niet altijd aan) ben ik ook gelijk op zoek gegaan naar een vervanging, maar de meeste goede vervangers kosten gewoon best wat geld. Geen probleem om dat op te hoesten, maar dat speelt dus nog mee in mijn beslisproces.
 
 Vandaag verstuur ik de nieuwsbrief nog via Substack, maar mogelijk in de toekomst dus weer vanaf een ander platform. Hier hoef je niets voor te doen, ik verhuis je abonnement gewoon mee.
 
