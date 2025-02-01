@@ -1,7 +1,7 @@
 ---
 title: Musk neemt de overheids-IT van de VS onder controle
 socialPreview: De Swasticars rijden met volle snelheid op totale controle af
-description: Het leest als een dystopische sic-if, maar is het nu aan de gang.
+description: Het leest als een dystopische sci-fi, maar is het nu aan de gang.
 date: 2025-01-31T08:50
 ---
 
