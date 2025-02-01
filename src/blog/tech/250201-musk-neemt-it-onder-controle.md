@@ -9,7 +9,7 @@ date: 2025-01-31T08:50
 
 Wired: [ Elon Musk’s Friends Have Infiltrated the General Services Administration ](https://www.wired.com/story/elon-musk-lackeys-general-services-administration/)
 
-Het leest als een dystopische sic-if, maar is het nu aan de gang. 
+Het leest als een dystopische sci-fi, maar is het nu aan de gang. 
 
 Het aan elkaar knopen van systemen, het afschalen van kennis ten behoeve van een all-service IT partij (bv. Amazon), het makkelijk uitgeven van rechten over grote hoeveelheden data. Het is allemaal gedaan in naam van efficiëntie en geld besparen. 
 
