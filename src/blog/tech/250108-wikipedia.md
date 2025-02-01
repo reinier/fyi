@@ -2,6 +2,9 @@
 title: Wikipedia ligt onder vuur
 socialPreview: Delen van de samenleving keren zich tegen Wikipedia. Tijd voor actie.
 date: 2025-01-08T14:25
+tags:
+  - elonmusk
+  - wikipedia 
 ---
 
 Elon Musk heeft zich weer [erg negatief uitgelaten over Wikipedia op kerstavond](https://www.newsweek.com/elon-musk-takes-aim-wikipedia-fund-raising-editing-political-woke-2005742) en nu is er de Heritage Foundation dat Wikipedia editors wil doxxen.

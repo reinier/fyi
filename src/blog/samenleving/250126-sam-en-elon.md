@@ -2,6 +2,8 @@
 title: Harris veranderde van een vriend naar een vijand van Musk
 socialPreview: Sam Harris doet een boekje open over hoe Musk steeds verder afdreef en zijn voormalige vriend tot vijand verklaarde
 date: 2025-01-26T14:40
+tags:
+  - elonmusk
 ---
 
 

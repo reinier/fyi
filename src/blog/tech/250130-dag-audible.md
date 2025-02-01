@@ -2,6 +2,9 @@
 title: Dag Audible
 socialPreview: Via deze tool heb ik al mijn luisterboeken gedownload en kan ik verkassen.
 date: 2025-01-30T16:55
+tags:
+  - bigtech 
+  - audible
 ---
 
 Sinds gisteren ben ik weer een stukje meer losgekomen van De Big Tech. [Met de tool Libation heb ik mijn Audible bibliotheek van luisterboeken binnengeharkt](https://github.com/rmcrackan/Libation) en alles geconverteerd naar rechtenvrije mp3’s.

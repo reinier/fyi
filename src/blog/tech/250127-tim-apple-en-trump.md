@@ -2,6 +2,9 @@
 title: Tim Apple en Trump
 socialPreview: Hoe gaat Apple zich verhouden tegenover het presidentschap van Trump en Musk?
 date: 2025-01-27T12:30
+tags:
+  - trump
+  - apple
 ---
 
 Joe (een van de twee hosts van de the [Defocused](http://defocused.co/) podcast) stelt terecht vast dat het op z’n minst vreemd is dat Tim Cook net zo hard heeft meegedaan aan het hielenlikken van Trump als de andere Big Tech CEO’s.

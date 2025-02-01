@@ -2,6 +2,8 @@
 title: Slopende systemen
 socialPreview: De barsten en grenzen van diverse systemen beginnen zichtbaar te worden. Wat gaan we er aan doen?
 date: 2025-01-25T10:50
+tags:
+  - bigtech 
 ---
 
 Er zijn een hoop systemen die wij mensen hebben opgetuigd die niet in het voordeel zijn van ons allemaal. Deze systemen verrijken een zeer select aantal mensen maar slopen de rest.

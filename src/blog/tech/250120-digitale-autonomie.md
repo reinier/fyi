@@ -3,6 +3,8 @@ title: Onbeperkt privacy-muntjes
 socialPreview: Hoe fragiel is onze digitale autonomie? Behoorlijk fragiel helaas.
 description: Het is vandaag een uitstekende dag om even stil te staan bij onze digitale autonomie.
 date: 2025-01-20T17:45
+tags:
+  - bigtech
 ---
 
 Het lijkt me vandaag een belangrijke dag om het over de digitale autonomie van Nederland en Europa te hebben. En welke expert kan daar beter over vertellen dan [Bert Hubert](https://berthub.eu)?

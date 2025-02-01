@@ -2,6 +2,8 @@
 title: Mijn geworstel met AI
 socialPreview: De AI geest is uit de fles, en dat zet me constant aan het denken.
 date: 2025-01-16T06:50
+tags:
+  - ai
 ---
 
 Ik denk veel na over AI, maar schrijf er niet zoveel over. Ik vind het een lastig onderwerp. Het baart me vooral zorgen, omdat …
