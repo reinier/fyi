@@ -163,7 +163,7 @@
     }
     
     nav {
-        padding-top: 150px;
+        padding-top: 160px;
         @apply lg:pt-24;
     }
 
@@ -177,7 +177,7 @@
     }
     
     .nav-Menu a:hover {
-        @apply lg:text-white/80 text-fyi-darkest-tint underline;
+        @apply lg:text-white/80 text-black underline;
     }
     
     .nav-Menu .rl-nav-item {
