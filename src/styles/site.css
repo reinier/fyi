@@ -32,6 +32,9 @@
         font-kerning: normal;
         overflow-x: hidden;
         width: 100%;
+        background-image: url("/images/fyi-header-repeat.png");
+        background-position-y: -20px;
+        background-repeat:repeat-x;
     }
     
     p {
@@ -151,20 +154,30 @@
     /* NAV COMPONENT */
     
     header {
-        @apply bg-fyi-darkest-tint font-cartridge;
+        @apply font-cartridge;
+        background-image: url("/images/reinier-fyi-header.png");
+        background-position-y: -20px;
+        background-repeat:no-repeat;
+        height: 180px;
+        @apply lg:h-36;
     }
     
+    nav {
+        padding-top: 150px;
+        @apply lg:pt-24;
+    }
+
     .nav-Menu {
         @apply flex flex-row gap-4 lg:gap-8 pb-4;
         justify-content: center;
     }
     
     .nav-Menu a {
-        @apply text-white/80 no-underline transform-none uppercase text-base lg:text-2xl;
+        @apply lg:text-white text-fyi-darkest-tint no-underline transform-none uppercase text-base lg:text-2xl;
     }
     
     .nav-Menu a:hover {
-        @apply text-white underline;
+        @apply lg:text-white/80 text-fyi-darkest-tint underline;
     }
     
     .nav-Menu .rl-nav-item {
@@ -172,7 +185,7 @@
     }
     
     .nav-Menu .rl-active a {
-        @apply text-fyi-brightest-tint;
+        @apply text-fyi-dark-active;
     }
     
     /* END NAV COMPONENT */
