@@ -13,6 +13,6 @@ We leven in een wereld waar alles en iedereen met elkaar verbonden moet zijn. Ma
 
 Uit [You don't need to be connected to the whole world - 82MHz](https://82mhz.net/posts/2025/01/you-dont-need-to-be-connected-to-the-whole-world/)
 
-Jaren geleden heb ik Facebook en Twitter vaarwel gezegd – een beslissing waar ik alleen maar blij mee ben. Instagram laat ik vaan maanden links liggen, om dan een dag terug te keren en te beseffen dat ik het helemaal niet mis.
+Jaren geleden heb ik Facebook en Twitter vaarwel gezegd – een beslissing waar ik alleen maar blij mee ben. Instagram laat ik vaak maanden links liggen, om dan een dag terug te keren en te beseffen dat ik het helemaal niet mis.
 
 [Mastodon](https://mastodon.nl) maakt me wél blij. Dat is een ware oase in de algoritmewoestijn die de gangbare social media zijn geworden. Je krijgt wat je volgt, en meer niet. 
