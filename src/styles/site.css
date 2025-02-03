@@ -174,7 +174,7 @@
     }
     
     .nav-Menu a {
-        @apply lg:text-white text-fyi-darkest-tint no-underline transform-none uppercase text-base text-xl lg:text-2xl;
+        @apply lg:text-white text-fyi-darkest-tint no-underline transform-none uppercase text-xl lg:text-2xl;
     }
     
     .nav-Menu a:hover {
