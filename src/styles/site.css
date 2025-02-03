@@ -3,21 +3,22 @@
 @tailwind utilities;
 
 @layer base {
+
     @font-face {
-        font-family: "Cartridge";
-        src: url("/fonts/Cartridge-Regular.woff2") format("woff2"),
-        url("/fonts/Cartridge-Regular.woff") format("woff"),
-        url("/fonts/Cartridge-Regular.otf") format("opentype");
+        font-family: "Ships Whistle";
+        src: url("/fonts/ShipsWhistle-Rough.woff2") format("woff2"),
+        url("/fonts/ShipsWhistle-Rough.woff") format("woff"),
+        url("/fonts/ShipsWhistle-Rough.otf") format("opentype");
         font-weight: 400;
         font-style: normal;
         font-display: swap;
     }
     
     @font-face {
-        font-family: "Cartridge";
-        src: url("/fonts/Cartridge-Bold.woff2") format("woff2"),
-        url("/fonts/Cartridge-Bold.woff") format("woff"),
-        url("/fonts/Cartridge-Bold.otf") format("opentype");
+        font-family: "Ships Whistle";
+        src: url("/fonts/ShipsWhistle-BoldRough.woff2") format("woff2"),
+        url("/fonts/ShipsWhistle-BoldRough.woff") format("woff"),
+        url("/fonts/ShipsWhistle-BoldRough.otf") format("opentype");
         font-weight: 800;
         font-style: normal;
         font-display: swap;
@@ -94,11 +95,11 @@
     h1,
     h2,
     h3 {
-        @apply font-cartridge;
+        @apply font-fyi-alt font-bold leading-none;
     }
     
     h1 {
-        @apply text-4xl mb-4 pt-4 font-black leading-tight;
+        @apply text-4xl mb-4 pt-4 font-black;
         @apply text-fyi-dark-tint;
     }
     
@@ -154,7 +155,7 @@
     /* NAV COMPONENT */
     
     header {
-        @apply font-cartridge;
+        @apply font-fyi-alt font-bold;
         background-image: url("/images/reinier-fyi-header.png");
         background-position-y: -20px;
         background-repeat:no-repeat;
@@ -173,7 +174,7 @@
     }
     
     .nav-Menu a {
-        @apply lg:text-white text-fyi-darkest-tint no-underline transform-none uppercase text-base lg:text-2xl;
+        @apply lg:text-white text-fyi-darkest-tint no-underline transform-none uppercase text-base text-xl lg:text-2xl;
     }
     
     .nav-Menu a:hover {
@@ -211,7 +212,7 @@
     }
     
     .post-date {
-        @apply text-base font-cartridge;
+        @apply text-base font-fyi-alt;
     }
     
     article.type-article h2 a,

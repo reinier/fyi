@@ -3,7 +3,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                'cartridge': ['Cartridge', '-apple-system', 'Helvetica Neue', 'Helvetica', 'sans-serif'],
+                'fyi-alt': ['Ships Whistle', '-apple-system', 'Helvetica Neue', 'Helvetica', 'sans-serif'],
                 'body-default': ['-apple-system', 'Helvetica Neue', 'Helvetica', 'sans-serif']
             },
             colors: {
