@@ -3,24 +3,21 @@
 @tailwind utilities;
 
 @layer base {
+
     @font-face {
-        font-family: "Cartridge";
-        src: url("/fonts/Cartridge-Regular.woff2") format("woff2"),
-        url("/fonts/Cartridge-Regular.woff") format("woff"),
-        url("/fonts/Cartridge-Regular.otf") format("opentype");
+        font-family: "Ships Whistle";
+        src: url("/fonts/ShipsWhistle-Rough.woff2") format("woff2"),
+        url("/fonts/ShipsWhistle-Rough.woff") format("woff"),
+        url("/fonts/ShipsWhistle-Rough.otf") format("opentype");
         font-weight: 400;
-        font-style: normal;
-        font-display: swap;
     }
     
     @font-face {
-        font-family: "Cartridge";
-        src: url("/fonts/Cartridge-Bold.woff2") format("woff2"),
-        url("/fonts/Cartridge-Bold.woff") format("woff"),
-        url("/fonts/Cartridge-Bold.otf") format("opentype");
+        font-family: "Ships Whistle";
+        src: url("/fonts/ShipsWhistle-BoldRough.woff2") format("woff2"),
+        url("/fonts/ShipsWhistle-BoldRough.woff") format("woff"),
+        url("/fonts/ShipsWhistle-BoldRough.otf") format("opentype");
         font-weight: 800;
-        font-style: normal;
-        font-display: swap;
     }
     
     body {
@@ -32,6 +29,9 @@
         font-kerning: normal;
         overflow-x: hidden;
         width: 100%;
+        background-image: url("/images/fyi-header-repeat.png");
+        background-position-y: -20px;
+        background-repeat:repeat-x;
     }
     
     p {
@@ -91,11 +91,11 @@
     h1,
     h2,
     h3 {
-        @apply font-cartridge;
+        @apply font-fyi-alt font-extrabold leading-none;
     }
     
     h1 {
-        @apply text-4xl mb-4 pt-4 font-black leading-tight;
+        @apply text-4xl mb-4 pt-4;
         @apply text-fyi-dark-tint;
     }
     
@@ -108,11 +108,11 @@
     }
     
     h2 {
-        @apply text-3xl mt-12 mb-3 font-extrabold text-fyi-darkest-tint;
+        @apply text-3xl mt-12 mb-3 text-fyi-darkest-tint;
     }
     
     h3 {
-        @apply text-2xl mt-8 mb-2 font-bold text-fyi-darkest-tint;
+        @apply text-2xl mt-8 mb-2 text-fyi-darkest-tint;
     }
     
     strong {
@@ -151,20 +151,30 @@
     /* NAV COMPONENT */
     
     header {
-        @apply bg-fyi-darkest-tint font-cartridge;
+        @apply font-fyi-alt font-bold;
+        background-image: url("/images/reinier-fyi-header.png");
+        background-position-y: -20px;
+        background-repeat:no-repeat;
+        height: 180px;
+        @apply lg:h-36;
     }
     
+    nav {
+        padding-top: 160px;
+        @apply lg:pt-24;
+    }
+
     .nav-Menu {
         @apply flex flex-row gap-4 lg:gap-8 pb-4;
         justify-content: center;
     }
     
     .nav-Menu a {
-        @apply text-white/80 no-underline transform-none uppercase text-base lg:text-2xl;
+        @apply lg:text-white text-fyi-darkest-tint no-underline transform-none uppercase text-xl lg:text-2xl;
     }
     
     .nav-Menu a:hover {
-        @apply text-white underline;
+        @apply lg:text-white/80 text-black underline;
     }
     
     .nav-Menu .rl-nav-item {
@@ -172,7 +182,7 @@
     }
     
     .nav-Menu .rl-active a {
-        @apply text-fyi-brightest-tint;
+        @apply text-fyi-dark-active;
     }
     
     /* END NAV COMPONENT */
@@ -198,7 +208,7 @@
     }
     
     .post-date {
-        @apply text-base font-cartridge;
+        @apply text-base font-fyi-alt;
     }
     
     article.type-article h2 a,
