@@ -225,6 +225,10 @@
         @apply text-fyi-alt-tint;
     }
     
+    article.type-article .post-content h2 {
+        @apply text-2xl;
+    }
+
     article.type-link .link-title a {
         text-decoration: underline;
         @apply text-xl font-black leading-none text-fyi-bright-tint;
