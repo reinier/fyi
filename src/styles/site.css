@@ -191,6 +191,10 @@
         @apply my-16;
     }
     
+    .home {
+        @apply mt-14;
+    }
+
     .home article.type-link {
         @apply border-y-4 pt-8 pb-2;
     }
