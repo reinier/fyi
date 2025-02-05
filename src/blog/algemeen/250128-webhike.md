@@ -3,6 +3,7 @@ title: Webhike
 socialPreview: eMac Mini Enclosure, Super Mario Street Art,Expertise and credentials en meer…
 description: Een handvol onsamenhangende maar toch interessante links.
 date: 2025-01-28T16:30
+tags: webhike
 ---
 
 Vandaag heb ik een webhike voor je, oftewel een post met onsamenhangende maar toch interessante links.
