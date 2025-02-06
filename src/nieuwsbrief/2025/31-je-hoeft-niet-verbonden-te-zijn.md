@@ -10,7 +10,7 @@ Deze week heb ik m'n boeltje gepakt bij Substack en alles neergezet bij [Buttond
 
 Buttondown is een sympathiek bedrijf wat één ding goed doet: nieuwsbrieven versturen. Zonder algoritme, zonder social netwerk, zonder poespas.
 
-Verder heb ik deze week geknutseld aan [mijn website reinier.fyi](https://reinier.fyi) en er een persoonlijke tint aan gegeven. Het resultaat zie je ook bovenin deze nieuwsbrief.
+Verder heb ik deze week geknutseld aan deze site en er een persoonlijke tint aan gegeven. Het resultaat zie je ook aan de nieuwe stijl van de nieuwsbrief.
 
 Op naar de blogposts van deze week!
 
