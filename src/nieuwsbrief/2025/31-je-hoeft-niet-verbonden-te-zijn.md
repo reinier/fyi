@@ -6,7 +6,7 @@ socialPreview: Er is ook een leven zonder social media, C-3PO in een Mad Max wer
 
 Hi, Reinier hier,
 
-Deze week heb ik m'n boeltje gepakt bij Substack en alles weer neergezet bij [Buttondown](https://buttondown.com/). Ik duim dat deze editie gewoon in je inbox zit, en niet door een filter is weggemoffeld.
+Deze week heb ik m'n boeltje gepakt bij Substack en alles neergezet bij [Buttondown](https://buttondown.com/). Ik duim dat deze editie gewoon in je inbox zit, en niet door een filter is weggemoffeld.
 
 Buttondown is een sympathiek bedrijf wat één ding goed doet: nieuwsbrieven versturen. Zonder algoritme, zonder social netwerk, zonder poespas.
 
