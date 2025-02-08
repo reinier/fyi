@@ -1,6 +1,6 @@
 ---
 title: Muskdrollen vervuilen onze ozonlaag
-socialPreview: Er verbranden al een hoop Starlink satellieten in de atmosfeer en dat tast de ozonlaag aan.
+socialPreview: Er verbranden al een hoop Starlink-satellieten in de atmosfeer en dat tast de ozonlaag aan.
 date: 2025-02-08T16:15
 tags:
   - elonmusk
