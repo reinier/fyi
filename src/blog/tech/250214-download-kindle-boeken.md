@@ -12,7 +12,7 @@ Een tijdje geleden [liet ik al vallen](https://reinier.fyi/blog/tech/250130-dag-
 
 Als alternatief voor Amazon Kindle heb ik (om eens te proberen) een boek gekocht in het Kobo-ecosysteem (via bol.com). Daarover later meer.
 
-Amazon heeft ervoor gezorgd dat ik vaart maak met het veiligstellen van alle boeken die ik daar de afgelopen 15 jaar heb gekocht. [Ze gaan het je namelijk moeilijker maken om je aangeschafte Kindle-boeken te downloaden](https://goodereader.com/blog/kindle/amazon-removing-download-and-transfer-on-the-kindle-feb-26th).
+Amazon heeft ervoor gezorgd dat ik vaart maak met het veiligstellen van alle boeken die ik daar de afgelopen 15 jaar heb gekocht. [Ze gaan het je namelijk (vanaf 26 februari) moeilijker maken om je aangeschafte Kindle-boeken te downloaden](https://goodereader.com/blog/kindle/amazon-removing-download-and-transfer-on-the-kindle-feb-26th).
 
 Na het lezen van dat bericht heb ik meteen gezorgd dat mijn boeken veilig op m’n computer staan. Mogelijk haal ik de DRM er ook nog af, zodat ik de boeken in de toekomst platformvrij kan lezen.
 
