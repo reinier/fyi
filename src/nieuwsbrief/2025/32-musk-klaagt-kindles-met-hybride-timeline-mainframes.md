@@ -10,8 +10,6 @@ Iedereen heel erg bedankt met de hulp vorige week! Ik heb een heel duidelijk bee
 
 Ik hoop dat door het massaal op *not spam* klikken het nu duidelijk is bij Gmail en Outlook, maar kom je 'm nog steeds tegen in je spam, laat het gewoon weten. Dan kijk ik naar nog meer oplossingen. 
 
-Wat sowieso helpt is de afzender van deze email (hallo@post.reinier.fyi) in je adresboek zetten. Dan is er minder kans op een misplaatste spammarkering.
-
 Ik ben er eigenlijk wel helemaal klaar mee met dat email. Jij ook? Je kunt de FYI ook volgen via:
 
 - [Mastodon](https://carelesswhisper.nl/@reinier)
