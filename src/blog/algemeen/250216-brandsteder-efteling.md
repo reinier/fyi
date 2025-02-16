@@ -1,3 +1,4 @@
+---
 title: Ron Brandsteder, De Efteling, en ik
 socialPreview: Ron Brandsteder en de Efteling zijn in mijn hoofd onlosmakelijk met elkaar verbonden.
 description: Mijn zoektocht naar de tv-show die ik meer dan 35 jaar geleden heb gezien.
@@ -7,6 +8,7 @@ tags:
   - efteling
   - ronbrandsteder
   - tv
+---
 
 Deze week was ik in de Efteling en las daar, terwijl ik in de rij van de Droomvlucht stond, dat Ron Brandsteder was overleden. Dat nieuws bracht twee dingen samen waar ik jarenlang naar had gezocht.  
 
