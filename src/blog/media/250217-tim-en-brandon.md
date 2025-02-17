@@ -16,5 +16,5 @@ Het meest interessante aan het gesprek is hoe Brandon niet alleen een schrijver 
 
 Brandon's werkethos is ook bijzonder. Hij weet het voor elkaar te krijgen om honderdduizenden gepubliceerde woorden per jaar te produceren en toch uit te slapen tot 13:00.
 
-Meer weten? Luister het hele gesprek hier:  
+Meer weten? Bekijk hier het hele gesprek:  
 [Brandon Sanderson — Building a Fiction Empire, $40M+ Kickstarter Campaigns, and Unbreakable Habits](https://www.youtube.com/watch?v=wIgI_DiwZh4&t=4144s).
