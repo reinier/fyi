@@ -30,9 +30,6 @@
     "private": true,
     "keywords": [],
     "type": "module",
-    "name": "reinierladan-nl",
-    "description": "",
-    "dependencies": {
-        "@11ty/eleventy-upgrade-help": "^3.0.1"
-    }
+    "name": "fyi-nl",
+    "description": ""
 }
