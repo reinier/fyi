@@ -1,13 +1,10 @@
 import htmlmin from "html-minifier";
 import pluginRss from "@11ty/eleventy-plugin-rss";
-import UpgradeHelper from "@11ty/eleventy-upgrade-help";
 import filters from './config/filters.js';
 import nunjucksShortcodes from './config/nunjucks.js';
 import imagesPlugin from './config/images.js';
 
 export default function (eleventyConfig) {
-    // If you have other `addPlugin` calls, it’s important that UpgradeHelper is added last.
-    eleventyConfig.addPlugin(UpgradeHelper);
 
     if (process.env.ELEVENTY_PRODUCTION) {
         eleventyConfig.addTransform("htmlmin", htmlminTransform);
