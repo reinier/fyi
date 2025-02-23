@@ -48,7 +48,7 @@ export default function (eleventyConfig) {
 
     // splitlines for social image posts
     eleventyConfig.addFilter('splitlinescover', function (input) {
-        let lineWidth = 24;
+        let lineWidth = 20;
         return wrapContentToWidth(input, lineWidth);
     });
 
