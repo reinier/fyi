@@ -407,6 +407,18 @@
             content: "📝 ";
         }
     }
+
+    section.newsletter-covers {
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px; optie: space tussen objecten */
+
+        a {
+            display: inline-block;
+            border: 2px solid #C01C74;
+            border-radius: 3px;
+        }
+    }
 }
 @layer utilities {
     .break-out {
@@ -420,3 +432,42 @@
         @apply mx-auto;
     }
 }
+
+  .fan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    padding-left: 110px;
+    overflow: visible;
+  }
+
+  .fan-container a {
+    border: 2px solid #C01C74;
+    border-radius: 3px;
+    position: absolute;
+    transition: transform 0.3s ease;
+  }
+
+  .fan-container a:nth-child(1) {
+    transform: rotate(0deg);
+    z-index: 2;
+  }
+
+  .fan-container a:nth-child(2) {
+    transform: rotate(-15deg) translateX(-100px) translateY(-12px);
+    z-index: 1;
+  }
+
+  .fan-container a:nth-child(3) {
+    transform: rotate(15deg) translateX(100px) translateY(-12px);
+    z-index: 1;
+  }
+
+  .fan-container a:hover {
+    z-index: 3;
+  }
+
