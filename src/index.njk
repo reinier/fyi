@@ -29,13 +29,13 @@ eleventyExcludeFromCollections: true
 <h2>FYI Nieuwsbrief</h2>
 <p>Dit zijn de drie meest recente nieuwsbrieven.</p>
 {% set latest_posts = collections.newsletters %}
-<section class="fan-container">
+<ul class="newsletter-list">
 {% for post in latest_posts.slice(0,3) %}
-        <!--<li>
+        <li>
             <a href="{{ post.url }}">{{ post.data.title }}</a>
             <em>{{ post.data.date | readablePostDate }}</em>
-        </li>-->
-        <a href="{{ post.url }}"><img width="190" alt="Nieuwsbrief cover met title {{ post.data.title }}" src="/images/social-preview-images/cover-{{ post.data.date | postDate }}-{{ post.data.title | slugify }}-preview.jpeg" /></a>
+        </li>
+        <!-- <a href="{{ post.url }}"><img width="190" alt="Nieuwsbrief cover met title {{ post.data.title }}" src="/images/social-preview-images/cover-{{ post.data.date | postDate }}-{{ post.data.title | slugify }}-preview.jpeg" /></a> -->
 {% endfor %}
-</section>
+</ul>
 <p>Bekijk het hele <a href="/nieuwsbrief">nieuwsbriefarchief</a>.</p>
