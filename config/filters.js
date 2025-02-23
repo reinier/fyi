@@ -46,6 +46,12 @@ export default function (eleventyConfig) {
         return wrapContentToWidth(input, lineWidth);
     });
 
+    // splitlines for social image posts
+    eleventyConfig.addFilter('splitlinescover', function (input) {
+        let lineWidth = 24;
+        return wrapContentToWidth(input, lineWidth);
+    });
+
     eleventyConfig.addFilter('getthumb', function (input) {
         return getThumbFromImageUrl(input);
     });

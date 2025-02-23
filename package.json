@@ -3,6 +3,7 @@
         "dev": "run-p clean dev:*",
         "dev:eleventy": "eleventy --serve",
         "dev:postcss": "postcss src/styles/*.css --dir _site --watch",
+        "dev:fonts": "cross-env FONTCONFIG_PATH=. eleventy",
         "build": "run-s clean build:eleventy build:postcss",
         "build:eleventy": "cross-env ELEVENTY_PRODUCTION=true FONTCONFIG_PATH=. eleventy",
         "build:postcss": "cross-env NODE_ENV=production postcss src/styles/*.css --dir _site",
