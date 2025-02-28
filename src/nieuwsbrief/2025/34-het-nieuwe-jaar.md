@@ -10,7 +10,7 @@ Terwijl [de afbraak van de VS](https://www.comicsands.com/musk-doge-ebola-preven
 
 Nog meer leuk nieuws: [Yvette van Boven is een nieuwbrief begonnen](https://yvettevanboven.substack.com/) (_[helaas bij Substack](https://www.anildash.com//2024/11/19/dont-call-it-a-substack/)_) waarin ze persoonlijke verhalen en recepten deelt. In de eerste nieuwsbrief staat gelijk al een recept dat ik zeer snel eens ga maken: [kruidige geroosterde bospeen & mungbonen](https://yvettevanboven.com/recipes/kruidige-geroosterde-bospeen-en-mungbonen-met-amandel-en-feta/).
 
-Verder begint morgen [het nieuwe jaar](https://reinier.fyi/blog/algemeen/250122-winter-is-het-einde/). De zon laat zich vaker zien dus er hangt wat meer optimisme in de lucht dan hartje winter. Meer kans om die goede voornemens te laten slagen!
+Verder begint morgen [het nieuwe jaar](https://reinier.fyi/blog/algemeen/250122-winter-is-het-einde/). De zon laat zich vaker zien dus er hangt wat meer optimisme in de lucht dan in hartje winter. Meer kans om die goede voornemens te laten slagen!
 
 Een goed voornemen wat ik zeker kan aanraden: lees meer boeken van vrouwelijke schrijvers.
 
