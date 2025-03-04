@@ -16,14 +16,14 @@ Kies ongeveer 4 groenten:
 
 - Wortel
 - Bimi
-- Broccoli
+- Broccoli (kort voorkoken)
 - Bosui
 - Rode ui
 - Dun gesneden spitskool / Chinese kool
 - Paprika
 - Paksoi
 - Sugarsnaps
-- Sperziebonen / haricots verts
+- Sperziebonen / haricots verts (kort voorkoken)
 
 Kies een proteïne:
 
