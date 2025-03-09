@@ -5,6 +5,7 @@ date: 2025-02-21T13:55
 tags:
   - boeken
   - nkjemisin
+  - fantastische-schrijfsters
 ---
 
 !["Broken earth trilogie boek covers"](/images/blog/broken-earth.jpg)
