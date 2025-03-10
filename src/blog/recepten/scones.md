@@ -42,8 +42,10 @@ Ik maak ook grotere scones dan Rutger, dus ze moeten wat langer in de oven.
 2. Zet een bakplaat klaar met herbruikbaar bakpapier.
 3. Mix de bloem, suiker, bakpoeder en zout in een grote kom.
 4. Doe de klontjes boter erbij en wrijf met je vingers de boter door het bloemmengsel zodat er kleine korreltjes ontstaan.
-5. Voeg de eieren, melk en citroensap toe en kneed het tot een soort van samenhangend deeg. Mijn deeg kun je omschrijven als een vochtig shaggy dough, als je je er iets bij kunt voorstellen. Vooral niet te ver door kneden.
+5. Voeg de eieren, melk en citroensap toe en kneed het tot een soort van samenhangend deeg. Mijn deeg kun je omschrijven als een vochtig shaggy dough, als je je er iets bij kunt voorstellen. Vooral niet te ver doorkneden.
 6. Verdeel het deeg in 8 gelijke porties en plaats ze als bergjes op je bakplaat. Ik doe dit op gevoel met een lepel en een spatel.
 7. Doe in de oven voor 18 minuten en laat ze daarna even afkoelen.
+
+Eet smakelijk!
 
 !["Foto van een heerlijke scone"](/images/recepten/scones-1.jpg)
