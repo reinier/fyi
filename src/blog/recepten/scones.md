@@ -1,6 +1,6 @@
 ---
 title: De beste scones ever
-date: 2025-03-10T17:40
+date: 2025-03-10T19:00
 tags:
   - zoet
   - deeg
@@ -9,8 +9,8 @@ image: /images/recepten/scones-2.jpg
 imageAlt: "Foto van een heerlijke scone"
 description: De meest ambachtelijke en heerlijke scones die je kunt maken
 prepTime: 15
-cookTime: 18
-totalTime: 33
+cookTime: 20
+totalTime: 35
 ---
 
 Als ik in de zomervakantie weleens op bezoek was bij mijn oma in Engeland, dan at ik het liefst elke dag scones. Ik was er dol op, en nog steeds. Scones uit de supermarkt, ambachtelijke scones bij een culinaire bakker, en alles ertussen.
