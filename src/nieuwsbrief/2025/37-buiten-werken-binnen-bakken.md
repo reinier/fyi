@@ -79,6 +79,11 @@ Ik maak ook grotere scones dan Rutger, dus ze moeten wat langer in de oven.
 
 Uiteraard ook heel erg lekker met clotted cream, maar dat hebben we niet standaard in huis. Tegenwoordig zie je het wel steeds vaker in de supermarkt en anders moet je even regelen dat je naar de Sligro kan.
 
+Mijn site is recepten-app vriendelijk en deze recepten-apps kan ik van harte aanbeleven:
+
+- [Mela](https://mela.recipes/)
+- [Crouton](https://crouton.app/)
+
 ## Buiten werken werkt
 
 > This winter, for a month, every workday, I vowed to work outside for at least part of the day, no matter the conditions.
