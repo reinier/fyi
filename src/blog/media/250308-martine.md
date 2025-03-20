@@ -6,6 +6,7 @@ tags:
   - boeken
   - arkadymartine
   - fantastische-schrijfsters
+  - sciencefiction
 ---
 
 Epische science fiction, dat ga je krijgen bij Arkady Martine. De hoofdpersoon uit de Teixcalaan-serie adoreert op haar manier het epische keizerrijk, terwijl het keizerrijk haar volk onder druk zet.

@@ -6,6 +6,7 @@ tags:
   - boeken
   - nkjemisin
   - fantastische-schrijfsters
+  - sciencefiction
 ---
 
 !["Broken earth trilogie boek covers"](/images/blog/broken-earth.jpg)
