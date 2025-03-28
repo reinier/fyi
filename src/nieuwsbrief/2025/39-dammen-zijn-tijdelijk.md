@@ -2,7 +2,7 @@
 title: "Dammen zijn tijdelijk, net als berichten in Signal"
 date: 2025-03-28
 socialPreview: "Deze week: minder blogs, meer reflectie. Plus bizarre Signal-groepen, foute grafieken en tijdelijke dammen."
-description: "Signal-gate, valse statistieken en fantastische fantasy. Hier is je FYI van deze week"
+description: "Signal-gate, valse statistieken en fantastische fantasy. Hier is je FYI van deze week."
 ---
 
 Hi, Reinier hier,
