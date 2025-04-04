@@ -9,7 +9,7 @@ Hi, Reinier hier,
 
 [Het kabinet viel bijna over een lintje](https://nos.nl/video/2562110-bijna-hele-oppositie-dient-motie-van-wantrouwen-in-tegen-minister-faber). Schoof stak z’n kop in het zand en de wereld draait weer door. Faber kan doen wat ze al deed, het vluchtelingenleed nog groter maken, en de rest van het kabinet kan weer buiten in het zonnetje gaan zitten. Wachten totdat de Tweede Kamer weer opmerkt dat er eigenlijk niet zoveel gebeurt. 
 
-De realiteit is dat we een scrummaster als premier hebben terwijl we smachten naar product owner. Het team zit vol incompetente dwazen die procesmatig worden aangestuurd, maar inhoudelijk hebben ze alle neuzen de andere kant op.
+De realiteit is dat we een scrummaster als premier hebben terwijl we smachten naar een product owner. Het team zit vol incompetente dwazen die procesmatig worden aangestuurd, maar inhoudelijk hebben ze alle neuzen de andere kant op.
 
 Niet best, gezien alle geopolitieke toestanden. Heffingen, dode kinderen, loopgraven. Maar scrummaster Schoof doet gewoon z’n weekly en gaat door met deze incompetente boel. In een retro [een stevig spelletje memory](https://nos.nl/nieuwsuur/artikel/2562029-achterdocht-en-ergernis-in-kabinet-niemand-wil-pijn-voor-elkaar-nemen) en door.
 
