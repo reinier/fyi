@@ -19,6 +19,8 @@ In **Record of a Spaceborn Few** volg je personages op een ruimteschip-kolonie. 
 
 Met **The Galaxy, and the Ground Within** neemt Becky afscheid van deze serie met een warm verhaal over gastvrijheid en saamhorigheid tussen vreemden. Terwijl ze vastzitten op een afgelegen planeet leren personages uit totaal verschillende werelden elkaar écht kennen.
 
+De boeken zijn bij elkaar een serie, maar ze zijn ook echt prima los van elkaar te lezen. Er zijn geen terugkerende karakters en de connecties die de boeken hebben zijn niet relevant voor het verhaal dat er verteld wordt.
+
 Becky Chambers zorgt voor empathie in haar boeken. Wederom een aanrader voor iedereen die denkt niet van sciencefiction te houden. En blijkbaar ook Elon Musk, want die kan zeker wat empathie gebruiken.
 
 - [The Long Way to a Small, Angry Planet](https://app.thestorygraph.com/books/9a95c81f-7a91-4087-971c-5ff14d5403dd) (Wayfarers #1)
