@@ -8,6 +8,6 @@ date: 2025-04-10T20:15
 
 [What If We Made Advertising Illegal?](https://simone.org/advertising/) Terechte vraag van Kōdō Simone.
 
-We worden zo beïnvloed door reclame dat ik het helemaal geen radicale gedachte meer vind. Laat mensen zelf nadenken in plaats van ze gedachten op te dringen.
+Reclame beïnvloedt ons zo sterk dat ik het idee niet eens meer radicaal vind. Laat mensen zelf nadenken in plaats van hen gedachten op te dringen.
 
-Krijgen de “doe je eigen onderzoek”-mensen toch gelijk.
+Krijgen de “doe je eigen onderzoek”-mensen toch gelijk!
