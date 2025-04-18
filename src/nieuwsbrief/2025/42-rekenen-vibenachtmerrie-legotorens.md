@@ -53,7 +53,7 @@ Afijn. Hilariteit alom wat mij betreft, deze video [Destroying Lego Towers](http
 
 ### De boeken die ik laatst heb getipt
 
-- [Long Way To A Small Angry Planet](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Ff%2Fthe-long-way-to-a-small-angry-planet%2F9200000034375959%2F&name=Long%20Way%20To%20A%20Small%20Angry%20Planet%2C%20Chambers%20Becky) van Becky Chambers (paperback maar 8,49 nu)
+- [Long Way To A Small Angry Planet](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Ff%2Fthe-long-way-to-a-small-angry-planet%2F9200000034375959%2F&name=Long%20Way%20To%20A%20Small%20Angry%20Planet%2C%20Chambers%20Becky) van Becky Chambers
 - [The Ten Thousand Doors of January](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Ff%2Fthe-ten-thousand-doors-of-january%2F9200000104579255%2F&name=The%20Ten%20Thousand%20Doors%20of%20January%2C%20Alix%20E.%20Harrow) van Alix E Harrow
 - [Black Sun](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Ff%2Fblack-sun%2F9200000129860374%2F&name=Black%20Sun%2C%20Rebecca%20Roanhorse) van Rebecca Roanhorse
 - [Alien Clay](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Falien-clay%2F9300000162798494%2F&name=Alien%20Clay%2C%20Adrian%20Tchaikovsky) van Adrian Tchaikovsky (let op, dit is een man!)
