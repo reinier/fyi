@@ -1,5 +1,5 @@
 ---
-title: "Rekenen met onzekerheid, secutityvibenachtmerrie en Lego-torens ombeuken"
+title: "Rekenen met onzekerheid, vibenachtmerrie en Lego-torens ombeuken"
 date: 2025-04-18
 socialPreview: "Van malafide dependencies en onzekerheid in rekenen tot homevideo-roulette"
 ---
