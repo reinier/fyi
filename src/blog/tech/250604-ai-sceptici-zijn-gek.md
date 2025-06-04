@@ -1,5 +1,5 @@
 ---
-title: AI-sceptici zijn gek
+title: "AI-sceptici zijn gek"
 socialPreview: "Deze Thomas legt uit wat de kracht van LLMs tegenwoordig is voor programmeurs, maar hij vergeet de toekomst." 
 date: 2025-06-04T19:40
 ---
