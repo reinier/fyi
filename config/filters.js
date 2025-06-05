@@ -1,4 +1,11 @@
-import { DateTime } from 'luxon';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+let DateTime;
+try {
+    ({ DateTime } = require('luxon'));
+} catch {
+    // luxon may not be available during simple test runs
+}
 
 export default function (eleventyConfig) {
 
@@ -61,7 +68,7 @@ export default function (eleventyConfig) {
     });
 };
 
-function getThumbFromImageUrl(imageUrl) {
+export function getThumbFromImageUrl(imageUrl) {
 
     const prefix = 'thumb-';
     const lastIndex = imageUrl.lastIndexOf('/');
