@@ -1,6 +1,5 @@
-const fs = require('fs');
-const path = require('path');
-const rimraf = require('rimraf');
+import path from 'path';
+import rimraf from 'rimraf';
 
 const args = process.argv.slice(2);
 
