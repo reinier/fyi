@@ -3,6 +3,7 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import filters from './config/filters.js';
 import nunjucksShortcodes from './config/nunjucks.js';
 import imagesPlugin from './config/images.js';
+import markdownPlugin from './config/markdown.js';
 
 export default function (eleventyConfig) {
 
@@ -31,6 +32,8 @@ export default function (eleventyConfig) {
 
     // Filters
     eleventyConfig.addPlugin(filters);
+    // Markdown
+    eleventyConfig.addPlugin(markdownPlugin);
 
     // Collections
     eleventyConfig.addCollection("allcontent", function (collectionApi) {
