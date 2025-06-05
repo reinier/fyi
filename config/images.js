@@ -8,16 +8,18 @@ const THUMB = 400;
 const FULL = 1200;
 const QUALITY = 95;
 
+// Store generated metadata so templates can access it
+let metadataStore = {};
+
 async function generateImages() {
 
     let files = await glob('./src/images/**/*.{jpg,jpeg,png}');
     for (const f of files) {
-        console.log('process img: ', f);
         const subDir = path.dirname(f).replace(/^\.\/src\/images/, "");
 
-        let processImage = await Image(f, {
+        let metadata = await Image(f, {
             widths: [THUMB, FULL],
-            formats: ['auto'],
+            formats: ['webp', 'jpeg'],
             urlPath: "/images/" + subDir,
             outputDir: "./_site/images/" + subDir,
             sharpJpegOptions: {
@@ -28,9 +30,8 @@ async function generateImages() {
                 if (format == 'jpeg') {
                     format = 'jpg';
                 }
-                // return path.basename(src);
+
                 let origFilename = src.split('/').pop();
-                //strip off the file type, this could probably be one line of fancier JS
                 let parts = origFilename.split('.');
                 parts.pop();
                 origFilename = parts.join('.');
@@ -39,6 +40,8 @@ async function generateImages() {
                 else return `${origFilename}.${format}`;
             }
         });
+
+        metadataStore[f.replace('./src', '')] = metadata;
     };
 };
 
@@ -91,12 +94,47 @@ async function generateSocialImages() {
 };
 
 export default function (eleventyConfig) {
+    // expose metadata as global data
+    eleventyConfig.addGlobalData('imageMeta', () => metadataStore);
+
     // Render and copy images
     eleventyConfig.on('beforeBuild', async () => {
-        console.log('beforeBuild');
         await generateImages();
-        // await generateThumbs();
-        console.log('images done');
+    });
+
+    eleventyConfig.addNunjucksAsyncShortcode('picture', async function (src, alt = '', sizes = '100vw') {
+        if (!metadataStore[src]) {
+            const file = './src' + src;
+            const subDir = path.dirname(file).replace(/^\.\/src\/images/, "");
+            metadataStore[src] = await Image(file, {
+                widths: [THUMB, FULL],
+                formats: ['webp', 'jpeg'],
+                urlPath: '/images/' + subDir,
+                outputDir: './_site/images/' + subDir,
+                sharpJpegOptions: {
+                    quality: QUALITY,
+                    progressive: false
+                },
+                filenameFormat(id, source, width, format) {
+                    if (format == 'jpeg') {
+                        format = 'jpg';
+                    }
+                    let origFilename = source.split('/').pop();
+                    let parts = origFilename.split('.');
+                    parts.pop();
+                    origFilename = parts.join('.');
+                    if (width === THUMB) return `thumb-${origFilename}.${format}`;
+                    else return `${origFilename}.${format}`;
+                }
+            });
+        }
+        const metadata = metadataStore[src];
+        return Image.generateHTML(metadata, {
+            alt,
+            loading: 'lazy',
+            decoding: 'async',
+            sizes
+        });
     });
 
     // Social images

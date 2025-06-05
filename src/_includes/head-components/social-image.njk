@@ -5,7 +5,12 @@
 {% elseif socialPreview %}
     <meta property="og:image" content="/images/social-preview-images/{{ page.date | postDate }}-{{ title | slugify }}-preview.jpeg"/>
 {% elseif image %}
-    <meta property="og:image" content="{{ image }}"/>
+    {% if imageMeta and imageMeta[image] %}
+        {% set meta = imageMeta[image] %}
+        <meta property="og:image" content="{{ meta.jpeg[meta.jpeg.length - 1].url }}"/>
+    {% else %}
+        <meta property="og:image" content="{{ image }}"/>
+    {% endif %}
 {% else %}
     <meta property="og:image" content="/images/fyi-social.jpg"/>
 {% endif %}
