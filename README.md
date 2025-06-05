@@ -4,7 +4,7 @@ This site is the blog and newsletter of [Reinier Ladan](https://reinierladan.nl)
 
 ## Run this site from a devcontainer
 
-The repository supports Codespaces, so editting and testing this site is as easy as tapping the green 'Code' button, select the 'Codespaces' tab and hit the 'Create Codespace on main' button.
+The repository supports Codespaces, so editing and testing this site is as easy as tapping the green 'Code' button, select the 'Codespaces' tab and hit the 'Create Codespace on main' button.
 
 An online code editor and server is being deployed for you to hack away. If you want to run this locally without installing dependencies, you can use [Docker](https://www.docker.com/) or better yet, [OrbStack](https://orbstack.dev/).
 
