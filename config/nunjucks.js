@@ -4,7 +4,7 @@ let JSDOM;
 try {
     ({ JSDOM } = require('jsdom'));
 } catch {
-    // jsdom may not be available during simple test runs
+    // jsdom is optional to avoid pulling in deprecated dependencies
 }
 
 function getRelevantList(content, headerTitle) {
