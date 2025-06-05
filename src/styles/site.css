@@ -29,7 +29,7 @@
         font-kerning: normal;
         overflow-x: hidden;
         width: 100%;
-        background-image: url("/images/fyi-header-repeat.png");
+        background-image: url("/images/fyi-header-repeat.jpg");
         background-position-y: -20px;
         background-repeat:repeat-x;
     }
@@ -152,7 +152,7 @@
     
     header {
         @apply font-fyi-alt font-bold;
-        background-image: url("/images/reinier-fyi-header.png");
+        background-image: url("/images/reinier-fyi-header.jpg");
         background-position-y: -20px;
         background-repeat:no-repeat;
         height: 180px;
