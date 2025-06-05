@@ -1,21 +1,46 @@
-import { JSDOM } from 'jsdom';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+let JSDOM;
+try {
+    ({ JSDOM } = require('jsdom'));
+} catch {
+    // jsdom is optional to avoid pulling in deprecated dependencies
+}
 
 function getRelevantList(content, headerTitle) {
-    const dom = new JSDOM(content);
-    let list = [];
-    let headers = dom.window.document.getElementsByTagName('h3');
+    if (JSDOM) {
+        const dom = new JSDOM(content);
+        let list = [];
+        let headers = dom.window.document.getElementsByTagName('h3');
 
-    for (var i = 0; i < headers.length; i++) {
-        let header = headers[i];
-        if (header.textContent == headerTitle) {
-            let theList = header.nextElementSibling;
-            let listElements = theList.getElementsByTagName('li');
+        for (var i = 0; i < headers.length; i++) {
+            let header = headers[i];
+            if (header.textContent == headerTitle) {
+                let theList = header.nextElementSibling;
+                let listElements = theList.getElementsByTagName('li');
 
-            for (let index = 0; index < listElements.length; index++) {
-                const listElement = listElements[index];
-                list.push(listElement.textContent);
+                for (let index = 0; index < listElements.length; index++) {
+                    const listElement = listElements[index];
+                    list.push(listElement.textContent);
+                }
             }
         }
+        return list;
+    }
+
+    // fallback to a simple regex-based parser if jsdom is unavailable
+    const escapedTitle = headerTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const headerRegex = new RegExp(`<h3>\\s*${escapedTitle}\\s*<\\/h3>\\s*<(ul|ol)>((?:.|\\n)*?)<\\/\\1>`, 'i');
+    const match = content.match(headerRegex);
+    if (!match) {
+        return [];
+    }
+    const listContent = match[2];
+    const itemRegex = /<li>(.*?)<\/li>/gi;
+    let m;
+    const list = [];
+    while ((m = itemRegex.exec(listContent)) !== null) {
+        list.push(m[1].trim());
     }
     return list;
 }
