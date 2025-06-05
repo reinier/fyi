@@ -7,7 +7,7 @@
             document.querySelector(".webmentions h2").innerHTML += " (" + responseJson.count + ")";
             fetch("https://webmention.io/api/mentions.jf2?" + targetItems + "&sort-by=published&sort-dir=up&per-page=" + responseJson.count).then(response => response.json()).then(responseJson => addWebmentions(responseJson));
         });
-        // sites which are know to spam webmentions https://github.com/sw-yx/domainblocklist
+        // sites which are known to spam webmentions… https://github.com/sw-yx/domainblocklist
         let blocklist = [
             'http://gadgetsearcher.com',
             'https://pixallus.com',
