@@ -19,7 +19,7 @@
                     {% endif %}
                 </p>
                 {% if image %}
-                    <p><img src="{{ image }}" alt="{{ imageAlt }}" loading="lazy"/></p>
+                    <p>{% picture image, imageAlt %}</p>
                 {% endif %}
                 {{ content | safe }}
             </article>

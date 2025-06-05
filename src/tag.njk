@@ -23,7 +23,7 @@ permalink: /onderwerp/{{ tag }}/
     
     {% for post in taglist | reverse %}
         <li class="recept-cta">
-            <a href="{{ post.url }}"><img src="{{ post.data.image | getthumb }}" loading="lazy" />{{ post.data.title }}</a>
+            <a href="{{ post.url }}">{% picture post.data.image, post.data.imageAlt %}{{ post.data.title }}</a>
         </li>
     {% endfor %}
 </ol>
