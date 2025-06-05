@@ -17,9 +17,15 @@ async function generateImages() {
     for (const f of files) {
         const subDir = path.dirname(f).replace(/^\.\/src\/images/, "");
 
+        let ext = path.extname(f).toLowerCase();
+        let formats = ['webp', 'jpeg'];
+        if (ext === '.png') {
+            formats = ['webp', 'png'];
+        }
+
         let metadata = await Image(f, {
             widths: [THUMB, FULL],
-            formats: ['webp', 'jpeg'],
+            formats,
             urlPath: "/images/" + subDir,
             outputDir: "./_site/images/" + subDir,
             sharpJpegOptions: {
@@ -106,9 +112,15 @@ export default function (eleventyConfig) {
         if (!metadataStore[src]) {
             const file = './src' + src;
             const subDir = path.dirname(file).replace(/^\.\/src\/images/, "");
+            let ext = path.extname(file).toLowerCase();
+            let formats = ['webp', 'jpeg'];
+            if (ext === '.png') {
+                formats = ['webp', 'png'];
+            }
+
             metadataStore[src] = await Image(file, {
                 widths: [THUMB, FULL],
-                formats: ['webp', 'jpeg'],
+                formats,
                 urlPath: '/images/' + subDir,
                 outputDir: './_site/images/' + subDir,
                 sharpJpegOptions: {

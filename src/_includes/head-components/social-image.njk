@@ -7,7 +7,13 @@
 {% elseif image %}
     {% if imageMeta and imageMeta[image] %}
         {% set meta = imageMeta[image] %}
-        <meta property="og:image" content="{{ meta.jpeg[meta.jpeg.length - 1].url }}"/>
+        {% if meta.jpeg %}
+            <meta property="og:image" content="{{ meta.jpeg[meta.jpeg.length - 1].url }}"/>
+        {% elseif meta.png %}
+            <meta property="og:image" content="{{ meta.png[meta.png.length - 1].url }}"/>
+        {% else %}
+            <meta property="og:image" content="{{ image }}"/>
+        {% endif %}
     {% else %}
         <meta property="og:image" content="{{ image }}"/>
     {% endif %}
