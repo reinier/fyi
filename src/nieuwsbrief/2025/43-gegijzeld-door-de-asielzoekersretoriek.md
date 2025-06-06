@@ -76,7 +76,7 @@ In de VS zien we al dat Trump en z’n gekkies rechterlijke uitspraken aan hun l
 - Onze onverwoestbare [Le Creuset gietijzeren pan](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fle-creuset-gietijzeren-ronde-skillet-26cm-coastal-blue%2F9300000220035766%2F&name=Le%20Creuset%20-%20Gietijzeren%20-%20Ronde%20Skillet%2026cm%20...).
 - [De Hario V60 koffie-dripper](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fhario-v60-drip-decanter-02%2F9200000040262918%2F&name=Hario%20V60%20Drip%20Decanter%2002) om heerlijke koffie mee te zetten.
 - [De Brabantia keukenweegschaal](https://partner.bol.com/click/click?p=2&t=url&s=1066118&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fbrabantia-tasty-keukenweegschaal-digitaal-met-dynamo-dark-grey%2F9200000106249005%2F&name=Brabantia%20Keukenweegschaal) om zonder batterijen dingen af te wegen.
-- Kookboek [Simple van Yotam Ottolenghi](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsimpel%2F9200000091266387%2F&name=Simpel%2C%20Yotam%20Ottolenghi) om snel, makkelijk en gezond doordeweeks te koken.
+- Kookboek [Simpel van Yotam Ottolenghi](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsimpel%2F9200000091266387%2F&name=Simpel%2C%20Yotam%20Ottolenghi) om snel, makkelijk en gezond doordeweeks te koken.
 
 Dat was ‘m weer, tot de volgende keer! 👋
 
