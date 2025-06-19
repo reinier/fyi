@@ -6,7 +6,7 @@ date: 2025-06-19T20:45
 tags: webhike
 ---
 
-## Weer eens een Webhike
+Het is weet tijd voor een webhike!
 
 - [Interview: Craig Federighi Opens Up About iPadOS, Its Multitasking Journey, and the iPad's Essence](https://www.macstories.net/stories/interview-craig-federighi-opens-up-about-ipados-its-multitasking-journey-and-the-ipads-essence/) – Craig praat hier vrijuit over de zoektocht naar een goed venstersysteem voor de iPad, zonder dat de iPad op macOS draait. Daar wil men bij Apple helaas nog niet aan.
 - [Resurrecting a dead torrent tracker and finding 3 million peers](https://kianbradley.com/2025/06/15/resurrecting-a-dead-tracker.html) – Torrents werken via trackerservers en als die offline gaan, hebben niet alle torrent-apps dat altijd door. Wat er gebeurt als je zo’n domeinnaam registreert en het verkeer afvangt, onderzocht Kian Bradley.
