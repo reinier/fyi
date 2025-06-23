@@ -24,5 +24,6 @@
         "package-lock.json": true,
         ".gitpod.yml": false
     },
-    "explorerExclude.backup": {}
+    "explorerExclude.backup": {},
+    "markdown.validate.enabled": false
 }
