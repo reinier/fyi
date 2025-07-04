@@ -5,14 +5,14 @@
         "url": "/"
     },
     {
-        "id": "blog",
-        "title": "Blog",
-        "url": "/blog/"
-    },
-    {
         "id": "nieuwsbrief",
         "title": "Nieuwsbrief",
         "url": "/nieuwsbrief/"
+    },
+    {
+        "id": "blog",
+        "title": "Blog",
+        "url": "/blog/"
     },
     {
         "id": "over",
