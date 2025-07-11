@@ -52,6 +52,9 @@ In de VS zien we al dat Trump en z’n gekkies rechterlijke uitspraken aan hun l
 
 ## 🔮 Kapitalistische blijheid
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
+
 ### Boeken om deze zomer te lezen
 
 - [Long Way To A Small Angry Planet](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Ff%2Fthe-long-way-to-a-small-angry-planet%2F9200000034375959%2F&name=Long%20Way%20To%20A%20Small%20Angry%20Planet%2C%20Chambers%20Becky) van Becky Chambers

@@ -96,6 +96,8 @@ De geest is uit de fles, het is niet te stoppen.
 
 ## Stukje kapitalisme
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 📗 [Het boek ‘Groenten’ van Mari Maris](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgroenten%2F9300000042258505%2F&name=Groenten%2C%20Mari%20Maris) staat bomvol recepten voor, je raadt het al, groenten. Het boek is ingedeeld per groente, en elk hoofdstuk bevat nuttige basiskennis over de groente in kwestie. Echt een aanrader als je veel met groenten kookt. En ook echt een aanrader als je meer met groenten wilt koken. Een aanrader voor iedereen dus.
 
 🚰 Ik ben overstag: we hebben een sodastream thuis. Op kantoor hadden we er al een en ik drink dan een fles per dag van het met CO2 volgepompte water. Het goed hydrateren gaat me makkelijker af als het water lekkerder is, en bruis in het water maakt het voor mij 3 keer zo lekker als zonder. [Voor thuis hebben we de SodaStream DUO waar ook glazen flessen in kunnen](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsodastream-duo-zwart-incl-quick-connect-koolzuurcilinder-met-1-glazen-en-1-herbruikbare-plastic-fles%2F9300000040812379%2F&name=SodaStream%20Bruiswatertoestel%20DUO%20Starterkit%20Zwart). Wel zo fijn.

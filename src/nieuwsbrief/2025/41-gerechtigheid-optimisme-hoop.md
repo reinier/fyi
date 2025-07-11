@@ -8,6 +8,7 @@ Hi, Reinier hier,
 
 Ik luisterde deze week naar twee podcasts met Tommy Wieringa. De eerste keer bij Het Uur van NRC ([Youtube link](https://www.youtube.com/watch?v=6aU2QYhpX3U), want de NRC-pagina met de podcast zit vervelend genoeg achter een betaalmuur terwijl de podcast gewoon gratis te beluisteren is), en later in de week bij [De Ongelovige van de EO](https://www.nporadio1.nl/podcasts/de-ongelooflijke-podcast/122240/240-een-uur-hoop-en-optimisme-met-echte-heiden-tommy-wieringa). Ik ben zelf een heiden, maar De Ongelovige heeft vaak enorm interessante gasten en de evangelische propaganda die je van de EO kunt verwachten is in de podcast afwezig. Een aanrader voor iedereen met of zonder geloof.
 
+
 Wieringa was overal te gast om te praten over [zijn essay Optimisme zonder hoop](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Ff%2Foptimisme-zonder-hoop%2F9300000194678060%2F&name=Optimisme%20zonder%20hoop%2C%20Tommy%20Wieringa). Hij zat vorige week bijvoorbeeld ook bij [Bar Laat](https://www.bnnvara.nl/barlaat/videos/619899) wat óók een fijn gesprek was.
 
 Het gesprek met Wieringa in De Ongelovige vond ik een stuk prettiger dan in Het Uur. Hij was er meer ontspannen en het ging op een toegankelijke manier meer de diepte in. Ik had dit niet verwacht. Ik twijfelde zelfs of ik De Ongelovige deze week gewoon moest overslaan omdat ik al naar Wieringa had geluisterd over precies hetzelfde onderwerp in Het Uur.
@@ -85,6 +86,9 @@ Zijn boodschap en missie zijn helder: alleen door kennis te delen en krachten te
 Zeker het beluisteren waard!
 
 ## 🔮 Kapitalistisch geneuzel
+
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 
 ### De boeken die ik laatst heb getipt
 

@@ -62,6 +62,8 @@ Tot over een tijdje!
 
 ## Geld vind altijd een weg om te rollen
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 ### Boeken om deze zomer te lezen
 
 Lees eens wat meer _cozy detectives_! Ik vond deze serie van Antony Johnston echt heel fijn om m’n aandacht van de breinslopende algoritmes af te houden:

@@ -66,6 +66,9 @@ En wil je zelf aan de slag met het verbouwen van knoflook in je tuin? [Volgens G
 
 ## 🔮 Kapitalistische blijheid
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
+
 ### Ga weer meer koken deze zomer
 
 - Gebruik deze [Bosch temperatuurmeter](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fbosch-universaltemp-warmtemeter-inclusief-batterijen%2F9300000150216432%2F&name=Bosch%20Home%20and%20Garden%20UniversalTemp%20Temperatuu...) om de temperatuur van je pizzasteen te meten of van de olie in je pannetje in de tuin omdat je binnen niet wil frituren maar met deze temperatuurmeter kun je wel buiten frituren omdat je de temperatuur in de gaten kunt houden van de olie in je pannetje als die staat te borrelen op je Gampingaz aangedreven gaspit in de tuin of op je balkon.

@@ -22,6 +22,8 @@ Deze week voor het eerst dit jaar twee dagen niet geblogd! Eén keer omdat ik te
 
 ## Download nu je Kindle-boeken
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 Een tijdje geleden [liet ik al vallen](https://reinier.fyi/blog/tech/250130-dag-audible/) dat ik op zoek ben naar alternatieven voor Audible. Voorlopig ben ik uitgekomen bij [Storytel](https://storytel.com/).
 
 Als alternatief voor Amazon Kindle heb ik (om eens te proberen) een boek gekocht in het Kobo-ecosysteem (via bol.com). Daarover later meer.

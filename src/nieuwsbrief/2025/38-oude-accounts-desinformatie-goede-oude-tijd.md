@@ -71,6 +71,8 @@ Meeslepende sciencefiction en ook intellectueel uitdagend, veel meer heb je niet
 
 ## 🔮 Kapitalistisch rondje
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 ### De boeken die ik laatst heb getipt
 
 - [Alien Clay](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Falien-clay%2F9300000162798494%2F&name=Alien%20Clay%2C%20Adrian%20Tchaikovsky) van Adrian Tchaikovsky

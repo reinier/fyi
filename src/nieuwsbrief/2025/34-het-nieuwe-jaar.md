@@ -90,6 +90,8 @@ Geen NRC abo? De podcasts zijn ook gewoon te vinden via je favoriete podcast app
 
 ## De Grote Kapitalisme Show
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 ♦️ Onze kleuter is nu op een leeftijd dat hij met spelletjes meespeelt. In [Exit - Raadselplezier met Monsters](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fexit-kids-raadselplezier-met-monsters-breinbreker%2F9300000180307553%2F&name=EXIT%20-%20KIDS%3A%20Raadselplezier) moet je uitvinden welke monsters de koektrommels hebben gestolen! Een escaperoomspel vanaf kleuterleeftijd, en meerdere keren te gebruiken. We hebben er de grootste lol mee.
 
 🧑‍🍳 Een boek waar ik zeker elke week uit kook is [Simple van Yotam Ottolenghi](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsimpel%2F9200000091266387%2F&name=Simpel%2C%20Yotam%20Ottolenghi). Heel veel voedzame, simpele, maar heel erg smaakvolle gerechten waar je zelf ook nog alle kanten mee op kan. Niet 100% vega, maar wel genoeg om mijn kookboekenkast te overleven. 

@@ -67,6 +67,8 @@ Brian Merchant heeft een scherpe analyse van het ongemakkelijke gevoel waar je m
 
 ## 🔮 Kapitalistisch rondje
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 ### De boeken die ik laatst heb getipt
 
 - [The Ten Thousand Doors of January](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Ff%2Fthe-ten-thousand-doors-of-january%2F9200000104579255%2F&name=The%20Ten%20Thousand%20Doors%20of%20January%2C%20Alix%20E.%20Harrow) van Alix E Harrow
