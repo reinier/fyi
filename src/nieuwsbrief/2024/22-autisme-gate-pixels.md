@@ -47,6 +47,9 @@ Welke pixels kun je nog geloven? Nou, vrij weinig pixels van de Google Pixel 9 t
 
 ## Kapitalistische tips
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
+
 📗 [Het boek ‘Groenten’ van Mari Maris](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgroenten%2F9300000042258505%2F&name=Groenten%2C%20Mari%20Maris) staat bomvol recepten voor, je raadt het al, groenten. Het boek is ingedeeld per groente, en elk hoofdstuk bevat nuttige basiskennis over de groente in kwestie. Echt een aanrader als je veel met groenten kookt. En ook echt een aanrader als je meer met groenten wilt koken. Een aanrader voor iedereen dus.
 
 🌨️ Een [universele BBQ hoes](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fbarbecue-hoes-rond-o-57cm-bbq-waterdicht-o-a-weber-cadac%2F9200000124570998%2F&name=Barbecue%20Hoes%20Rond%20-%20%C3%B8%2057cm%20BBQ%20-%20Waterdicht%20-...) heb je zo langzamerhand wel weer nodig om je Weber of je EI de winter weer door te laten komen.

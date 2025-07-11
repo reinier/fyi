@@ -59,6 +59,8 @@ Ik heb genoten van deze trilogie. Erg bijzonder om te lezen. Nouja, luisteren, w
 
 ## 🔮 Kapitalistisch rondje
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 ### De boeken die ik laatst heb getipt
 
 - [Black Sun](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Ff%2Fblack-sun%2F9200000129860374%2F&name=Black%20Sun%2C%20Rebecca%20Roanhorse) van Rebecca Roanhorse (tijdens het delen maar €8,99 voor de paperback!)

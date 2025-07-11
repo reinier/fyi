@@ -94,6 +94,8 @@ Een QR code is gemaakt om via een bepaald patroon een URL door te geven via de c
 
 ## Das Kapital
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 🍜 Ik kook regelmatig uit [het kookboek Vegan Toko](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fvegan-toko%2F9300000142913477%2F&name=Vegan%20Toko%2C%20Milou%20van%20der%20Will). Van heerlijk sauzige aubergines tot gochujang goreng spruitjes. Ik was nooit zo van de spruitjes, maar sinds ik ze op deze manier heb ontdekt kan ik ze elke week wel op!
 
 ♣️ Met onze dochter [speel ik geregeld een spelletje Azul](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fazul-bordspel%2F9200000086976904%2F&name=Next%20Move%20Games%20-%20Azul%20-%20Bordspel%20-%20Basisspel%20...). Het is simpel te leren, de potjes gaan redelijk snel en daarna wil je nóg een potje spelen. Waan je in een Portugees paleis waar je een muur moet versieren met mooi ontworpen keramische tegels.

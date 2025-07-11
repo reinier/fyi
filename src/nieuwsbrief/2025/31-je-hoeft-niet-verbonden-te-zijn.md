@@ -98,6 +98,8 @@ Toch zet je door en lukt het je de audio eraf te krijgen. Hoe? Je faxt het!
 
 ## Das Kapital
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 🚰 Ik ben overstag: we hebben een sodastream thuis. Op kantoor hadden we er al een en ik drink dan een fles per dag van het met CO2 volgepompte water. Het goed hydrateren gaat me makkelijker af als het water lekkerder is, en bruis in het water maakt het voor mij 3 keer zo lekker als zonder. [Voor thuis hebben we de SodaStream DUO waar ook glazen flessen in kunnen](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsodastream-duo-zwart-incl-quick-connect-koolzuurcilinder-met-1-glazen-en-1-herbruikbare-plastic-fles%2F9300000040812379%2F&name=SodaStream%20Bruiswatertoestel%20DUO%20Starterkit%20Zwart). Wel zo fijn.
 
 🍜 Ik kook regelmatig uit [het kookboek Vegan Toko](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fvegan-toko%2F9300000142913477%2F&name=Vegan%20Toko%2C%20Milou%20van%20der%20Will). Van heerlijk sauzige aubergines tot gochujang goreng spruitjes. Ik was nooit zo van de spruitjes, maar sinds ik ze op deze manier heb ontdekt kan ik ze elke week wel op!

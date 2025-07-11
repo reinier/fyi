@@ -130,8 +130,10 @@ De afstand tussen Rutger Hauer en 50 Cent is dus groter dan de afstand tussen Tr
 
 ## Das Kapital
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 ### Vogelen met Wingspan
- 
+
 [Het onwijs mooie en leuke bordspel Wingspan](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fwingspan-bordspel%2F9200000104691586%2F&name=999%20Games%20-%20Wingspan%20-%20Bordspel%20-%20Prachtig%20vor...) speel ik geregeld met onze dochter. Het is een heerlijk rustgevend spel waarbij je vogels aan het verzamelen bent en rustig een soort machientje bouwt waar je punten mee vergaart. Er zitten enorm veel unieke vogels in het spel, het materiaal is heel mooi gemaakt en je leert nog eens wat over vogels. Perfect spel om tot rust te komen. 
 
 Op het moment van schrijven heeft Wingspan een lekkere korting bij BOL.

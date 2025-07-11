@@ -49,6 +49,9 @@ In juli hadden ze de video ook als eens geplaatst, maar er kwam heel wat wetensc
 
 ## Omdat we nog in een kapitalistische wereld leven
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
+
 🧱 [Een chrysant van LEGO](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flego-icons-chrysant-botanical-collection-10368%2F9300000175725313%2F&name=LEGO%20Icons%20Chrysant%20-%20Botanical%20Collection%20-%2010368), meer hoef ik je volgens mij niet te vertellen.
 
 ☕️ Ik zet al jaren koffie met [een simpele Hario V60](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fhario-dripper-v60-02-kunststof-transparant%2F9200000058790620%2F&name=Hario%20Dripper%20V60-02%20Kunststof%20-%20Transparant) en ik geniet daar nog dagelijks van. Even een kort zen-moment door 5 minuten de tijd te nemen om heerlijke koffie te zetten.

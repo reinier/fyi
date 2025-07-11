@@ -112,6 +112,8 @@ Ik ben daar sinds enkele maanden in stapjes mee bezig. En nee, het is niet makke
 
 ## De Grote Kapitalisme Show
 
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+
 🧑‍🍳 Een boek waar ik zeker elke week uit kook is [Simple van Yotam Ottolenghi](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsimpel%2F9200000091266387%2F&name=Simpel%2C%20Yotam%20Ottolenghi). Heel veel voedzame, simpele maar heel erg smaakvolle gerechten waar je zelf ook nog alle kanten mee op kan. Niet 100% vega, maar wel genoeg om mijn kookboekenkast te overleven. 
 
 🍳 [Deze Le Creuset gietijzeren pan](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fle-creuset-gietijzeren-ronde-skillet-26cm-coastal-blue%2F9300000220035766%2F&name=Le%20Creuset%20-%20Gietijzeren%20-%20Ronde%20Skillet%2026cm%20...) hebben we nu dik een jaar in huis en ik kan ermee lezen en schrijven. Ik denk ook serieus dat hij onverwoestbaar is. Nadat je hem hebt ingebrand en een paar keer hebt gebruikt, kun je er prima een spiegelei in bakken zonder dat het aanbakt. Het is zeker een investering, maar elke paar jaar je anti-aanbaklaagpan weggooien is ook niks natuurlijk. 
