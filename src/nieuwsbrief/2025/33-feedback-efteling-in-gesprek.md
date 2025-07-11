@@ -112,7 +112,7 @@ Ik ben daar sinds enkele maanden in stapjes mee bezig. En nee, het is niet makke
 
 ## De Grote Kapitalisme Show
 
-_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor producten op bol.com waarmee ik via affiliate ook wat aan verdien._
 
 🧑‍🍳 Een boek waar ik zeker elke week uit kook is [Simple van Yotam Ottolenghi](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fsimpel%2F9200000091266387%2F&name=Simpel%2C%20Yotam%20Ottolenghi). Heel veel voedzame, simpele maar heel erg smaakvolle gerechten waar je zelf ook nog alle kanten mee op kan. Niet 100% vega, maar wel genoeg om mijn kookboekenkast te overleven. 
 

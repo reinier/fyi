@@ -66,7 +66,7 @@ En wil je zelf aan de slag met het verbouwen van knoflook in je tuin? [Volgens G
 
 ## 🔮 Kapitalistische blijheid
 
-_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor producten op bol.com waarmee ik via affiliate ook wat aan verdien._
 
 
 ### Ga weer meer koken deze zomer

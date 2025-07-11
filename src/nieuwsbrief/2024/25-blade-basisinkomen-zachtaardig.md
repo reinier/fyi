@@ -49,7 +49,7 @@ In juli hadden ze de video ook als eens geplaatst, maar er kwam heel wat wetensc
 
 ## Omdat we nog in een kapitalistische wereld leven
 
-_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor producten op bol.com waarmee ik via affiliate ook wat aan verdien._
 
 
 🧱 [Een chrysant van LEGO](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Flego-icons-chrysant-botanical-collection-10368%2F9300000175725313%2F&name=LEGO%20Icons%20Chrysant%20-%20Botanical%20Collection%20-%2010368), meer hoef ik je volgens mij niet te vertellen.

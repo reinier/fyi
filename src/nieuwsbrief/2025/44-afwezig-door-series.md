@@ -62,7 +62,7 @@ Voor alle soorten nerds een mooi inkijkje in hoe de nerds van Apple de diepte in
 
 ## 🔮 Kapitalistische blijheid
 
-_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor producten op bol.com waarmee ik via affiliate ook wat aan verdien._
 
 
 ### Boeken om deze zomer te lezen

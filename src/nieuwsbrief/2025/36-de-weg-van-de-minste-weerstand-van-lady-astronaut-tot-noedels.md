@@ -128,7 +128,7 @@ Ik weet niet of Joan 100% gelijk heeft, maar ik kan me niet onttrekken aan het g
 
 ## De Grote Kapitalisme Show
 
-_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor producten op bol.com waarmee ik via affiliate ook wat aan verdien._
 
 ♦️ Onze kleuter is nu op een leeftijd dat hij met spelletjes meespeelt. In [Exit - Raadselplezier met Monsters](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fexit-kids-raadselplezier-met-monsters-breinbreker%2F9300000180307553%2F&name=EXIT%20-%20KIDS%3A%20Raadselplezier) moet je uitvinden welke monsters de koektrommels hebben gestolen! Een escaperoomspel vanaf kleuterleeftijd, en meerdere keren te gebruiken. We hebben er de grootste lol mee.
 

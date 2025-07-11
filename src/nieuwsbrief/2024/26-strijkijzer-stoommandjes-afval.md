@@ -50,7 +50,7 @@ De gelijkenissen tussen de wereld van Zelda Echos of Wisdom en Zelda a Link to t
 
 ## Omdat we nog in een kapitalistische wereld leven
 
-_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor producten op bol.com waarmee ik via affiliate ook wat aan verdien._
 
 
 📗 [Het boek ‘Groenten’ van Mari Maris](https://partner.bol.com/click/click?p=2&t=url&s=1066120&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fp%2Fgroenten%2F9300000042258505%2F&name=Groenten%2C%20Mari%20Maris) staat bomvol recepten voor, je raadt het al, groenten. Het boek is ingedeeld per groente, en elk hoofdstuk bevat nuttige basiskennis over de groente in kwestie. Echt een aanrader als je veel met groenten kookt. En ook echt een aanrader als je meer met groenten wilt koken. Een aanrader voor iedereen dus.

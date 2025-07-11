@@ -134,7 +134,7 @@ Dus ja, misschien niet het boek waar je naar grijpt voor escapisme, maar absoluu
 
 ## 🔮 Kapitalistisch rondje
 
-_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor artikelen op bol.com waarmee ik via affiliate ook wat aan verdien._
+_Om de schoorsteen van FYI te laten roken zijn hier voor jouw en mijn plezier wat tips voor producten op bol.com waarmee ik via affiliate ook wat aan verdien._
 
 ### De boeken die ik laatst heb getipt
 
