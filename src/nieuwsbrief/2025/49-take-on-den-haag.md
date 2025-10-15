@@ -40,7 +40,7 @@ Kees van der Leun legt het goed uit in [Putting the Dutch offshore wind train ba
 
 ## Don't ignore the weird stuff
 
-- [ Vegan diets for children aren't abusive – raising a child to eat meat is actually more extreme ](https://www.independent.co.uk/voices/vegan-diets-for-children-aren-t-abusive-raising-a-child-to-eat-meat-is-actually-more-extreme-a7156266.html)
+- [Vegan diets for children aren't abusive – raising a child to eat meat is actually more extreme ](https://www.independent.co.uk/voices/vegan-diets-for-children-aren-t-abusive-raising-a-child-to-eat-meat-is-actually-more-extreme-a7156266.html)
 - [CDA, PVV en FvD vallen op in politieke integriteitsindex](https://www.binnenlandsbestuur.nl/bestuur-en-organisatie/integriteit/cda-pvv-en-fvd-vallen-op-in-politieke-integriteitsindex)
 - [Een Cobra 6 mag je niet in water leggen, dit kun je wel doen](https://www.omroepbrabant.nl/nieuws/4763379/een-cobra-6-mag-je-niet-in-water-leggen-dit-kun-je-wel-doen)
 - [Software update bricks some Jeep 4xe hybrids over the weekend](https://arstechnica.com/cars/2025/10/software-update-bricks-some-jeep-4xe-hybrids-over-the-weekend/)
