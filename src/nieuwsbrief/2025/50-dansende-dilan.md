@@ -1,7 +1,7 @@
 ---
 title: "Zou dansende Dilan binair denken?"
-date: 25-11-07
-socialPreview: "Dansende VVD'ers, een tech-bro die steeds vervelender blijkt, en gamingmuizen die je afluisteren. "
+date: 2025-11-07
+socialPreview: "Dansende VVD'ers, een tech-bro die steeds vervelender blijkt, en gamingmuizen die je afluisteren."
 ---
 
 Hi, Reinier hier,
