@@ -1,4 +1,4 @@
-import htmlmin from "html-minifier";
+import { minify as htmlmin } from "html-minifier-terser";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import filters from './config/filters.js';
 import nunjucksShortcodes from './config/nunjucks.js';
@@ -90,9 +90,9 @@ export default function (eleventyConfig) {
     }
 };
 
-function htmlminTransform(content, outputPath) {
+async function htmlminTransform(content, outputPath) {
     if (outputPath.endsWith(".html")) {
-        let minified = htmlmin.minify(content, {
+        let minified = await htmlmin(content, {
             useShortDoctype: true,
             removeComments: true,
             collapseWhitespace: true

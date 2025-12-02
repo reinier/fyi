@@ -20,7 +20,7 @@
         "cross-env": "^7.0.3",
         "cssnano": "^5.1.15",
         "glob-promise": "^6.0.2",
-        "html-minifier": "^4.0.0",
+        "html-minifier-terser": "^7.2.0",
         "npm-run-all": "^4.1.5",
         "postcss": "^8.4.24",
         "postcss-cli": "^10.1.0",
